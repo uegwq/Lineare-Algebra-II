@@ -12,15 +12,101 @@ website:
     style: "docked"
     search: true
     contents:
-      - text: "The Index file you are seing right now"
-        href: "index.qmd"
-      - text: "The Readme file for good measures"
-        href: "README.md"
-      - section: "The Readme file but as a section"
+      - section: "0 LA 1"
         contents:
-          - "README.md"
-          - "index.qmd"
-          - "Testfile.md"
+        - "0 LA 1/Trigonalisierbarkeit.md"
+      - section: "1 Skalarprodukte"
+        contents:
+        - section: "1.1 Vektoren in R"
+          contents:
+          - "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.md"
+          - "1 Skalarprodukte/1.1 Vektoren in R/Skalar- und Kreuzprodukt.md"
+        - section: "1.2 Skalarprodukte, Längen und Winkel"
+          contents:
+          - "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.md"
+          - "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.md"
+          - "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Skalarprodukt.md"
+        - section: "1.3 Orthonomalbasen"
+          contents:
+          - "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.md"
+          - "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.md"
+          - "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.md"
+          - "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.md"
+        - section: "1.4 Orthogonale Komplemente und Projektionen"
+          contents:
+          - "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.md"
+          - "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.md"
+          - "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.md"
+          - "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.md"
+      - section: "2 Isometrien und Homomorphismen"
+        contents:
+        - section: "2.1 Isometrien und isometrische Isomorphismen"
+          contents:
+          - "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Isometrie.md"
+          - "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.md"
+          - "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.md"
+        - section: "2.2 Die orthogonale und unitäre Gruppe"
+          contents:
+          - "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.md"
+          - "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.md"
+          - "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.md"
+          - "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.md"
+        - section: "2.3 Unitäre Trigonalisierung und Diagonalisierung"
+          contents:
+          - "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.md"
+          - "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.md"
+        - section: "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen"
+          contents:
+          - "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.md"
+          - "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.md"
+        - section: "2.5 Normale Matrizen"
+          contents:
+          - "2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Normale Matrix.md"
+          - "2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Spektralsatz für komplexe normale Matrizen.md"
+        - section: "2.6 Adjungierte Abbildungen und die Isometrie-Normalform"
+          contents:
+          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.md"
+          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.md"
+          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.md"
+          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.md"
+          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.md"
+          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.md"
+          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.md"
+      - section: "3 Bilinearformen und quardratische Formen"
+        contents:
+        - section: "3.1 Der Dualraum"
+          contents:
+          - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.md"
+          - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.md"
+          - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.md"
+        - section: "3.2 Bilinearformen über beliebigen Körpern"
+          contents:
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.md"
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.md"
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.md"
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.md"
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.md"
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.md"
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.md"
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.md"
+          - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.md"
+        - section: "3.3 Symetrische Bilinearformen"
+          contents:
+          - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.md"
+          - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.md"
+          - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.md"
+          - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.md"
+          - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.md"
+        - section: "3.4 Bilinearformen und quadratische Formen über den reelen Zahlen"
+          contents:
+        - section: "3.5 Quadriken und Hauptachsentransformation"
+          contents:
+          - "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.md"
+      - "Auswendiglern-Spickzettelsachen.md"
+      - "README.md"
+      - "Testfile.md"
+      - "Welcome.md"
+      - "index.qmd"
 
 execute:
   freeze: true
