@@ -1,1 +1,1 @@
-Sitemap: https://uegwq.github.io/ObsidianQuartoTemplate/sitemap.xml
+Sitemap: https://uegwq.github.io/Lineare-Algebra-II/sitemap.xml
