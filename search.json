@@ -1,0 +1,33 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "_TEMPLATE",
+    "section": "",
+    "text": "And this is a very interesting text indeed :)",
+    "crumbs": [
+      "The Index file you are seing right now"
+    ]
+  },
+  {
+    "objectID": "index.html#this-is-a-template",
+    "href": "index.html#this-is-a-template",
+    "title": "_TEMPLATE",
+    "section": "",
+    "text": "And this is a very interesting text indeed :)",
+    "crumbs": [
+      "The Index file you are seing right now"
+    ]
+  },
+  {
+    "objectID": "Testfile.html",
+    "href": "Testfile.html",
+    "title": "_TEMPLATE",
+    "section": "",
+    "text": "Hello this is a test! Will this be displayed in the website?",
+    "crumbs": [
+      "The Readme file but as a section",
+      "Testfile.html"
+    ]
+  }
+]
