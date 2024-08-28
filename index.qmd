@@ -1,6 +1,5 @@
 <!--TAGS-->
 ---
-date: 1999-04-21
 pagetitle: "_TEMPLATE"
 # page-layout: custom
 # when using "page-layout :custom" it just doesnt load the sidebar
