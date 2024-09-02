@@ -5,6 +5,11 @@ date: 2024-07-20
 lang: de
 
 website:
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics: "G-W5QY62G9PT"
   repo-url: https://github.com/quarto-dev/quarto-demo
   repo-actions: [edit, issue]
   title: "_TEMPLATE"
