@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>neue-operationen-auf-r – _TEMPLATE</title>
+<title>wichtige-eigenschaften-von-vektoren-in-r – _TEMPLATE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +110,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">1 Skalarprodukte</li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html">1.1 Vektoren in R</a></li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html">Neue Operationen auf <span class="math inline">\(\Bbb R\)</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      _TEMPLATE
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -166,16 +168,16 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">1.1 Vektoren in R</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Neue Operationen auf <span class="math inline">\(\Bbb R\)</span></span></a>
   </div>
 </li>
@@ -685,7 +687,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">1 Skalarprodukte</li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html">1.1 Vektoren in R</a></li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html">Neue Operationen auf <span class="math inline">\(\Bbb R\)</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 </div>
 
@@ -709,25 +711,32 @@ window.Quarto = {
 </header>
 
 
-<section id="neue-operationen-auf-bbb-r" class="level2">
-<h2 class="anchored" data-anchor-id="neue-operationen-auf-bbb-r">Neue Operationen auf <span class="math inline">\(\Bbb R\)</span></h2>
+<section id="wichtige-eigenschaften-von-vektoren-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="wichtige-eigenschaften-von-vektoren-in-r">Wichtige Eigenschaften von Vektoren in R</h2>
 </section>
-<section id="definition" class="level2">
-<h2 class="anchored" data-anchor-id="definition">Definition</h2>
+<section id="winkel-zwischen-senkrechten-vektoren" class="level2">
+<h2 class="anchored" data-anchor-id="winkel-zwischen-senkrechten-vektoren">Winkel zwischen senkrechten Vektoren</h2>
 <hr>
-<p>Wir kennen aus dem Vektorraum <span class="math inline">\(\Bbb R^3\)</span> bereits die Operationen die Vektoren addiert und Skalar multipliziert. Es gibt aber noch andere Strukturen, die in der LA1 bisher nicht behandelt wurden: und zwar z.B. die <em>Abstandsfunktion</em>: <span class="math display">\[d:\Bbb R^3\times\Bbb R^3\rightarrow[0,+\infty),(x,y)\mapsto d(x,y)\]</span> die je zwei Elementen in <span class="math inline">\(\Bbb R^3\)</span> ihren Abstand zuweist. Darüber hinaus gibt es die <em>Normabbildung</em> <span class="math display">\[||\cdot||:\Bbb R^3\rightarrow[0,+\infty), v\mapsto||v||\]</span> die einem Element in <span class="math inline">\(\Bbb R^3\)</span> ihre Länge zuweist.</p>
+<p>Wenn der Winkel zwischen zwei Vektoren genau <span class="math inline">\(π/2 = 90°\)</span> beträgt, sind die beiden Vektoren orthogonal: <span class="math display">\[∀v,w ∈ \Bbb R^3 \setminus\{0\} : v ⊥ w : \iff \angle (v,w) = π/2.\]</span></p>
 </section>
-<section id="verbindungen" class="level2">
-<h2 class="anchored" data-anchor-id="verbindungen">Verbindungen</h2>
-<hr>
-<p>Diese beiden Funktionen sind Verbunden über die Formeln: <span class="math inline">\(d(x,y)=||x-y||\)</span> und <span class="math inline">\(||v||=d(0,v)\)</span></p>
+<section id="über-das-kreuzprodukt" class="level2">
+<h2 class="anchored" data-anchor-id="über-das-kreuzprodukt">Über das Kreuzprodukt</h2>
+<p>Das Kreuzprodukt <span class="math inline">\(v × w\)</span> von <span class="math inline">\(v \not= 0\)</span> und <span class="math inline">\(w \not = 0\)</span> steht senkrecht auf <span class="math inline">\(v\)</span> und <span class="math inline">\(w\)</span> und für die Norm gilt:</p>
+<pre><code>$||v ×w|| = ||v|| ||w||sin(\angle (v,w)).$ </code></pre>
+<p>Für das Skalarprodukt <span class="math inline">\(〈v,w〉\)</span> gilt:</p>
+<pre><code>$〈v,w〉 = ||v|| ||w||cos(\angle (v,w)).$</code></pre>
+<p>Da die Normen <span class="math inline">\(||v||\)</span> und <span class="math inline">\(||w||\)</span> für Vektoren <span class="math inline">\(v, w \neq 0\)</span> immer positiv sind, richtet sich das Vorzeichen von <span class="math inline">\(\langle v, w \rangle\)</span> nur nach dem Kosinus des eingeschlossenen Winkels, d.h.</p>
+<p><span class="math inline">\(\forall v,w \in \mathbb{R}^3 \setminus \{0\} : \langle v, w \rangle &gt; 0 \iff \cos(\angle(v, w)) &gt; 0 \iff \angle(v, w) &lt; \frac{\pi}{2}\)</span><span class="math inline">\(\forall v,w \in \mathbb{R}^3 \setminus \{0\} : \langle v, w \rangle = 0 \iff \cos(\angle(v, w)) = 0 \iff \angle(v, w) = \frac{\pi}{2}\)</span></p>
+<p><span class="math inline">\(\forall v,w \in \mathbb{R}^3 \setminus \{0\} : \langle v, w \rangle &lt; 0 \iff \cos(\angle(v, w)) &lt; 0 \iff \angle(v, w) &gt; \frac{\pi}{2}\)</span></p>
+<p>Es gilt also: Zwei Vektoren <span class="math inline">\(v, w \in \mathbb{R}^3 \setminus \{0\}\)</span> sind genau dann orthogonal, wenn ihr Skalarprodukt <span class="math inline">\(0\)</span> ist:</p>
+<p><span class="math inline">\(v \perp w \iff \langle v, w \rangle = 0.\)</span></p>
+<p>Außerdem folgt aus der obigen Formel für das Skalarprodukt folgende Formel für das Skalarprodukt eines Vektors mit sich selbst: <span class="math inline">\(〈v,v〉 = ||v|| ||v||cos(\angle (v,v)) = ||v||||v|| =||v||^ 2\)</span> .</p>
 </section>
 <section id="siehe-auch" class="level2">
 <h2 class="anchored" data-anchor-id="siehe-auch">Siehe auch</h2>
 <hr>
 <ul>
-<li><p><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Skalar- und Kreuzprodukt.html">Skalar- und Kreuzprodukt</a></p></li>
-<li><p><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">Abstandsfunktion</a></p></li>
+<li>Hier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt</li>
 </ul>
 
 
@@ -1303,4 +1312,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/edit/main/1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.md" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/edit/main/1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.md" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div></div></footer></body></html>

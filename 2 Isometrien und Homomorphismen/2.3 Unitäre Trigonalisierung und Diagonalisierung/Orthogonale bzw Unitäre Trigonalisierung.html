@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>neue-operationen-auf-r – _TEMPLATE</title>
+<title>orthogonale-bzw-unitäre-trigonalisierung – _TEMPLATE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +110,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">1 Skalarprodukte</li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html">1.1 Vektoren in R</a></li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html">Neue Operationen auf <span class="math inline">\(\Bbb R\)</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      _TEMPLATE
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -166,16 +168,16 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">1.1 Vektoren in R</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Neue Operationen auf <span class="math inline">\(\Bbb R\)</span></span></a>
   </div>
 </li>
@@ -685,7 +687,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">1 Skalarprodukte</li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html">1.1 Vektoren in R</a></li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html">Neue Operationen auf <span class="math inline">\(\Bbb R\)</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 </div>
 
@@ -709,25 +711,24 @@ window.Quarto = {
 </header>
 
 
-<section id="neue-operationen-auf-bbb-r" class="level2">
-<h2 class="anchored" data-anchor-id="neue-operationen-auf-bbb-r">Neue Operationen auf <span class="math inline">\(\Bbb R\)</span></h2>
+<section id="orthogonale-bzw-unitäre-trigonalisierung" class="level2">
+<h2 class="anchored" data-anchor-id="orthogonale-bzw-unitäre-trigonalisierung">Orthogonale bzw Unitäre Trigonalisierung</h2>
 </section>
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
 <hr>
-<p>Wir kennen aus dem Vektorraum <span class="math inline">\(\Bbb R^3\)</span> bereits die Operationen die Vektoren addiert und Skalar multipliziert. Es gibt aber noch andere Strukturen, die in der LA1 bisher nicht behandelt wurden: und zwar z.B. die <em>Abstandsfunktion</em>: <span class="math display">\[d:\Bbb R^3\times\Bbb R^3\rightarrow[0,+\infty),(x,y)\mapsto d(x,y)\]</span> die je zwei Elementen in <span class="math inline">\(\Bbb R^3\)</span> ihren Abstand zuweist. Darüber hinaus gibt es die <em>Normabbildung</em> <span class="math display">\[||\cdot||:\Bbb R^3\rightarrow[0,+\infty), v\mapsto||v||\]</span> die einem Element in <span class="math inline">\(\Bbb R^3\)</span> ihre Länge zuweist.</p>
-</section>
-<section id="verbindungen" class="level2">
-<h2 class="anchored" data-anchor-id="verbindungen">Verbindungen</h2>
-<hr>
-<p>Diese beiden Funktionen sind Verbunden über die Formeln: <span class="math inline">\(d(x,y)=||x-y||\)</span> und <span class="math inline">\(||v||=d(0,v)\)</span></p>
+<p>Es sei <span class="math inline">\(\Bbb K\in\{\Bbb R,\Bbb C\}\)</span> und <span class="math inline">\(V\)</span> ein <span class="math inline">\(\Bbb K\)</span>-Vektorraum mit Skalarprodukt. Für einen Endomorphismus <span class="math inline">\(\varphi:V\rightarrow V\)</span> sind äquivalent:</p>
+<ol type="1">
+<li><p>Das charakteristische Polynom von <span class="math inline">\(\varphi\)</span> zerfällt über <span class="math inline">\(\Bbb K\)</span> in Linearfaktoren</p></li>
+<li><p>Der endomorphismus ist trigonalisierbar</p></li>
+<li><p>Der endomorphismus ist orthogonal/unitär trigonalisierbar</p></li>
+</ol>
 </section>
 <section id="siehe-auch" class="level2">
 <h2 class="anchored" data-anchor-id="siehe-auch">Siehe auch</h2>
 <hr>
 <ul>
-<li><p><a href="../../1 Skalarprodukte/1.1 Vektoren in R/Skalar- und Kreuzprodukt.html">Skalar- und Kreuzprodukt</a></p></li>
-<li><p><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">Abstandsfunktion</a></p></li>
+<li>Hier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt</li>
 </ul>
 
 
@@ -1303,4 +1304,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/edit/main/1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.md" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/edit/main/2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.md" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div></div></footer></body></html>
