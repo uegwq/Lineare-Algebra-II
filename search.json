@@ -336,11 +336,11 @@
     "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\n\n\nEs sei \\(V\\) ein Vektorraum. Ein endomorphismus \\(\\varphi\\in End(V)\\) heißt\n\nselbstadjungiert, falls \\(\\varphi\\) adjungiert zu sich selbst ist\nnormal, falls \\(\\varphi\\) eine Adjungierte \\(\\varphi\\) besitzt und mit dieser kommutiert, also \\[\\varphi\\circ\\varphi^*=\\varphi^*\\circ\\varphi\\]",
+    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum. Ein Endomorphismus \\(\\varphi\\in End(V)\\) heißt\n\nSelbstadjungiert, falls \\(\\varphi\\) adjungiert zu sich selbst ist\nnormal, falls \\(\\varphi\\) eine Adjungierte \\(\\varphi\\) besitzt und mit dieser kommutiert, also \\[\\varphi\\circ\\varphi^*=\\varphi^*\\circ\\varphi\\]",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "TITLE"
+      "Reele Isometrie-Normalform"
     ]
   },
   {
@@ -352,7 +352,7 @@
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "TITLE"
+      "Reele Isometrie-Normalform"
     ]
   },
   {
@@ -364,7 +364,43 @@
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "TITLE"
+      "Reele Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reelen-isometrie-normalformen-helfen",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reelen-isometrie-normalformen-helfen",
+    "title": "_TEMPLATE",
+    "section": "Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:",
+    "text": "Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:\n\n\nBei Basiswechel ist die Spur invariant\nBei Basiswechsel sind die Eigenwerte Invariant\nDie Winkel in der komplexen Isometrie-Normalform sind die selben wie in der Reelen\nIst \\(A\\in\\Bbb R^{n\\times n}\\), und ist \\(\\lambda\\in\\Bbb C\\) ein EW von A, so ist auch \\(\\bar\\lambda\\) ein EV von A.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-bestimmt-man-die-reele-isometrie-normalform",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-bestimmt-man-die-reele-isometrie-normalform",
+    "title": "_TEMPLATE",
+    "section": "Wie bestimmt man die Reele Isometrie-Normalform?",
+    "text": "Wie bestimmt man die Reele Isometrie-Normalform?\n\nNie vergessen: alle Drehkästchen müssen einen Winkel zwischen \\(0\\) und \\(\\pi\\) haben!\n\n1. Spurtrick:\nMan beobachtet, dass die Spur bei Basiswechel erhalten bleibt (Lineare Algebra 1 5.5). Also können wir bei kleineren Matrizen manchmal die Spur unserer Matrix damit vergleichen, wie sie in der Isometrie-Normalform aussehen kann und daraus Schlüsse ziehen.\n\nBeispiel:\nWas ist die reele Isometrienormalform von \\(\\varphi: V\\rightarrow V,\\varphi\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ -1 \\end{pmatrix}, \\varphi\\begin{pmatrix} 0 \\\\ 1\\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}\\).\n\\(\\implies M_{E,E}(\\varphi)=\\begin{pmatrix} 0 & 1 \\\\ -1 & 0\\end{pmatrix}\\implies  Spur(\\varphi)=0\\).\n\\(\\implies\\) Die Spur der Isometrienormalform muss auch \\(0\\) sein, also ist sie \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) oder \\(D_\\alpha\\) mit \\(2cos(\\alpha)=0\\).\nDa \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) keine reelen Eigenwerte hat, kann \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) nicht die Isometrienormalform sein.\n\n\n\n2. Trick mit der Transponierten\nEs sei Matrix \\(A\\in\\Bbb R^{n\\times n}\\)\n\n\\(A\\) hat EW 1 \\(\\iff\\) \\(A+A^T\\) hat EW 2\n\\(A\\) hat EW -1 \\(\\iff\\) \\(A+A^T\\) hat EW -2\n\\(A\\) hat das Paar \\(e^{i\\alpha}\\) und \\(e^{-i\\alpha}\\) als EW \\(\\iff\\) \\(A+A^T\\) hat den doppelten EW \\(2cos(\\alpha)\\).\n\n\nBeispiel:\n\\(A=\\begin{pmatrix} 0&0&1&0 \\\\ 0&0&0&1 \\\\ -1&0&0&0 \\\\ 0&-1&0&0 \\end{pmatrix}, \\varphi:\\Bbb R^4\\rightarrow\\Bbb R^4,\\varphi(x)=Ax\\)- Welche Isometrienormalform hat \\(\\varphi\\)?\n\\(B:=A+A^T=0,p_B(X)=\\det\\begin{pmatrix} X&0&0&0 \\\\ 0&X&0&0 \\\\ 0&0&X&0 \\\\ 0&0&0&X \\end{pmatrix}=X^4\\implies B\\) hat nur EW 0.\nTranspositionstrick: INF von \\(\\varphi\\) ist \\(\\begin{pmatrix} D_\\alpha&\\\\&D_\\alpha \\end{pmatrix}\\) mit \\(2\\cos(\\alpha)=0\\), also \\(\\alpha=\\frac \\pi 2\\)",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
+    "title": "_TEMPLATE",
+    "section": "Wie findet man eine passende Orthonormalbasis B?",
+    "text": "Wie findet man eine passende Orthonormalbasis B?\n\nGegeben \\(A\\in\\Bbb R^{n\\times n}\\) mit \\(\\varphi:\\Bbb R^n\\rightarrow\\Bbb R^n,\\varphi(x)=Ax\\).\n\nBestimme alle EW von \\(A\\) (z.b. mit dem Transponiertrick)\nFalls \\(A\\) die EW \\(-1\\) oder \\(1\\) hat, bestimme Orthonormalbasen \\(B_1\\) von \\(E_1(A)\\) und \\(B_{-1}\\) von \\(E_{-1}(A)\\).\nFür jede EW-paar \\(\\underbrace{e^{i\\alpha}}_{=\\lambda_j},\\underbrace{e^{-i\\alpha}}_{=\\bar\\lambda_j}\\) mit \\(0&lt;\\alpha_k&lt;\\pi\\):\n\nBestimme Orthonormalbasis \\((v_1,\\dots,v_t)\\) von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)\\). (! Auch komplexe Vektoren erlaubt!)\nSetze \\(a_k:=Re(v_k)\\) und \\(b_k:=Im(v_K)\\)\nSetze \\(\\widetilde{a_k}:=\\frac {a_k}{||a_k||}\\) und \\(\\widetilde{b_k}:=\\frac {b_k}{||b_k||}\\)\n\\(B_{\\lambda_j}:=(\\widetilde{a_1},\\widetilde{b_1},\\dots,\\widetilde{a_t}\\widetilde{b_t})\\) ist ONB von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)+E_{\\bar\\lambda_j}(\\varphi_\\Bbb C)\\)\n\\(\\implies B:=B_1\\cup B_{-1}\\cup B_{\\lambda_1}\\cup\\dots\\cup B_{\\lambda_m}\\).\n\n\n\nBeispiel:\n\\(\\textbf{Beispiel:}\\)\n\\(A = \\begin{pmatrix} 0&0 & 1 & 0 \\\\ 0&0&0&1 \\\\ 0&-1& 0& 0\\\\0&-1&0&0\\end{pmatrix}\\), hat EQ \\(\\lambda_1 = \\underbrace{e^{i \\frac{\\pi}{2}}}_{=i}, \\bar\\lambda_1 = \\underbrace{e^{-i \\frac{\\pi}{2}}}_{=i}\\)\n\\(E_{\\lambda_1}(A) = E_{i}(A) = \\ker(A - i\\Bbb 14) =^{[...]} LH \\left(\\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix},\\begin{pmatrix} -i \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix}\\right)\\)\\(v_1 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix} , \\; v_2 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -i \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}\\),bilden ONB von \\(E_{\\lambda_i}(A)\\)\n\\(a_1 = \\text{Re}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\ 1 \\end{pmatrix}, \\quad b_1 = \\text{Im}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\)\\(a_2 = \\text{Re}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}, \\quad b_2 = \\text{Im}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -1 \\\\ 0 \\\\ 0\\\\0 \\end{pmatrix}\\)\n\\(B = (\\widetilde b_1,\\widetilde a_1,\\widetilde b_2,\\widetilde a_2)\\) ist gesuchte ONB von A \\(A \\widetilde{b_1} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0\\\\1 \\end{pmatrix} =\\widetilde{a_1}, \\quad A \\widetilde{b_2} = \\begin{pmatrix} 0 \\\\ 0\\\\1 \\\\ 0 \\end{pmatrix} \\widetilde{a_2}\\)\n\\(A \\widetilde{a_1} = \\begin{pmatrix} 0 \\\\ 1 \\\\ 0\\\\0 \\end{pmatrix} =\\widetilde{-b_1}, \\quad A \\widetilde{a_2} = \\begin{pmatrix} 1 \\\\ 0\\\\0 \\\\ 0 \\end{pmatrix} \\widetilde{-b_2}\\)\n\\(\\implies M_{B,B}(A) = \\begin{pmatrix} 0 & -1 & 0&0 \\\\ 1 & 0 & 0&0 \\\\ 0 & 0 & 0&-1\\\\0&0&1&0 \\end{pmatrix}\\). ist Isometrienormalform ✅",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
     ]
   },
   {
@@ -376,7 +412,7 @@
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "TITLE"
+      "Reele Isometrie-Normalform"
     ]
   },
   {
