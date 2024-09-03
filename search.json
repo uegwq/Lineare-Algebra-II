@@ -1,121 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Willkommen zu meinen Vorlesungsnotizen für Lineare Algebra 2",
-    "section": "",
-    "text": "Willkommen zu meinen Vorlesungsnotizen für Lineare Algebra 2\nHallo und herzlich willkommen auf meiner Seite! Hier findet ihr meine Vorlesungsnotizen zur Vorlesung “Lineare Algebra 2”, die ich im Sommersemester 2024 bei Herrn Dr. Dahmen besucht habe. Diese Sammlung von Notizen entstand während der Vorlesung und ist in verschiedene Themengebiete unterteilt, die wir im Laufe des Semesters behandelt haben. Ich hoffe, dass sie auch anderen Studierenden bei der Prüfungsvorbereitung oder einfach beim Verstehen der Konzepte hilfreich sein können.\nIn der Vorlesung haben wir viele spannende Themen der linearen Algebra vertieft, die auf den Inhalten aus Lineare Algebra 1 aufbauen. Zu den wichtigsten Themenbereichen gehören:\n\nSkalarprodukte: Hier ging es um Vektoren, Längen, Winkel und die Bedeutung von Orthogonalität. Wir haben unter anderem das Skalar- und Kreuzprodukt behandelt sowie Konzepte wie Orthogonalprojektionen und Orthonormalbasen besprochen.\nIsometrien und Homomorphismen: Ein weiteres großes Thema waren Isometrien und deren Eigenschaften. Dabei ging es zum Beispiel um die orthogonale und unitäre Gruppe sowie um spezielle Matrizen wie selbstadjungierte und normale Matrizen. Auch der Spektralsatz spielte eine wichtige Rolle.\nBilinearformen und quadratische Formen: Zum Ende der Vorlesung haben wir uns intensiver mit Bilinearformen und quadratischen Formen beschäftigt. Dazu gehören ihre symmetrischen Eigenschaften, ihre Diagonalisierbarkeit und Anwendungen wie die Untersuchung von Quadriken.\n\nDiese Notizen sind natürlich keine offiziellen Materialien, sondern entstanden aus meiner Sicht als Student während der Vorlesung. Trotzdem hoffe ich, dass sie dir helfen, die Themen besser zu verstehen und dich auf Klausuren vorzubereiten. Die Inhalte sind nach Kapiteln und Unterkapiteln sortiert, sodass du leicht navigieren kannst.\nViel Erfolg beim Lernen – ich hoffe, die Notizen sind für dich genauso nützlich wie für mich!\n-Philip",
-    "crumbs": [
-      "Willkommen zu meinen Vorlesungsnotizen für Lineare Algebra 2"
-    ]
-  },
-  {
-    "objectID": "0 LA 1/Trigonalisierbarkeit.html#definition",
-    "href": "0 LA 1/Trigonalisierbarkeit.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEine Matrix heißt trigonalisierbar, wenn es einen basiswechsel gibt, dass sie eine obere dreiecksmatrix ist.\n\nEine Matrix ist trigonalisierbar \\(\\iff\\) das charaketristische Polynom zerfällt in Linearfaktoren\n\nDas schöne ist: da \\(\\Bbb C\\) algebraisch abgeschlossen ist zerfällt ein charakteristisches Polynom in \\(\\Bbb C\\) immer in linearfaktoren also ist \\(\\Bbb C\\) immer Trigonalisierbar",
-    "crumbs": [
-      "0 LA 1",
-      "Trigonalisierbarkeit"
-    ]
-  },
-  {
-    "objectID": "0 LA 1/Trigonalisierbarkeit.html#siehe-auch",
-    "href": "0 LA 1/Trigonalisierbarkeit.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "0 LA 1",
-      "Trigonalisierbarkeit"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nAjungierte \\(\\not=\\) Adjunkte\n\\(A\\in\\Bbb K^{n\\times n}\\)\nDie Adjungierte Matrix ist die Matrix die man dadurch erhält, dass man alle Elemente konjugiert und die Matrix dann Transponiert lolz.\nMan schreibt \\(A^*\\)",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "Adjungierte Matrix"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nisometrischer Isomorphismus\nSelbstadjungierte Matrix\nAdjungierte Abbildungen\nNormale Matrix",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "Adjungierte Matrix"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#einleitung",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#einleitung",
-    "title": "Lineare Algebra II",
-    "section": "Einleitung",
-    "text": "Einleitung\n\nNaja, Matrizen die aus \\(\\Bbb R^{n\\times n}\\) sind und die Eigenschaften einer orthogonalen Matrix erfüllen nennen wir orthogonale Matrix lolz. Wenn unsere Matrix jetzt nicht aus \\(\\Bbb R^{n\\times n}\\) sondern \\(\\Bbb C^{n\\times n}\\) ist, nennen wir sie eine unitäre Matrix",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "unitäre Matrix"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEine Matrix \\(A\\in\\Bbb C^{n\\times n}\\) heißt unitäre Matrix, wenn \\(A\\) die Eigenschaften eines isometrischen Isomorphismuse erfüllt.\n\\(A \\text{ orthogonal}\\iff A^TA=\\Bbb 1_n\\iff \\text{Spalten von A ONB von }\\Bbb R^n\\)\nMan schreibt\n\\(U(n):=\\{A\\in\\Bbb C^{n\\times n}|A^TA=\\Bbb 1_n\\}\\)\nAlle Drehungen und Spiegelungen im Raum sind da drinnen!",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "unitäre Matrix"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#die-spezielle-orthogonale-gruppe-orientierungserhaltened",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#die-spezielle-orthogonale-gruppe-orientierungserhaltened",
-    "title": "Lineare Algebra II",
-    "section": "Die spezielle orthogonale Gruppe (orientierungserhaltened)",
-    "text": "Die spezielle orthogonale Gruppe (orientierungserhaltened)\n\nManchmal sind alle orthogonalen Matrizen interessant, dessen Determinante 1 beträgt. Man schreibt für diese:\n\\(SU(n):=\\{A\\in O(n)|det(A)=1\\}\\).",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "unitäre Matrix"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#determinante",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#determinante",
-    "title": "Lineare Algebra II",
-    "section": "Determinante",
-    "text": "Determinante\n\nEine orthogonale Matrix hat immer \\(det\\) \\(-1\\) oder \\(1\\). Eine unitäre Matrix hat immer \\(det\\) von \\(|1|\\).",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "unitäre Matrix"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "unitäre Matrix"
-    ]
-  },
-  {
     "objectID": "2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Normale Matrix.html#definition",
     "href": "2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Normale Matrix.html#definition",
     "title": "Lineare Algebra II",
@@ -149,6 +33,246 @@
       "2 Isometrien und Homomorphismen",
       "2.5 Normale Matrizen",
       "Normale Matrix"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nWir haben einen \\(n\\)-Dimensionalen unitären Vektorraum und \\(\\varphi\\in End_{\\Bbb C}(V)\\).\n\\(\\varphi\\) lineare Isometrie \\(\\implies\\) \\(\\varphi\\) ist unitär diagonalisierbar und alle Eigenwerte haben Betrag 1, d.h. es gibt eine Orthonormalbasis \\(B\\), sodass \\(M_{B,B}(\\varphi)\\) eine Diagonaleinheitsmatrix ist.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Komplexe Isometrienormalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Komplexe Isometrienormalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}.\\) Gegeben seien weiterhin \\(\\Bbb K\\)-Vektorräume mit Skalarprodukt \\(V\\) und \\(W\\). Falls \\(dim(V) = n ∈ \\Bbb N\\) und \\(dim(W) = m ∈ \\Bbb N\\) endlich sind, dann hat jede lineare Abbildung \\(ϕ : V → W\\) eine adjungierte Abbildung \\(ϕ^∗ : W → V\\). Weiterhin gilt: Falls \\(B\\) eine Orthonormalbasis von \\(V\\) und \\(C\\) eine Orthonormalbasis von W$ ist, dann gilt: \\[M_{B,C}(ϕ^*)  = (M_{C,B}(ϕ))^*\\]",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Der Satz, der sagt, dass im endlichdimensionalen alles gut geht"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Der Satz, der sagt, dass im endlichdimensionalen alles gut geht"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(n\\in\\Bbb N\\) und \\(A\\in\\Bbb C^{n\\times n}\\).\n\nWenn \\(v\\in\\Bbb C^n\\) ein Eigenvektor von \\(A\\) zum Eigenwert \\(\\lambda\\) ist, dann ist \\(\\bar v\\in\\Bbb C^n\\) ein Eigenvektor von \\(\\bar A\\) zum Eigenwert \\(\\bar \\lambda\\).\nFalls \\(A\\) nur reelle Einträge besitzt, dann ist zu jedem komplexen Eigenwert \\(λ\\) auch die komplex konjugierte Zahl \\(\\bar λ\\) ein Eigenwert. Insbesondere treten nicht-reelle Eigenwerte immer in Paaren auf.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Konjugierte Eigenwerte"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Konjugierte Eigenwerte"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum. Ein Endomorphismus \\(\\varphi\\in End(V)\\) heißt\n\nSelbstadjungiert, falls \\(\\varphi\\) adjungiert zu sich selbst ist\nnormal, falls \\(\\varphi\\) eine Adjungierte \\(\\varphi\\) besitzt und mit dieser kommutiert, also \\[\\varphi\\circ\\varphi^*=\\varphi^*\\circ\\varphi\\]",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nSpektralsatz für komplexe normale Matrizen",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V = R^n\\) mit dem Standardskalarprodukt und der daraus resultierenden Metrik und \\(v_0 ∈ V\\) ein Vektor. Die Translation um \\(v_0\\) ist die Abbildung \\(τ_{v_0} : R^n → R^n , x \\mapsto x+ v_0\\), die jeden Punkt um den Vektor \\(v_0\\) verschiebt. Eine solche Translation ist eine Isometrie, jedoch nicht linear.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.1 Isometrien und isometrische Isomorphismen",
+      "Translation um $v_0$"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.1 Isometrien und isometrische Isomorphismen",
+      "Translation um $v_0$"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nIst \\(A\\in\\Bbb K^{n\\times n}\\)\n\n\\(\\varphi\\) ist isometrischer Isomorphismus bezüglich Standartskalarprodukt\n\\(\\varphi\\) ist Isometrie bezüglich Standartskalarprodukt\nSpalten von \\(A\\) sind ONB von \\(\\Bbb K^n\\) Standartskalarprodukt\nSpalten von \\(A\\) sind ONB von \\(\\Bbb K^n\\) Standartskalarprodukt\n\\(A^*A=\\Bbb 1\\)\nA ist invertierbar und \\(A^{-1}=A^*\\)",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Matrix \\(A\\in\\Bbb R^{n\\times n}\\) heißt orthogonale Matrix, wenn \\(A\\) die Eigenschaften eines isometrischen Isomorphismuse erfüllt.\n\\(A \\text{ orthogonal}\\iff A^TA=\\Bbb 1_n\\iff \\text{Spalten von A ONB von }\\Bbb R^n\\)\nMan schreibt\n\\(O(n):=\\{A\\in\\Bbb R^{n\\times n}|A^TA=\\Bbb 1_n\\}\\)\nAlle Drehungen und Spiegelungen im Raum sind da drinnen!",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "Die orthogonale Gruppe"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#die-spezielle-orthogonale-gruppe-orientierungserhaltened",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#die-spezielle-orthogonale-gruppe-orientierungserhaltened",
+    "title": "Lineare Algebra II",
+    "section": "Die spezielle orthogonale Gruppe (orientierungserhaltened)",
+    "text": "Die spezielle orthogonale Gruppe (orientierungserhaltened)\n\nManchmal sind alle orthogonalen Matrizen interessant, dessen Determinante 1 beträgt. Man schreibt für diese:\n\\(SO(n):=\\{A\\in O(n)|det(A)=1\\}\\).",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "Die orthogonale Gruppe"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nunitäre Matrix\nOrthogonal ähnlich\nOrthogonal bzw unitär diagonalisierbar",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "Die orthogonale Gruppe"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Matrix ist Orthogonal bzw unitär diagonalisierbar, wenn es eine orthogonale/unitäre Basiswechselmatrix gibt, sodass sie ähnlich zu einer diagonalmatrix ist.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
+      "Orthogonal bzw unitär diagonalisierbar"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#kriterien",
+    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#kriterien",
+    "title": "Lineare Algebra II",
+    "section": "Kriterien",
+    "text": "Kriterien\n\nFolgendes ist (für einen \\(\\Bbb K\\in\\{\\Bbb R,\\Bbb C\\}\\)-Vektorraum \\(V\\) mit Endomorphismus \\(\\varphi:V\\rightarrow V\\) äquivalent:\n\nDer Endomorphismus ist orthogonal/unitär diagonalisierbar. D.h. es gibt eine Orthonormalbasis \\(B\\) von \\(V\\), sodass \\(M_{B,B}(\\varphi)\\) eine Diagonalmatrix ist.\nEs gibt eine Orthonormalbasis \\(B\\), die aus Eigenvektoren besteht\nDer Endomorphismus \\(\\varphi\\) ist diagonaliserbar und je zwei Eigenräume sind orthogonal zueinander.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
+      "Orthogonal bzw unitär diagonalisierbar"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
+      "Orthogonal bzw unitär diagonalisierbar"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nZwei Matrizen \\(A\\) und \\(B\\) sind ähnlich, wenn es eine Basiswechselmatrix aus der \\(GL(n,\\Bbb K)\\) gibt, dass wir sie inneinander Basiswechseln können. Wenn wir nun fordern, dass die Basiswechselmatrix nicht aus der \\(GL(n,\\Bbb K)\\) ist, sondern aus der \\(O(n)\\)/\\(U(n)\\) ist, sind sie orthogonal ähnlich bzw. unitär ähnlich.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
+      "Orthogonal ähnlich"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nOrthogonal bzw unitär diagonalisierbar",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
+      "Orthogonal ähnlich"
     ]
   },
   {
@@ -188,270 +312,229 @@
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.html#definition",
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#definition",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\in\\{\\Bbb R,\\Bbb C\\}\\) und \\(V\\) ein \\(\\Bbb K\\)-Vektorraum mit Skalarprodukt. Für einen Endomorphismus \\(\\varphi:V\\rightarrow V\\) sind äquivalent:\n\nDas charakteristische Polynom von \\(\\varphi\\) zerfällt über \\(\\Bbb K\\) in Linearfaktoren\nDer endomorphismus ist trigonalisierbar\nDer endomorphismus ist orthogonal/unitär trigonalisierbar"
+    "text": "Definition\n\nEs sei \\((X,d)\\) ein Metrischer Raum mit der Abstandsfunktion \\(d\\) und \\(A\\subseteq X\\) eine Teilmenge. Dann definieren wir für \\(x\\in X:\\)\n\\[d(x,A)=inf\\{d(x,a)| a\\in A\\}\\]",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Abstand Punkt von einer Teilmenge"
+    ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#eindeutigkeit-des-abstandspunktes",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#eindeutigkeit-des-abstandspunktes",
+    "title": "Lineare Algebra II",
+    "section": "Eindeutigkeit des Abstandspunktes",
+    "text": "Eindeutigkeit des Abstandspunktes\n\nWenn es einen Punkt gibt, für den der Abstand zu einer Teilmenge mininal ist, so ist dieser Punkt eindeutig. Hierbei sind äquivalent:\n\nEs sei \\(p\\in A: d(x,p)=d(x,A)\\)\nDie Verbindungsgerade von \\(x\\) und \\(p\\) steht orthogonal auf \\(A\\), also \\(\\forall a\\in A:&lt;x-p,a&gt;=0\\)",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Abstand Punkt von einer Teilmenge"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+    "text": "Siehe auch\n\n\nOrthogonalprojektion",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Abstand Punkt von einer Teilmenge"
+    ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.html#definition",
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.html#definition",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nZwei Matrizen \\(A\\) und \\(B\\) sind ähnlich, wenn es eine Basiswechselmatrix aus der \\(GL(n,\\Bbb K)\\) gibt, dass wir sie inneinander Basiswechseln können. Wenn wir nun fordern, dass die Basiswechselmatrix nicht aus der \\(GL(n,\\Bbb K)\\) ist, sondern aus der \\(O(n)\\)/\\(U(n)\\) ist, sind sie orthogonal ähnlich bzw. unitär ähnlich.",
+    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum mit Skalarprodukt über \\(\\Bbb K\\in\\{\\Bbb R,\\Bbb C\\}\\). Falls \\(U\\subseteq V\\) ein endlich dimensionale Untervektorraum von V ist, gilt: Der Untervektorraum \\(U^⊥\\) ist ein komplementärer Vektorraum, also \\(V=U \\circplus U^⊥\\).\nDaraus resultiert, dass man jeden Vektor \\(v\\in V\\) schreiben kann als \\(v=a\\pi_U(v)+b\\pi_{U^⊥}(v)\\).",
     "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
-      "Orthogonal ähnlich"
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Orthogonale Zerlegung"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nOrthogonal bzw unitär diagonalisierbar",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
-      "Orthogonal ähnlich"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nLol, für eine Lineare Abbildung \\(\\varphi: V\\rightarrow W\\) ist äquivalent:\n\n\\(\\varphi\\) ist eine Isometrie, erhält also Abstände\n\\(\\varphi\\) ist längenerhaltend, also \\(\\forall v:||\\varphi(v)||_W=||v||_V\\)\n\\(\\varphi\\) erhält das Skalarprodukt, also \\(\\forall v_1,v_2:&lt;\\varphi(v_1),\\varphi(v_2)&gt;_W=&lt;v_1,v_2&gt;\\).",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.1 Isometrien und isometrische Isomorphismen",
-      "TITLE"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nisometrischer Isomorphismus",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.1 Isometrien und isometrische Isomorphismen",
-      "TITLE"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}\\) und \\((V,〈·,·〉V )\\) und \\((W,〈·,·〉W)\\) seien Vektorräume mit Skalarprodukt. Weiterhin seien zwei Abbildungen \\(ϕ : V → W\\) und \\(ψ : W → V\\) gegeben.\nWir sagen \\(ψ\\) ist adjungiert zu \\(ϕ\\), falls gilt:\n\\[\\forall v\\in V;\\forall w\\in W: &lt;\\varphi(v),w&gt;_W=&lt;v,\\psi(w)&gt;_V\\]",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Adjungierte Abbildungen"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#eigenschaften",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#eigenschaften",
-    "title": "Lineare Algebra II",
-    "section": "Eigenschaften",
-    "text": "Eigenschaften\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}\\) und \\((V,〈·,·〉V )\\) und \\((W,〈·,·〉W)\\) seien Vektorräume mit Skalarprodukt.\n\nWenn \\(ψ : W → V\\) zu \\(ϕ : V → W\\) adjungiert ist, dann sind \\(ϕ\\) und \\(ψ\\) linear.\nWenn \\(ψ : W → V\\) zu \\(ϕ : V → W\\) adjungiert ist, dann ist \\(ϕ\\) zu \\(ψ\\) adjungiert.\nWenn \\(ϕ : V → W\\) eine adjungierte Abbildung \\(ψ : W → V\\) besitzt, so ist diese eindeutig.",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Adjungierte Abbildungen"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nDer Satz, der sagt, dass im endlichdimensionalen alles gut geht",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Adjungierte Abbildungen"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#für-normale-abbildungen",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#für-normale-abbildungen",
-    "title": "Lineare Algebra II",
-    "section": "für normale Abbildungen",
-    "text": "für normale Abbildungen\n\nEs sei \\(n ∈ \\Bbb N\\) und \\(V\\) ein unitärer Vektorraum der Dimension \\(n\\). Ein Endomorphismus \\(ϕ ∈ End_{\\Bbb C}(V)\\) ist genau dann unitär diagonalisierbar, wenn er eine normale Abbildung ist.",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Spektralsätze für diverse Abbildungen"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#für-selbstadjungierte-abbildungen",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#für-selbstadjungierte-abbildungen",
-    "title": "Lineare Algebra II",
-    "section": "für selbstadjungierte Abbildungen",
-    "text": "für selbstadjungierte Abbildungen\n\nEs sei \\(n ∈ \\Bbb N\\) und \\(V\\) ein Euklidischer Vektorraum der Dimension \\(n\\). Ein Endomorphismus \\(ϕ ∈ End_{\\Bbb R}(V)\\) ist genau dann orthogonal diagonalisierbar, wenn er eine selbstadjungierte Abbildung ist.",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Spektralsätze für diverse Abbildungen"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Spektralsätze für diverse Abbildungen"
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Orthogonale Zerlegung"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#definition",
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.html#definition",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum. Ein Endomorphismus \\(\\varphi\\in End(V)\\) heißt\n\nSelbstadjungiert, falls \\(\\varphi\\) adjungiert zu sich selbst ist\nnormal, falls \\(\\varphi\\) eine Adjungierte \\(\\varphi\\) besitzt und mit dieser kommutiert, also \\[\\varphi\\circ\\varphi^*=\\varphi^*\\circ\\varphi\\]",
+    "text": "Definition\n\nDies ist ein Algorithmus um eine Basis zu einer Orthogonalbasis zu machen. Das ist eigentlich nur eine Abgewandelte Version des Gauß-Verfahren (Its all just Gauß).\nGegeben seien \\(\\{v_1,\\dots,v_n\\}\\).\n\\[w_1:=v_1\\]\n\\[w_j:=v_j-\\sum^{j-1}_{i=1}\\frac{&lt;v_j,w_i&gt;}{&lt;w_i,w_i&gt;}w_i\\]\nDANN GILT: \\(\\{w_1,...,w_n\\}\\) ist ein Orthogonalsystem\n\\(LH(w_1,...,w_m)=LH(v_1,...,v_m)\\).",
     "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Gram-Schmidt"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nSpektralsatz für komplexe normale Matrizen",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reelen-isometrie-normalformen-helfen",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reelen-isometrie-normalformen-helfen",
-    "title": "Lineare Algebra II",
-    "section": "Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:",
-    "text": "Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:\n\n\nBei Basiswechel ist die Spur invariant\nBei Basiswechsel sind die Eigenwerte Invariant\nDie Winkel in der komplexen Isometrie-Normalform sind die selben wie in der Reelen\nIst \\(A\\in\\Bbb R^{n\\times n}\\), und ist \\(\\lambda\\in\\Bbb C\\) ein EW von A, so ist auch \\(\\bar\\lambda\\) ein EV von A.",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-bestimmt-man-die-reele-isometrie-normalform",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-bestimmt-man-die-reele-isometrie-normalform",
-    "title": "Lineare Algebra II",
-    "section": "Wie bestimmt man die Reele Isometrie-Normalform?",
-    "text": "Wie bestimmt man die Reele Isometrie-Normalform?\n\nNie vergessen: alle Drehkästchen müssen einen Winkel zwischen \\(0\\) und \\(\\pi\\) haben!\n\n1. Spurtrick:\nMan beobachtet, dass die Spur bei Basiswechel erhalten bleibt (Lineare Algebra 1 5.5). Also können wir bei kleineren Matrizen manchmal die Spur unserer Matrix damit vergleichen, wie sie in der Isometrie-Normalform aussehen kann und daraus Schlüsse ziehen.\n\nBeispiel:\nWas ist die reele Isometrienormalform von \\(\\varphi: V\\rightarrow V,\\varphi\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ -1 \\end{pmatrix}, \\varphi\\begin{pmatrix} 0 \\\\ 1\\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}\\).\n\\(\\implies M_{E,E}(\\varphi)=\\begin{pmatrix} 0 & 1 \\\\ -1 & 0\\end{pmatrix}\\implies  Spur(\\varphi)=0\\).\n\\(\\implies\\) Die Spur der Isometrienormalform muss auch \\(0\\) sein, also ist sie \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) oder \\(D_\\alpha\\) mit \\(2cos(\\alpha)=0\\).\nDa \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) keine reelen Eigenwerte hat, kann \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) nicht die Isometrienormalform sein.\n\n\n\n2. Trick mit der Transponierten\nEs sei Matrix \\(A\\in\\Bbb R^{n\\times n}\\)\n\n\\(A\\) hat EW 1 \\(\\iff\\) \\(A+A^T\\) hat EW 2\n\\(A\\) hat EW -1 \\(\\iff\\) \\(A+A^T\\) hat EW -2\n\\(A\\) hat das Paar \\(e^{i\\alpha}\\) und \\(e^{-i\\alpha}\\) als EW \\(\\iff\\) \\(A+A^T\\) hat den doppelten EW \\(2cos(\\alpha)\\).\n\n\nBeispiel:\n\\(A=\\begin{pmatrix} 0&0&1&0 \\\\ 0&0&0&1 \\\\ -1&0&0&0 \\\\ 0&-1&0&0 \\end{pmatrix}, \\varphi:\\Bbb R^4\\rightarrow\\Bbb R^4,\\varphi(x)=Ax\\)- Welche Isometrienormalform hat \\(\\varphi\\)?\n\\(B:=A+A^T=0,p_B(X)=\\det\\begin{pmatrix} X&0&0&0 \\\\ 0&X&0&0 \\\\ 0&0&X&0 \\\\ 0&0&0&X \\end{pmatrix}=X^4\\implies B\\) hat nur EW 0.\nTranspositionstrick: INF von \\(\\varphi\\) ist \\(\\begin{pmatrix} D_\\alpha&\\\\&D_\\alpha \\end{pmatrix}\\) mit \\(2\\cos(\\alpha)=0\\), also \\(\\alpha=\\frac \\pi 2\\)",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
-    "title": "Lineare Algebra II",
-    "section": "Wie findet man eine passende Orthonormalbasis B?",
-    "text": "Wie findet man eine passende Orthonormalbasis B?\n\nGegeben \\(A\\in\\Bbb R^{n\\times n}\\) mit \\(\\varphi:\\Bbb R^n\\rightarrow\\Bbb R^n,\\varphi(x)=Ax\\).\n\nBestimme alle EW von \\(A\\) (z.b. mit dem Transponiertrick)\nFalls \\(A\\) die EW \\(-1\\) oder \\(1\\) hat, bestimme Orthonormalbasen \\(B_1\\) von \\(E_1(A)\\) und \\(B_{-1}\\) von \\(E_{-1}(A)\\).\nFür jede EW-paar \\(\\underbrace{e^{i\\alpha}}_{=\\lambda_j},\\underbrace{e^{-i\\alpha}}_{=\\bar\\lambda_j}\\) mit \\(0&lt;\\alpha_k&lt;\\pi\\):\n\nBestimme Orthonormalbasis \\((v_1,\\dots,v_t)\\) von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)\\). (! Auch komplexe Vektoren erlaubt!)\nSetze \\(a_k:=Re(v_k)\\) und \\(b_k:=Im(v_K)\\)\nSetze \\(\\widetilde{a_k}:=\\frac {a_k}{||a_k||}\\) und \\(\\widetilde{b_k}:=\\frac {b_k}{||b_k||}\\)\n\\(B_{\\lambda_j}:=(\\widetilde{a_1},\\widetilde{b_1},\\dots,\\widetilde{a_t}\\widetilde{b_t})\\) ist ONB von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)+E_{\\bar\\lambda_j}(\\varphi_\\Bbb C)\\)\n\\(\\implies B:=B_1\\cup B_{-1}\\cup B_{\\lambda_1}\\cup\\dots\\cup B_{\\lambda_m}\\).\n\n\n\nBeispiel:\n\\(\\textbf{Beispiel:}\\)\n\\(A = \\begin{pmatrix} 0&0 & 1 & 0 \\\\ 0&0&0&1 \\\\ 0&-1& 0& 0\\\\0&-1&0&0\\end{pmatrix}\\), hat EQ \\(\\lambda_1 = \\underbrace{e^{i \\frac{\\pi}{2}}}_{=i}, \\bar\\lambda_1 = \\underbrace{e^{-i \\frac{\\pi}{2}}}_{=i}\\)\n\\(E_{\\lambda_1}(A) = E_{i}(A) = \\ker(A - i\\Bbb 14) =^{[...]} LH \\left(\\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix},\\begin{pmatrix} -i \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix}\\right)\\)\\(v_1 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix} , \\; v_2 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -i \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}\\),bilden ONB von \\(E_{\\lambda_i}(A)\\)\n\\(a_1 = \\text{Re}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\ 1 \\end{pmatrix}, \\quad b_1 = \\text{Im}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\)\\(a_2 = \\text{Re}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}, \\quad b_2 = \\text{Im}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -1 \\\\ 0 \\\\ 0\\\\0 \\end{pmatrix}\\)\n\\(B = (\\widetilde b_1,\\widetilde a_1,\\widetilde b_2,\\widetilde a_2)\\) ist gesuchte ONB von A \\(A \\widetilde{b_1} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0\\\\1 \\end{pmatrix} =\\widetilde{a_1}, \\quad A \\widetilde{b_2} = \\begin{pmatrix} 0 \\\\ 0\\\\1 \\\\ 0 \\end{pmatrix} \\widetilde{a_2}\\)\n\\(A \\widetilde{a_1} = \\begin{pmatrix} 0 \\\\ 1 \\\\ 0\\\\0 \\end{pmatrix} =\\widetilde{-b_1}, \\quad A \\widetilde{a_2} = \\begin{pmatrix} 1 \\\\ 0\\\\0 \\\\ 0 \\end{pmatrix} \\widetilde{-b_2}\\)\n\\(\\implies M_{B,B}(A) = \\begin{pmatrix} 0 & -1 & 0&0 \\\\ 1 & 0 & 0&0 \\\\ 0 & 0 & 0&-1\\\\0&0&1&0 \\end{pmatrix}\\). ist Isometrienormalform ✅",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Gram-Schmidt"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#definition",
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#motivation",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#motivation",
+    "title": "Lineare Algebra II",
+    "section": "Motivation",
+    "text": "Motivation\n\nNaja, wenn man einen Vektor bezüglich einer Basis schreiben will muss man immer ein Lineares Gleichungssystem lösen. Z.b. \\((v)_B\\) als \\((x_1,x_2...x_3)\\). Aber das geht auch besser:",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Fourier-Formel"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#definition",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nDie Koordinatenabbildung \\(b_j\\) bildet einen Vektor \\(v\\in V\\) auf den \\(\\lambda_j\\)-ten Koeffizienten seiner Linearkombination bezüglich einer Basis ab.",
+    "text": "Definition\n\nWenn \\(v\\in V\\) ein Vektor gegeben ist, dann ist die Darstellung bezüglich \\(B\\) gegeben durch: \\[v=\\sum^n_{j=1}&lt;v,b_j&gt;b_j\\]In anderen Worten: \\((v)_B:=(&lt;v,b_1&gt; \\dots &lt;v,b_n&gt;)\\).",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Koordinatenabbildung"
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Fourier-Formel"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Koordinatenabbildung"
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Fourier-Formel"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
+    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#winkel-zwischen-senkrechten-vektoren",
+    "href": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#winkel-zwischen-senkrechten-vektoren",
     "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEine Gleichung \\(x^2=s\\) hat eine Lösung, wenn:\nFalls \\(\\text{char}(\\Bbb K)\\not=2\\):\n\n\\(s\\) ist quadratisch in \\(\\Bbb K\\) (\\(\\exists w\\in\\Bbb K: w^2=s\\)) und ja.",
+    "section": "Winkel zwischen senkrechten Vektoren",
+    "text": "Winkel zwischen senkrechten Vektoren\n\nWenn der Winkel zwischen zwei Vektoren genau \\(π/2 = 90°\\) beträgt, sind die beiden Vektoren orthogonal: \\[∀v,w ∈ \\Bbb R^3 \\setminus\\{0\\} : v ⊥ w : \\iff \\angle (v,w) = π/2.\\]",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.5 Quadriken und Hauptachsentransformation",
-      "Lösung einer quadratischen Gleichung"
+      "1 Skalarprodukte",
+      "1.1 Vektoren in R",
+      "Wichtige Eigenschaften von Vektoren in R"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#über-das-kreuzprodukt",
+    "href": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#über-das-kreuzprodukt",
+    "title": "Lineare Algebra II",
+    "section": "Über das Kreuzprodukt",
+    "text": "Über das Kreuzprodukt\nDas Kreuzprodukt \\(v × w\\) von \\(v \\not= 0\\) und \\(w \\not = 0\\) steht senkrecht auf \\(v\\) und \\(w\\) und für die Norm gilt:\n$||v ×w|| = ||v|| ||w||sin(\\angle (v,w)).$ \nFür das Skalarprodukt \\(〈v,w〉\\) gilt:\n$〈v,w〉 = ||v|| ||w||cos(\\angle (v,w)).$\nDa die Normen \\(||v||\\) und \\(||w||\\) für Vektoren \\(v, w \\neq 0\\) immer positiv sind, richtet sich das Vorzeichen von \\(\\langle v, w \\rangle\\) nur nach dem Kosinus des eingeschlossenen Winkels, d.h.\n\\(\\forall v,w \\in \\mathbb{R}^3 \\setminus \\{0\\} : \\langle v, w \\rangle &gt; 0 \\iff \\cos(\\angle(v, w)) &gt; 0 \\iff \\angle(v, w) &lt; \\frac{\\pi}{2}\\)\\(\\forall v,w \\in \\mathbb{R}^3 \\setminus \\{0\\} : \\langle v, w \\rangle = 0 \\iff \\cos(\\angle(v, w)) = 0 \\iff \\angle(v, w) = \\frac{\\pi}{2}\\)\n\\(\\forall v,w \\in \\mathbb{R}^3 \\setminus \\{0\\} : \\langle v, w \\rangle &lt; 0 \\iff \\cos(\\angle(v, w)) &lt; 0 \\iff \\angle(v, w) &gt; \\frac{\\pi}{2}\\)\nEs gilt also: Zwei Vektoren \\(v, w \\in \\mathbb{R}^3 \\setminus \\{0\\}\\) sind genau dann orthogonal, wenn ihr Skalarprodukt \\(0\\) ist:\n\\(v \\perp w \\iff \\langle v, w \\rangle = 0.\\)\nAußerdem folgt aus der obigen Formel für das Skalarprodukt folgende Formel für das Skalarprodukt eines Vektors mit sich selbst: \\(〈v,v〉 = ||v|| ||v||cos(\\angle (v,v)) = ||v||||v|| =||v||^ 2\\) .",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.1 Vektoren in R",
+      "Wichtige Eigenschaften von Vektoren in R"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.5 Quadriken und Hauptachsentransformation",
-      "Lösung einer quadratischen Gleichung"
+      "1 Skalarprodukte",
+      "1.1 Vektoren in R",
+      "Wichtige Eigenschaften von Vektoren in R"
     ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.html#definition",
+    "href": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEin reeller Vektorraum mit Skalarprodukt heißt Euklidischer Vektorraum, ein komplexer Vektorraum mit Skalarprodukt heißt unitärer Vektorraum.",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.2 Skalarprodukte, Längen und Winkel",
+      "Euklidischer, unitärer Vektorraum"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.2 Skalarprodukte, Längen und Winkel",
+      "Euklidischer, unitärer Vektorraum"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html#definition",
+    "href": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nMan nennt einen Vektorraum mit einer Abstandsfunktion einen Metrischen Raum jippie",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.2 Skalarprodukte, Längen und Winkel",
+      "Metrischer Raum"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nIsometrie",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.2 Skalarprodukte, Längen und Winkel",
+      "Metrischer Raum"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Willkommen zu meinen Vorlesungsnotizen für Lineare Algebra 2",
+    "section": "",
+    "text": "Willkommen zu meinen Vorlesungsnotizen für Lineare Algebra 2\nHallo und herzlich willkommen auf meiner Seite! Hier findet ihr meine Vorlesungsnotizen zur Vorlesung “Lineare Algebra 2”, die ich im Sommersemester 2024 bei Herrn Dr. Dahmen besucht habe. Diese Sammlung von Notizen entstand während der Vorlesung und ist in verschiedene Themengebiete unterteilt, die wir im Laufe des Semesters behandelt haben. Ich hoffe, dass sie auch anderen Studierenden bei der Prüfungsvorbereitung oder einfach beim Verstehen der Konzepte hilfreich sein können.\nIn der Vorlesung haben wir viele spannende Themen der linearen Algebra vertieft, die auf den Inhalten aus Lineare Algebra 1 aufbauen. Zu den wichtigsten Themenbereichen gehören:\n\nSkalarprodukte: Hier ging es um Vektoren, Längen, Winkel und die Bedeutung von Orthogonalität. Wir haben unter anderem das Skalar- und Kreuzprodukt behandelt sowie Konzepte wie Orthogonalprojektionen und Orthonormalbasen besprochen.\nIsometrien und Homomorphismen: Ein weiteres großes Thema waren Isometrien und deren Eigenschaften. Dabei ging es zum Beispiel um die orthogonale und unitäre Gruppe sowie um spezielle Matrizen wie selbstadjungierte und normale Matrizen. Auch der Spektralsatz spielte eine wichtige Rolle.\nBilinearformen und quadratische Formen: Zum Ende der Vorlesung haben wir uns intensiver mit Bilinearformen und quadratischen Formen beschäftigt. Dazu gehören ihre symmetrischen Eigenschaften, ihre Diagonalisierbarkeit und Anwendungen wie die Untersuchung von Quadriken.\n\nDiese Notizen sind natürlich keine offiziellen Materialien, sondern entstanden aus meiner Sicht als Student während der Vorlesung. Trotzdem hoffe ich, dass sie dir helfen, die Themen besser zu verstehen und dich auf Klausuren vorzubereiten. Die Inhalte sind nach Kapiteln und Unterkapiteln sortiert, sodass du leicht navigieren kannst.\nViel Erfolg beim Lernen – ich hoffe, die Notizen sind für dich genauso nützlich wie für mich!\n-Philip"
+  },
+  {
+    "objectID": "Welcome.html",
+    "href": "Welcome.html",
+    "title": "Lineare Algebra II",
+    "section": "",
+    "text": "This is your new vault.\nMake a note of something, [[create a link]], or try the Importer!\nWhen you’re ready, delete this note and make the vault your own."
+  },
+  {
+    "objectID": "Testfile.html",
+    "href": "Testfile.html",
+    "title": "Lineare Algebra II",
+    "section": "",
+    "text": "Hello this is a test! Will this be displayed in the website?"
   },
   {
     "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#definition",
@@ -490,51 +573,51 @@
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#definition",
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html",
     "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEine Bilinearform \\(\\beta\\) sei symetrisch, wenn \\(\\forall v,w\\in V:\\beta(v,w)=\\beta(w,v)\\iff \\exists\\) geordnete Basis \\(B\\) mit \\(FM_B(\\beta)\\) ist symetrisch",
+    "section": "",
+    "text": "Symetrischer Gauß isnt real, he cant hurt you.\nSymetrischer Gauß:",
     "crumbs": [
       "3 Bilinearformen und quardratische Formen",
       "3.2 Bilinearformen über beliebigen Körpern",
-      "Symetrische Bilinearform"
+      "TITLE"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#siehe-auch",
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#title",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#title",
+    "title": "Lineare Algebra II",
+    "section": "",
+    "text": "Symetrischer Gauß isnt real, he cant hurt you.\nSymetrischer Gauß:",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "3 Bilinearformen und quardratische Formen",
       "3.2 Bilinearformen über beliebigen Körpern",
-      "Symetrische Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum über einem Körper \\(\\Bbb K\\). Eine Bilinearform ist eine Abbildung \\[\\beta:V\\times V\\rightarrow\\Bbb K\\]die in jeder Komponente linear ist.\nWir bezeichnen die Menge aller Bilinearformen auf \\(V\\) als\n\\(Bil(V,\\Bbb K):=\\{\\beta:V\\times V\\rightarrow\\Bbb K|\\beta\\text{ ist bilinear}\\}\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Bilinearform"
+      "TITLE"
     ]
   },
   {
@@ -559,6 +642,66 @@
       "3 Bilinearformen und quardratische Formen",
       "3.2 Bilinearformen über beliebigen Körpern",
       "Degenerierte Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\n\\(char(\\Bbb K)\\not= 0\\) (also \\(1+1\\not=0\\))- Zu jeder quadratischen Form \\(q\\) einer \\(\\beta\\in Bil(V,\\Bbb K)\\), so \\(\\exists !\\) symetrische Bilinearform \\(\\beta_s\\) mit \\(q=q_{\\beta_1}\\). Es ist \\(\\beta(v,w)=\\frac 1 2\\) \\((q(v+w)-q(v)-q(w))\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Polarisierugsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Polarisierugsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nDt. Schönfinkeln.\nBilinearformen sind keine lineare Abbildungen und deshalb können wir es nicht so epic mit den ganzen Tools aus der Linearen Algebra untersuchen. Wenn wir aber eine Variable sozusagen “festhalten”, dann erhalten wir eine Abbildung, die einfacher handzuhaben ist.\nAlso\n\\(f:X\\times Y\\rightarrow Z\\). Wenn wir z.B. \\(y\\in Y\\) festhalten, erhalten wir die Funktion \\(f(\\cdot,y):X\\rightarrow Z\\). Man schreibt auch:\n\\(f^\\vee Y\\rightarrow Z^X, y\\mapsto f(\\cdot,y)\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "[kœri]ing"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#bilinearformen-dann",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#bilinearformen-dann",
+    "title": "Lineare Algebra II",
+    "section": "Bilinearformen dann",
+    "text": "Bilinearformen dann\n\nEs sei V ein Vektorraum über einem Körper \\(\\Bbb K\\).\nWie Defintion 3.1.1 eingeführt bezeichnen wir den Dualraum von V mit V ∗ := HomK(V,K).\n\nEs sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform auf \\(V\\). Dann ist für jeden Vektor \\(w ∈ V\\) die Abbildung \\(β(·,w) : V → \\Bbb K, v \\mapsto β(v,w)\\) linear, d.h. \\(β(·,w) ∈ V ^∗\\) .\nEs sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform auf \\(V\\). Dann ist \\(β^ ∨ : V → V ^∗ , w \\mapsto β(·,w)\\) linear. Jede Bilinearform auf \\(V\\) lässt sich also natürlich auf eine lineare Abbildung von \\(V\\) nach \\(V^ ∗\\) abbilden.\nDie Abbildung, die eine Bilinearform \\(β\\) auf \\(β ^∨\\) abbildet, ist ein Isomorphismus von \\(\\Bbb K\\)-Vektorräumen: \\(Bil(V,\\Bbb K) → Hom(V,V^ ∗ ), β \\mapsto β ^∨\\) .",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "[kœri]ing"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "[kœri]ing"
     ]
   },
   {
@@ -610,30 +753,6 @@
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein \\(n\\)-Dimensionaler Vektorraum über einem Körper \\(\\Bbb K\\) und es sei \\(\\beta: V\\times V\\rightarrow\\Bbb K\\) eine Bilinearform. Eine geordnete Basis \\(B\\) ist eine Orthogonalbasis für Beta, wenn für zwei ungleiche \\(b_i,b_j\\) gilt, dass \\(\\beta(b_i,b_j)=0\\)",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Orthogonalbasis"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Orthogonalbasis"
-    ]
-  },
-  {
     "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#eigenschaften",
     "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#eigenschaften",
     "title": "Lineare Algebra II",
@@ -670,6 +789,294 @@
     ]
   },
   {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nDie Koordinatenabbildung \\(b_j\\) bildet einen Vektor \\(v\\in V\\) auf den \\(\\lambda_j\\)-ten Koeffizienten seiner Linearkombination bezüglich einer Basis ab.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Koordinatenabbildung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Koordinatenabbildung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\n\nGegeben sei eine \\(\\Bbb K\\)-lineare Abbildung \\(\\varphi: V\\rightarrow W\\). Dann ist die Abbildung \\[\\varphi^*:W^*\\rightarrow V^*, \\sigma\\mapsto\\sigma\\circ\\varphi\\]Diese nennt man auch die duale Abbildung.\nIst \\(\\varphi:V\\rightarrow W\\) surjektiv, so ist \\(\\varphi^*:W^*\\rightarrow V^*\\) injektiv\nIst \\(\\varphi: V\\rightarrow W\\) bijektiv, so ist \\(\\varphi^*:W^*\\rightarrow V^*\\) bijektiv.\nEs gilt \\((id_V)^*=id_{V^*}\\)\nEs sei \\(U\\) ein Vektorraum über \\(\\Bbb K\\) und \\(\\varphi: V\\rightarrow W\\) und \\(\\psi:U\\rightarrow V\\) lineare Abbildungen. Dann gilt \\((\\varphi\\circ\\psi)^*=\\psi^*\\circ\\varphi^*\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Dualisieren von linearen Abbildungen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Dualisieren von linearen Abbildungen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Gleichung \\(x^2=s\\) hat eine Lösung, wenn:\nFalls \\(\\text{char}(\\Bbb K)\\not=2\\):\n\n\\(s\\) ist quadratisch in \\(\\Bbb K\\) (\\(\\exists w\\in\\Bbb K: w^2=s\\)) und ja.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Lösung einer quadratischen Gleichung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Lösung einer quadratischen Gleichung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) ein Vektorraum. Eine Linearform (manchmal auch lineares Funktional) \\(σ\\) auf \\(V\\) ist ein Element in \\(Hom_{\\Bbb K}(V,\\Bbb K)\\), also eine lineare Abbildung \\(σ : V →\\Bbb K\\). Der Vektorraum \\(V ^∗ := Hom_{\\Bbb K}(V,\\Bbb K)\\) aller Linearformen auf \\(V\\) heißt der Dualraum von \\(V\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Linearform und Dualraum"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Linearform und Dualraum"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Bilinearform heißt symetrisch, falls: \\[\\beta(v,w)=\\beta(w,v)\\]Es gilt: Eine Bilinearform ist symetrisch genau dann, wenn ihre Fundamentalmatrix \\(FM_B(\\beta)\\) symetrisch ist.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Symetrische Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Symetrische Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#einleitung",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#einleitung",
+    "title": "Lineare Algebra II",
+    "section": "Einleitung",
+    "text": "Einleitung\n\nMan kennt ja, dass man für jede Bilinearform eine Quadratische Form finden kann. Jedoch stellt sich auch die Frage, ob das umgekehrt geht. Und antwort: ja! Nunja solange die Charakteristik ungleich 2 ist, dann findet man immer eine umgekehrte symmetrische Bilinearform!",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Polarisierungsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2 und \\(V\\) ein Vektorraum über \\(\\Bbb K\\). Zu jeder quadratischen Form \\(q:V\\rightarrow\\Bbb K\\) gibt es genau eine symmetrische Bilinearform \\(\\beta\\)! Es gilt:\n\\(\\beta(v,w)=\\frac 1 2 (q(v+w)-q(w)-q(v))\\), wobei \\(\\frac 1 2\\) das multiplikatve Inverse von \\(2 = 1+1\\) ist.\nALSO:\nDie Abbildung\n\\[\\{β ∈ Bil(V,K) | β ist symmetrisch\\} → \\{q : V → K | \\text{ q ist eine quadratische Form}\\}, β \\mapsto q_β\\]\nist ein Isomorphismus von \\(\\Bbb K\\)-Vektorräumen hüüü",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Polarisierungsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Polarisierungsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V\\) ein \\(n\\)-Dimensionaler Vektorraum über einem Körper \\(\\Bbb K\\) und es sei \\(\\beta: V\\times V\\rightarrow\\Bbb K\\) eine Bilinearform. Eine geordnete Basis \\(B\\) ist eine Orthogonalbasis für Beta, wenn für zwei ungleiche \\(b_i,b_j\\) gilt, dass \\(\\beta(b_i,b_j)=0\\)",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Orthogonalbasis"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Orthogonalbasis"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Bilinearform \\(\\beta\\) sei symetrisch, wenn \\(\\forall v,w\\in V:\\beta(v,w)=\\beta(w,v)\\iff \\exists\\) geordnete Basis \\(B\\) mit \\(FM_B(\\beta)\\) ist symetrisch",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Symetrische Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Symetrische Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum über einem Körper \\(\\Bbb K\\). Eine Bilinearform ist eine Abbildung \\[\\beta:V\\times V\\rightarrow\\Bbb K\\]die in jeder Komponente linear ist.\nWir bezeichnen die Menge aller Bilinearformen auf \\(V\\) als\n\\(Bil(V,\\Bbb K):=\\{\\beta:V\\times V\\rightarrow\\Bbb K|\\beta\\text{ ist bilinear}\\}\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\n\\(B=(b_1,\\dots,b_n)\\) ist eine Orthonormalbasis für \\(\\beta\\), wenn \\(\\beta(b_i,b_j)=0\\), \\(i\\not=j\\).\nEs gilt (Lemma 3.3.5):\n\n\\(B \\text{ Orthogonalbasis für } \\beta\\iff FM_B(\\beta)\\text{ Diagonalisierbar.}\\)",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Orthogonalbasis einer Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#satz",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#satz",
+    "title": "Lineare Algebra II",
+    "section": "Satz",
+    "text": "Satz\n\nWenn \\(char(\\Bbb K)\\not=2\\) (also \\(1+1\\not=0\\)), \\(V-\\Bbb K\\)-Vektorraum, \\(\\beta\\in Bil(V\\Bbb K)\\), dann:\n\\(\\beta\\) Symetrisch \\(\\iff\\) \\(\\exists\\) Orthogonalbasis von \\(\\beta\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Orthogonalbasis einer Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Orthogonalbasis einer Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nFür jede Bilinearform \\(\\beta\\in Bil(V,\\Bbb K)\\) ist \\[q_\\beta:V\\rightarrow\\Bbb K, v\\mapsto \\beta(v,v)\\]die zu \\(\\beta\\) zugehörige quadratische Form",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Quadratische Form"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Quadratische Form"
+    ]
+  },
+  {
     "objectID": "Auswendiglern-Spickzettelsachen.html",
     "href": "Auswendiglern-Spickzettelsachen.html",
     "title": "Lineare Algebra II",
@@ -680,192 +1087,37 @@
     ]
   },
   {
-    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#winkel-zwischen-senkrechten-vektoren",
-    "href": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#winkel-zwischen-senkrechten-vektoren",
-    "title": "Lineare Algebra II",
-    "section": "Winkel zwischen senkrechten Vektoren",
-    "text": "Winkel zwischen senkrechten Vektoren\n\nWenn der Winkel zwischen zwei Vektoren genau \\(π/2 = 90°\\) beträgt, sind die beiden Vektoren orthogonal: \\[∀v,w ∈ \\Bbb R^3 \\setminus\\{0\\} : v ⊥ w : \\iff \\angle (v,w) = π/2.\\]"
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#über-das-kreuzprodukt",
-    "href": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#über-das-kreuzprodukt",
-    "title": "Lineare Algebra II",
-    "section": "Über das Kreuzprodukt",
-    "text": "Über das Kreuzprodukt\nDas Kreuzprodukt \\(v × w\\) von \\(v \\not= 0\\) und \\(w \\not = 0\\) steht senkrecht auf \\(v\\) und \\(w\\) und für die Norm gilt:\n$||v ×w|| = ||v|| ||w||sin(\\angle (v,w)).$ \nFür das Skalarprodukt \\(〈v,w〉\\) gilt:\n$〈v,w〉 = ||v|| ||w||cos(\\angle (v,w)).$\nDa die Normen \\(||v||\\) und \\(||w||\\) für Vektoren \\(v, w \\neq 0\\) immer positiv sind, richtet sich das Vorzeichen von \\(\\langle v, w \\rangle\\) nur nach dem Kosinus des eingeschlossenen Winkels, d.h.\n\\(\\forall v,w \\in \\mathbb{R}^3 \\setminus \\{0\\} : \\langle v, w \\rangle &gt; 0 \\iff \\cos(\\angle(v, w)) &gt; 0 \\iff \\angle(v, w) &lt; \\frac{\\pi}{2}\\)\\(\\forall v,w \\in \\mathbb{R}^3 \\setminus \\{0\\} : \\langle v, w \\rangle = 0 \\iff \\cos(\\angle(v, w)) = 0 \\iff \\angle(v, w) = \\frac{\\pi}{2}\\)\n\\(\\forall v,w \\in \\mathbb{R}^3 \\setminus \\{0\\} : \\langle v, w \\rangle &lt; 0 \\iff \\cos(\\angle(v, w)) &lt; 0 \\iff \\angle(v, w) &gt; \\frac{\\pi}{2}\\)\nEs gilt also: Zwei Vektoren \\(v, w \\in \\mathbb{R}^3 \\setminus \\{0\\}\\) sind genau dann orthogonal, wenn ihr Skalarprodukt \\(0\\) ist:\n\\(v \\perp w \\iff \\langle v, w \\rangle = 0.\\)\nAußerdem folgt aus der obigen Formel für das Skalarprodukt folgende Formel für das Skalarprodukt eines Vektors mit sich selbst: \\(〈v,v〉 = ||v|| ||v||cos(\\angle (v,v)) = ||v||||v|| =||v||^ 2\\) ."
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#definition",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#definition",
+    "objectID": "0 LA 1/Trigonalisierbarkeit.html#definition",
+    "href": "0 LA 1/Trigonalisierbarkeit.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\in \\{\\Bbb R,\\Bbb C\\}\\) und \\(V\\) ein \\(\\Bbb K\\)-Vektorraum mit Skalarprodukt. Eine Teilmenge \\(M\\subseteq V\\) heiße:\n\nOrthogonalsystem, wenn alle Vektoren ungleich 0 sind und paarweise orthogonal aufeinander stehen.\nOrthonormalsystem, wenn alle Vektoren der Länge 1 haben und paarweise orthogonal aufeinander stehen.",
+    "text": "Definition\n\nEine Matrix heißt trigonalisierbar, wenn es einen basiswechsel gibt, dass sie eine obere dreiecksmatrix ist.\n\nEine Matrix ist trigonalisierbar \\(\\iff\\) das charaketristische Polynom zerfällt in Linearfaktoren\n\nDas schöne ist: da \\(\\Bbb C\\) algebraisch abgeschlossen ist zerfällt ein charakteristisches Polynom in \\(\\Bbb C\\) immer in linearfaktoren also ist \\(\\Bbb C\\) immer Trigonalisierbar",
     "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Orthonormalsystem"
+      "0 LA 1",
+      "Trigonalisierbarkeit"
     ]
   },
   {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#bemerkung",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#bemerkung",
-    "title": "Lineare Algebra II",
-    "section": "Bemerkung",
-    "text": "Bemerkung\n\nAus jedem Orthogonalsystem \\(M\\) lässt sich durch Skalieren der Vektoren ein Orthonormalsystem herstellen, durch\n\\(\\widetilde M := \\left\\{\\frac{1}{||v||}v|v\\in M\\right\\}\\)",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Orthonormalsystem"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#lineare-unabhängigkeit",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#lineare-unabhängigkeit",
-    "title": "Lineare Algebra II",
-    "section": "Lineare Unabhängigkeit",
-    "text": "Lineare Unabhängigkeit\n\nEs sei \\(\\Bbb K\\in \\{\\Bbb R,\\Bbb C\\}\\) und \\(V\\) ein \\(\\Bbb K\\)-Vektorraum mit Skalarprodukt. Dann ist jedes Orthogonalsystem linear unabhängig.",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Orthonormalsystem"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nOrthonormalbasis\nOrthogonalraum\nDie orthogonale Gruppe",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Orthonormalsystem"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#motivation",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#motivation",
-    "title": "Lineare Algebra II",
-    "section": "Motivation",
-    "text": "Motivation\n\nNaja, wenn man einen Vektor bezüglich einer Basis schreiben will muss man immer ein Lineares Gleichungssystem lösen. Z.b. \\((v)_B\\) als \\((x_1,x_2...x_3)\\). Aber das geht auch besser:",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Fourier-Formel"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#definition",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nWenn \\(v\\in V\\) ein Vektor gegeben ist, dann ist die Darstellung bezüglich \\(B\\) gegeben durch: \\[v=\\sum^n_{j=1}&lt;v,b_j&gt;b_j\\]In anderen Worten: \\((v)_B:=(&lt;v,b_1&gt; \\dots &lt;v,b_n&gt;)\\).",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Fourier-Formel"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Fourier-Formel.html#siehe-auch",
+    "objectID": "0 LA 1/Trigonalisierbarkeit.html#siehe-auch",
+    "href": "0 LA 1/Trigonalisierbarkeit.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Fourier-Formel"
+      "0 LA 1",
+      "Trigonalisierbarkeit"
     ]
   },
   {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.html#definition",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.html#definition",
+    "objectID": "TEMPLATES/-.html#definition",
+    "href": "TEMPLATES/-.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\((V,d)\\) ein Metrischer Raum und \\(U\\subseteq V\\) ein Untervektorraum. Es gilt:\n\nFür einen Punt \\(x\\in V\\) ist der Punkt \\(p\\in U\\) mit \\(d(x,U)=d(x,p)\\) stets eindeutig. Wir schreiben \\(\\pi_U(x)=p\\). Diese Funktion nennen wir Orthogonalprojektion.\nDiese Abbildung ist \\(\\Bbb K\\)-linear\nWenn \\((b_1,b_2,\\dots,b_n)\\) eine Orthonormalbasis von \\(U\\) ist, kann man auch schreiben:\\[\\pi_U(x)=\\sum^n_{j=0}&lt;x,b_j&gt;b_j\\]",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Orthogonalprojektion"
-    ]
+    "text": "Definition"
   },
   {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nOrthogonale Zerlegung",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Orthogonalprojektion"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.html#definition",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum mit Skalarprodukt über \\(\\Bbb K\\in\\{\\Bbb R,\\Bbb C\\}\\). Falls \\(U\\subseteq V\\) ein endlich dimensionale Untervektorraum von V ist, gilt: Der Untervektorraum \\(U^⊥\\) ist ein komplementärer Vektorraum, also \\(V=U \\circplus U^⊥\\).\nDaraus resultiert, dass man jeden Vektor \\(v\\in V\\) schreiben kann als \\(v=a\\pi_U(v)+b\\pi_{U^⊥}(v)\\).",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Orthogonale Zerlegung"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonale Zerlegung.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Orthogonale Zerlegung"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html#definition",
-    "href": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nMan nennt einen Vektorraum mit einer Abstandsfunktion einen Metrischen Raum jippie",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.2 Skalarprodukte, Längen und Winkel",
-      "Metrischer Raum"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nIsometrie",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.2 Skalarprodukte, Längen und Winkel",
-      "Metrischer Raum"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.html#definition",
-    "href": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEin reeller Vektorraum mit Skalarprodukt heißt Euklidischer Vektorraum, ein komplexer Vektorraum mit Skalarprodukt heißt unitärer Vektorraum."
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.html#siehe-auch",
+    "objectID": "TEMPLATES/-.html#siehe-auch",
+    "href": "TEMPLATES/-.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
@@ -955,162 +1207,6 @@
     ]
   },
   {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#definition",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\((X,d)\\) ein Metrischer Raum mit der Abstandsfunktion \\(d\\) und \\(A\\subseteq X\\) eine Teilmenge. Dann definieren wir für \\(x\\in X:\\)\n\\[d(x,A)=inf\\{d(x,a)| a\\in A\\}\\]",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Abstand Punkt von einer Teilmenge"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#eindeutigkeit-des-abstandspunktes",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#eindeutigkeit-des-abstandspunktes",
-    "title": "Lineare Algebra II",
-    "section": "Eindeutigkeit des Abstandspunktes",
-    "text": "Eindeutigkeit des Abstandspunktes\n\nWenn es einen Punkt gibt, für den der Abstand zu einer Teilmenge mininal ist, so ist dieser Punkt eindeutig. Hierbei sind äquivalent:\n\nEs sei \\(p\\in A: d(x,p)=d(x,A)\\)\nDie Verbindungsgerade von \\(x\\) und \\(p\\) steht orthogonal auf \\(A\\), also \\(\\forall a\\in A:&lt;x-p,a&gt;=0\\)",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Abstand Punkt von einer Teilmenge"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nOrthogonalprojektion",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Abstand Punkt von einer Teilmenge"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.html#definition",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nFür jeden Vektor \\(v\\in V\\) definieren wir den Orthogonalraum von M als Menge aller Vektoren, die orthogonal zu v sind.\n\n\\(\\{v\\}^T:=\\{w\\in V|v⊥w\\}\\subseteq V\\).\n\nFür eine Teilmenge von \\(V\\) definieren wir den Orthogonalraum von M als den Durchschnitt aller Orthogonalräume der einzelnen Elemente.",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Orthogonalraum"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.4 Orthogonale Komplemente und Projektionen",
-      "Orthogonalraum"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#definition",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\in \\{\\Bbb R,\\Bbb C\\}\\) und \\(V\\) ein \\(\\Bbb K\\)-Vektorraum mit Skalarprodukt. Eine Orthonormalbasis \\(B\\) ist ein Orthonormalsystem von \\(V\\), das eine Basis von \\(V\\) ist. Also eine Basis von Orthogonalen Vektoren die linear unabhängig sind, die \\(V\\) erzeugen.",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Orthonormalbasis"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#warum-ist-das-nice",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#warum-ist-das-nice",
-    "title": "Lineare Algebra II",
-    "section": "Warum ist das nice?",
-    "text": "Warum ist das nice?\n\nNaja, wenn man einen Vektor bezüglich einer Basis schreiben will muss man immer ein Lineares Gleichungssystem lösen. Z.b. \\((v)_B\\) als \\((x_1,x_2...x_3)\\).",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Orthonormalbasis"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nGram-Schmidt\nFourier-Formel\nKomplexe Isometrienormalform",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Orthonormalbasis"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.html#definition",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nDies ist ein Algorithmus um eine Basis zu einer Orthogonalbasis zu machen. Das ist eigentlich nur eine Abgewandelte Version des Gauß-Verfahren (Its all just Gauß).\nGegeben seien \\(\\{v_1,\\dots,v_n\\}\\).\n\\[w_1:=v_1\\]\n\\[w_j:=v_j-\\sum^{j-1}_{i=1}\\frac{&lt;v_j,w_i&gt;}{&lt;w_i,w_i&gt;}w_i\\]\nDANN GILT: \\(\\{w_1,...,w_n\\}\\) ist ein Orthogonalsystem\n\\(LH(w_1,...,w_m)=LH(v_1,...,v_m)\\).",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Gram-Schmidt"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Gram-Schmidt.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.3 Orthonomalbasen",
-      "Gram-Schmidt"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#definition",
-    "href": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nWir kennen aus dem Vektorraum \\(\\Bbb R^3\\) bereits die Operationen die Vektoren addiert und Skalar multipliziert. Es gibt aber noch andere Strukturen, die in der LA1 bisher nicht behandelt wurden: und zwar z.B. die Abstandsfunktion: \\[d:\\Bbb R^3\\times\\Bbb R^3\\rightarrow[0,+\\infty),(x,y)\\mapsto d(x,y)\\] die je zwei Elementen in \\(\\Bbb R^3\\) ihren Abstand zuweist. Darüber hinaus gibt es die Normabbildung \\[||\\cdot||:\\Bbb R^3\\rightarrow[0,+\\infty), v\\mapsto||v||\\] die einem Element in \\(\\Bbb R^3\\) ihre Länge zuweist.",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.1 Vektoren in R",
-      "Neue Operationen auf $\\Bbb R$"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#verbindungen",
-    "href": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#verbindungen",
-    "title": "Lineare Algebra II",
-    "section": "Verbindungen",
-    "text": "Verbindungen\n\nDiese beiden Funktionen sind Verbunden über die Formeln: \\(d(x,y)=||x-y||\\) und \\(||v||=d(0,v)\\)",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.1 Vektoren in R",
-      "Neue Operationen auf $\\Bbb R$"
-    ]
-  },
-  {
-    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#siehe-auch",
-    "href": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nSkalar- und Kreuzprodukt\nAbstandsfunktion",
-    "crumbs": [
-      "1 Skalarprodukte",
-      "1.1 Vektoren in R",
-      "Neue Operationen auf $\\Bbb R$"
-    ]
-  },
-  {
     "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Skalar- und Kreuzprodukt.html#definition",
     "href": "1 Skalarprodukte/1.1 Vektoren in R/Skalar- und Kreuzprodukt.html#definition",
     "title": "Lineare Algebra II",
@@ -1159,389 +1255,339 @@
     ]
   },
   {
-    "objectID": "TEMPLATES/-.html#definition",
-    "href": "TEMPLATES/-.html#definition",
+    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#definition",
+    "href": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition"
+    "text": "Definition\n\nWir kennen aus dem Vektorraum \\(\\Bbb R^3\\) bereits die Operationen die Vektoren addiert und Skalar multipliziert. Es gibt aber noch andere Strukturen, die in der LA1 bisher nicht behandelt wurden: und zwar z.B. die Abstandsfunktion: \\[d:\\Bbb R^3\\times\\Bbb R^3\\rightarrow[0,+\\infty),(x,y)\\mapsto d(x,y)\\] die je zwei Elementen in \\(\\Bbb R^3\\) ihren Abstand zuweist. Darüber hinaus gibt es die Normabbildung \\[||\\cdot||:\\Bbb R^3\\rightarrow[0,+\\infty), v\\mapsto||v||\\] die einem Element in \\(\\Bbb R^3\\) ihre Länge zuweist.",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.1 Vektoren in R",
+      "Neue Operationen auf $\\Bbb R$"
+    ]
   },
   {
-    "objectID": "TEMPLATES/-.html#siehe-auch",
-    "href": "TEMPLATES/-.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#verbindungen",
+    "href": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#verbindungen",
+    "title": "Lineare Algebra II",
+    "section": "Verbindungen",
+    "text": "Verbindungen\n\nDiese beiden Funktionen sind Verbunden über die Formeln: \\(d(x,y)=||x-y||\\) und \\(||v||=d(0,v)\\)",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.1 Vektoren in R",
+      "Neue Operationen auf $\\Bbb R$"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#einleitung",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#einleitung",
-    "title": "Lineare Algebra II",
-    "section": "Einleitung",
-    "text": "Einleitung\n\nMan kennt ja, dass man für jede Bilinearform eine Quadratische Form finden kann. Jedoch stellt sich auch die Frage, ob das umgekehrt geht. Und antwort: ja! Nunja solange die Charakteristik ungleich 2 ist, dann findet man immer eine umgekehrte symmetrische Bilinearform!",
+    "text": "Siehe auch\n\n\nSkalar- und Kreuzprodukt\nAbstandsfunktion",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Polarisierungsidentität"
+      "1 Skalarprodukte",
+      "1.1 Vektoren in R",
+      "Neue Operationen auf $\\Bbb R$"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#definition",
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#definition",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2 und \\(V\\) ein Vektorraum über \\(\\Bbb K\\). Zu jeder quadratischen Form \\(q:V\\rightarrow\\Bbb K\\) gibt es genau eine symmetrische Bilinearform \\(\\beta\\)! Es gilt:\n\\(\\beta(v,w)=\\frac 1 2 (q(v+w)-q(w)-q(v))\\), wobei \\(\\frac 1 2\\) das multiplikatve Inverse von \\(2 = 1+1\\) ist.\nALSO:\nDie Abbildung\n\\[\\{β ∈ Bil(V,K) | β ist symmetrisch\\} → \\{q : V → K | \\text{ q ist eine quadratische Form}\\}, β \\mapsto q_β\\]\nist ein Isomorphismus von \\(\\Bbb K\\)-Vektorräumen hüüü",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\in \\{\\Bbb R,\\Bbb C\\}\\) und \\(V\\) ein \\(\\Bbb K\\)-Vektorraum mit Skalarprodukt. Eine Orthonormalbasis \\(B\\) ist ein Orthonormalsystem von \\(V\\), das eine Basis von \\(V\\) ist. Also eine Basis von Orthogonalen Vektoren die linear unabhängig sind, die \\(V\\) erzeugen.",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Polarisierungsidentität"
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Orthonormalbasis"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#warum-ist-das-nice",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#warum-ist-das-nice",
+    "title": "Lineare Algebra II",
+    "section": "Warum ist das nice?",
+    "text": "Warum ist das nice?\n\nNaja, wenn man einen Vektor bezüglich einer Basis schreiben will muss man immer ein Lineares Gleichungssystem lösen. Z.b. \\((v)_B\\) als \\((x_1,x_2...x_3)\\).",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Orthonormalbasis"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalbasis.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "text": "Siehe auch\n\n\nGram-Schmidt\nFourier-Formel\nKomplexe Isometrienormalform",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Polarisierungsidentität"
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Orthonormalbasis"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#definition",
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#definition",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEine Bilinearform heißt symetrisch, falls: \\[\\beta(v,w)=\\beta(w,v)\\]Es gilt: Eine Bilinearform ist symetrisch genau dann, wenn ihre Fundamentalmatrix \\(FM_B(\\beta)\\) symetrisch ist.",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\in \\{\\Bbb R,\\Bbb C\\}\\) und \\(V\\) ein \\(\\Bbb K\\)-Vektorraum mit Skalarprodukt. Eine Teilmenge \\(M\\subseteq V\\) heiße:\n\nOrthogonalsystem, wenn alle Vektoren ungleich 0 sind und paarweise orthogonal aufeinander stehen.\nOrthonormalsystem, wenn alle Vektoren der Länge 1 haben und paarweise orthogonal aufeinander stehen.",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Symetrische Bilinearform"
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Orthonormalsystem"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#bemerkung",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#bemerkung",
+    "title": "Lineare Algebra II",
+    "section": "Bemerkung",
+    "text": "Bemerkung\n\nAus jedem Orthogonalsystem \\(M\\) lässt sich durch Skalieren der Vektoren ein Orthonormalsystem herstellen, durch\n\\(\\widetilde M := \\left\\{\\frac{1}{||v||}v|v\\in M\\right\\}\\)",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Orthonormalsystem"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#lineare-unabhängigkeit",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#lineare-unabhängigkeit",
+    "title": "Lineare Algebra II",
+    "section": "Lineare Unabhängigkeit",
+    "text": "Lineare Unabhängigkeit\n\nEs sei \\(\\Bbb K\\in \\{\\Bbb R,\\Bbb C\\}\\) und \\(V\\) ein \\(\\Bbb K\\)-Vektorraum mit Skalarprodukt. Dann ist jedes Orthogonalsystem linear unabhängig.",
+    "crumbs": [
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Orthonormalsystem"
+    ]
+  },
+  {
+    "objectID": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.3 Orthonomalbasen/Orthonormalsystem.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "text": "Siehe auch\n\n\nOrthonormalbasis\nOrthogonalraum\nDie orthogonale Gruppe",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Symetrische Bilinearform"
+      "1 Skalarprodukte",
+      "1.3 Orthonomalbasen",
+      "Orthonormalsystem"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html",
-    "title": "Lineare Algebra II",
-    "section": "",
-    "text": "Symetrischer Gauß isnt real, he cant hurt you.\nSymetrischer Gauß:",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "TITLE"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#title",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#title",
-    "title": "Lineare Algebra II",
-    "section": "",
-    "text": "Symetrischer Gauß isnt real, he cant hurt you.\nSymetrischer Gauß:",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "TITLE"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#definition",
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.html#definition",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition",
+    "text": "Definition\n\nFür jeden Vektor \\(v\\in V\\) definieren wir den Orthogonalraum von M als Menge aller Vektoren, die orthogonal zu v sind.\n\n\\(\\{v\\}^T:=\\{w\\in V|v⊥w\\}\\subseteq V\\).\n\nFür eine Teilmenge von \\(V\\) definieren wir den Orthogonalraum von M als den Durchschnitt aller Orthogonalräume der einzelnen Elemente.",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "TITLE"
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Orthogonalraum"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrischer Gauß.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "TITLE"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\n\\(char(\\Bbb K)\\not= 0\\) (also \\(1+1\\not=0\\))- Zu jeder quadratischen Form \\(q\\) einer \\(\\beta\\in Bil(V,\\Bbb K)\\), so \\(\\exists !\\) symetrische Bilinearform \\(\\beta_s\\) mit \\(q=q_{\\beta_1}\\). Es ist \\(\\beta(v,w)=\\frac 1 2\\) \\((q(v+w)-q(v)-q(w))\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Polarisierugsidentität"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalraum.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Polarisierugsidentität"
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Orthogonalraum"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#definition",
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.html#definition",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nFür jede Bilinearform \\(\\beta\\in Bil(V,\\Bbb K)\\) ist \\[q_\\beta:V\\rightarrow\\Bbb K, v\\mapsto \\beta(v,v)\\]die zu \\(\\beta\\) zugehörige quadratische Form",
+    "text": "Definition\n\nEs sei \\((V,d)\\) ein Metrischer Raum und \\(U\\subseteq V\\) ein Untervektorraum. Es gilt:\n\nFür einen Punt \\(x\\in V\\) ist der Punkt \\(p\\in U\\) mit \\(d(x,U)=d(x,p)\\) stets eindeutig. Wir schreiben \\(\\pi_U(x)=p\\). Diese Funktion nennen wir Orthogonalprojektion.\nDiese Abbildung ist \\(\\Bbb K\\)-linear\nWenn \\((b_1,b_2,\\dots,b_n)\\) eine Orthonormalbasis von \\(U\\) ist, kann man auch schreiben:\\[\\pi_U(x)=\\sum^n_{j=0}&lt;x,b_j&gt;b_j\\]",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Quadratische Form"
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Orthogonalprojektion"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#siehe-auch",
+    "objectID": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.html#siehe-auch",
+    "href": "1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Orthogonalprojektion.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "text": "Siehe auch\n\n\nOrthogonale Zerlegung",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Quadratische Form"
+      "1 Skalarprodukte",
+      "1.4 Orthogonale Komplemente und Projektionen",
+      "Orthogonalprojektion"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#vorhilfssätze",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#vorhilfssätze",
     "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\n\\(B=(b_1,\\dots,b_n)\\) ist eine Orthonormalbasis für \\(\\beta\\), wenn \\(\\beta(b_i,b_j)=0\\), \\(i\\not=j\\).\nEs gilt (Lemma 3.3.5):\n\n\\(B \\text{ Orthogonalbasis für } \\beta\\iff FM_B(\\beta)\\text{ Diagonalisierbar.}\\)",
+    "section": "Vorhilfssätze",
+    "text": "Vorhilfssätze\n\nEs sei \\(A\\in\\Bbb C^{n\\times n}\\). Dann:\n\n\\(A\\) ist obere dreiecksmatrix und selbstadjungiert\n\\(A\\) ist eine Diagonalmatrix mit reelen Einträgen\n\nSowie\nEs sei jetzt auch \\(B\\in\\Bbb C^{n\\times n}\\)\nFalls \\(A\\) unitär und ähnlich zu \\(B\\) ist und \\(A\\) selbstadjungiert ist, dann ist auch \\(B\\) selbstadjungiert.",
     "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Orthogonalbasis einer Bilinearform"
+      "2 Isometrien und Homomorphismen",
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "Spektralsatz"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#satz",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#satz",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#satz",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#satz",
     "title": "Lineare Algebra II",
     "section": "Satz",
-    "text": "Satz\n\nWenn \\(char(\\Bbb K)\\not=2\\) (also \\(1+1\\not=0\\)), \\(V-\\Bbb K\\)-Vektorraum, \\(\\beta\\in Bil(V\\Bbb K)\\), dann:\n\\(\\beta\\) Symetrisch \\(\\iff\\) \\(\\exists\\) Orthogonalbasis von \\(\\beta\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Orthogonalbasis einer Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Orthogonalbasis einer Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nDt. Schönfinkeln.\nBilinearformen sind keine lineare Abbildungen und deshalb können wir es nicht so epic mit den ganzen Tools aus der Linearen Algebra untersuchen. Wenn wir aber eine Variable sozusagen “festhalten”, dann erhalten wir eine Abbildung, die einfacher handzuhaben ist.\nAlso\n\\(f:X\\times Y\\rightarrow Z\\). Wenn wir z.B. \\(y\\in Y\\) festhalten, erhalten wir die Funktion \\(f(\\cdot,y):X\\rightarrow Z\\). Man schreibt auch:\n\\(f^\\vee Y\\rightarrow Z^X, y\\mapsto f(\\cdot,y)\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "[kœri]ing"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#bilinearformen-dann",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#bilinearformen-dann",
-    "title": "Lineare Algebra II",
-    "section": "Bilinearformen dann",
-    "text": "Bilinearformen dann\n\nEs sei V ein Vektorraum über einem Körper \\(\\Bbb K\\).\nWie Defintion 3.1.1 eingeführt bezeichnen wir den Dualraum von V mit V ∗ := HomK(V,K).\n\nEs sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform auf \\(V\\). Dann ist für jeden Vektor \\(w ∈ V\\) die Abbildung \\(β(·,w) : V → \\Bbb K, v \\mapsto β(v,w)\\) linear, d.h. \\(β(·,w) ∈ V ^∗\\) .\nEs sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform auf \\(V\\). Dann ist \\(β^ ∨ : V → V ^∗ , w \\mapsto β(·,w)\\) linear. Jede Bilinearform auf \\(V\\) lässt sich also natürlich auf eine lineare Abbildung von \\(V\\) nach \\(V^ ∗\\) abbilden.\nDie Abbildung, die eine Bilinearform \\(β\\) auf \\(β ^∨\\) abbildet, ist ein Isomorphismus von \\(\\Bbb K\\)-Vektorräumen: \\(Bil(V,\\Bbb K) → Hom(V,V^ ∗ ), β \\mapsto β ^∨\\) .",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "[kœri]ing"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "[kœri]ing"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\n\nGegeben sei eine \\(\\Bbb K\\)-lineare Abbildung \\(\\varphi: V\\rightarrow W\\). Dann ist die Abbildung \\[\\varphi^*:W^*\\rightarrow V^*, \\sigma\\mapsto\\sigma\\circ\\varphi\\]Diese nennt man auch die duale Abbildung.\nIst \\(\\varphi:V\\rightarrow W\\) surjektiv, so ist \\(\\varphi^*:W^*\\rightarrow V^*\\) injektiv\nIst \\(\\varphi: V\\rightarrow W\\) bijektiv, so ist \\(\\varphi^*:W^*\\rightarrow V^*\\) bijektiv.\nEs gilt \\((id_V)^*=id_{V^*}\\)\nEs sei \\(U\\) ein Vektorraum über \\(\\Bbb K\\) und \\(\\varphi: V\\rightarrow W\\) und \\(\\psi:U\\rightarrow V\\) lineare Abbildungen. Dann gilt \\((\\varphi\\circ\\psi)^*=\\psi^*\\circ\\varphi^*\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Dualisieren von linearen Abbildungen"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Dualisieren von linearen Abbildungen"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) ein Vektorraum. Eine Linearform (manchmal auch lineares Funktional) \\(σ\\) auf \\(V\\) ist ein Element in \\(Hom_{\\Bbb K}(V,\\Bbb K)\\), also eine lineare Abbildung \\(σ : V →\\Bbb K\\). Der Vektorraum \\(V ^∗ := Hom_{\\Bbb K}(V,\\Bbb K)\\) aller Linearformen auf \\(V\\) heißt der Dualraum von \\(V\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Linearform und Dualraum"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Linearform und Dualraum"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nWir haben einen \\(n\\)-Dimensionalen unitären Vektorraum und \\(\\varphi\\in End_{\\Bbb C}(V)\\).\n\\(\\varphi\\) lineare Isometrie \\(\\implies\\) \\(\\varphi\\) ist unitär diagonalisierbar und alle Eigenwerte haben Betrag 1, d.h. es gibt eine Orthonormalbasis \\(B\\), sodass \\(M_{B,B}(\\varphi)\\) eine Diagonaleinheitsmatrix ist.",
+    "text": "Satz\n\n\n\\(A\\) ist selbstadjungiert, d.h. \\(A^*=A\\)\nDie Matrix \\(A\\) ist unitär diagonalisierbar und alle Eigenwerte von \\(A\\) sind reel.\n\nDas ist Äquivalent :OOOOOOO OOO",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Komplexe Isometrienormalform"
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "Spektralsatz"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch",
+    "text": "Siehe auch\n\n\nSpektralsatz für komplexe normale Matrizen",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Komplexe Isometrienormalform"
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "Spektralsatz"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(n\\in\\Bbb N\\) und \\(A\\in\\Bbb C^{n\\times n}\\).\n\nWenn \\(v\\in\\Bbb C^n\\) ein Eigenvektor von \\(A\\) zum Eigenwert \\(\\lambda\\) ist, dann ist \\(\\bar v\\in\\Bbb C^n\\) ein Eigenvektor von \\(\\bar A\\) zum Eigenwert \\(\\bar \\lambda\\).\nFalls \\(A\\) nur reelle Einträge besitzt, dann ist zu jedem komplexen Eigenwert \\(λ\\) auch die komplex konjugierte Zahl \\(\\bar λ\\) ein Eigenwert. Insbesondere treten nicht-reelle Eigenwerte immer in Paaren auf.",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\in\\{\\Bbb R,\\Bbb C\\}\\) und \\(V\\) ein \\(\\Bbb K\\)-Vektorraum mit Skalarprodukt. Für einen Endomorphismus \\(\\varphi:V\\rightarrow V\\) sind äquivalent:\n\nDas charakteristische Polynom von \\(\\varphi\\) zerfällt über \\(\\Bbb K\\) in Linearfaktoren\nDer endomorphismus ist trigonalisierbar\nDer endomorphismus ist orthogonal/unitär trigonalisierbar",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Konjugierte Eigenwerte"
+      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
+      "Orthogonale bzw Unitäre Trigonalisierung"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Konjugierte Eigenwerte"
+      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
+      "Orthogonale bzw Unitäre Trigonalisierung"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#einleitung",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#einleitung",
     "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}.\\) Gegeben seien weiterhin \\(\\Bbb K\\)-Vektorräume mit Skalarprodukt \\(V\\) und \\(W\\). Falls \\(dim(V) = n ∈ \\Bbb N\\) und \\(dim(W) = m ∈ \\Bbb N\\) endlich sind, dann hat jede lineare Abbildung \\(ϕ : V → W\\) eine adjungierte Abbildung \\(ϕ^∗ : W → V\\). Weiterhin gilt: Falls \\(B\\) eine Orthonormalbasis von \\(V\\) und \\(C\\) eine Orthonormalbasis von W$ ist, dann gilt: \\[M_{B,C}(ϕ^*)  = (M_{C,B}(ϕ))^*\\]",
+    "section": "Einleitung",
+    "text": "Einleitung\n\nNaja, Matrizen die aus \\(\\Bbb R^{n\\times n}\\) sind und die Eigenschaften einer orthogonalen Matrix erfüllen nennen wir orthogonale Matrix lolz. Wenn unsere Matrix jetzt nicht aus \\(\\Bbb R^{n\\times n}\\) sondern \\(\\Bbb C^{n\\times n}\\) ist, nennen wir sie eine unitäre Matrix",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Der Satz, der sagt, dass im endlichdimensionalen alles gut geht"
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "unitäre Matrix"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Der Satz, der sagt, dass im endlichdimensionalen alles gut geht.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Matrix \\(A\\in\\Bbb C^{n\\times n}\\) heißt unitäre Matrix, wenn \\(A\\) die Eigenschaften eines isometrischen Isomorphismuse erfüllt.\n\\(A \\text{ orthogonal}\\iff A^TA=\\Bbb 1_n\\iff \\text{Spalten von A ONB von }\\Bbb R^n\\)\nMan schreibt\n\\(U(n):=\\{A\\in\\Bbb C^{n\\times n}|A^TA=\\Bbb 1_n\\}\\)\nAlle Drehungen und Spiegelungen im Raum sind da drinnen!",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "unitäre Matrix"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#die-spezielle-orthogonale-gruppe-orientierungserhaltened",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#die-spezielle-orthogonale-gruppe-orientierungserhaltened",
+    "title": "Lineare Algebra II",
+    "section": "Die spezielle orthogonale Gruppe (orientierungserhaltened)",
+    "text": "Die spezielle orthogonale Gruppe (orientierungserhaltened)\n\nManchmal sind alle orthogonalen Matrizen interessant, dessen Determinante 1 beträgt. Man schreibt für diese:\n\\(SU(n):=\\{A\\in O(n)|det(A)=1\\}\\).",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "unitäre Matrix"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#determinante",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#determinante",
+    "title": "Lineare Algebra II",
+    "section": "Determinante",
+    "text": "Determinante\n\nEine orthogonale Matrix hat immer \\(det\\) \\(-1\\) oder \\(1\\). Eine unitäre Matrix hat immer \\(det\\) von \\(|1|\\).",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "unitäre Matrix"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/unitäre Matrix.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Der Satz, der sagt, dass im endlichdimensionalen alles gut geht"
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "unitäre Matrix"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V = R^n\\) mit dem Standardskalarprodukt und der daraus resultierenden Metrik und \\(v_0 ∈ V\\) ein Vektor. Die Translation um \\(v_0\\) ist die Abbildung \\(τ_{v_0} : R^n → R^n , x \\mapsto x+ v_0\\), die jeden Punkt um den Vektor \\(v_0\\) verschiebt. Eine solche Translation ist eine Isometrie, jedoch nicht linear.",
+    "text": "Definition\n\nAjungierte \\(\\not=\\) Adjunkte\n\\(A\\in\\Bbb K^{n\\times n}\\)\nDie Adjungierte Matrix ist die Matrix die man dadurch erhält, dass man alle Elemente konjugiert und die Matrix dann Transponiert lolz.\nMan schreibt \\(A^*\\)",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "Adjungierte Matrix"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Adjungierte Matrix.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nisometrischer Isomorphismus\nSelbstadjungierte Matrix\nAdjungierte Abbildungen\nNormale Matrix",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.2 Die orthogonale und unitäre Gruppe",
+      "Adjungierte Matrix"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nLol, für eine Lineare Abbildung \\(\\varphi: V\\rightarrow W\\) ist äquivalent:\n\n\\(\\varphi\\) ist eine Isometrie, erhält also Abstände\n\\(\\varphi\\) ist längenerhaltend, also \\(\\forall v:||\\varphi(v)||_W=||v||_V\\)\n\\(\\varphi\\) erhält das Skalarprodukt, also \\(\\forall v_1,v_2:&lt;\\varphi(v_1),\\varphi(v_2)&gt;_W=&lt;v_1,v_2&gt;\\).",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.1 Isometrien und isometrische Isomorphismen",
-      "Translation um $v_0$"
+      "TITLE"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Translation um v0.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.1 Isometrien und isometrische Isomorphismen/Lineare Isometrien.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "text": "Siehe auch\n\n\nisometrischer Isomorphismus",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.1 Isometrien und isometrische Isomorphismen",
-      "Translation um $v_0$"
+      "TITLE"
     ]
   },
   {
@@ -1593,75 +1639,135 @@
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEine Matrix ist Orthogonal bzw unitär diagonalisierbar, wenn es eine orthogonale/unitäre Basiswechselmatrix gibt, sodass sie ähnlich zu einer diagonalmatrix ist.",
+    "text": "Definition",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
-      "Orthogonal bzw unitär diagonalisierbar"
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#kriterien",
-    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#kriterien",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reelen-isometrie-normalformen-helfen",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reelen-isometrie-normalformen-helfen",
     "title": "Lineare Algebra II",
-    "section": "Kriterien",
-    "text": "Kriterien\n\nFolgendes ist (für einen \\(\\Bbb K\\in\\{\\Bbb R,\\Bbb C\\}\\)-Vektorraum \\(V\\) mit Endomorphismus \\(\\varphi:V\\rightarrow V\\) äquivalent:\n\nDer Endomorphismus ist orthogonal/unitär diagonalisierbar. D.h. es gibt eine Orthonormalbasis \\(B\\) von \\(V\\), sodass \\(M_{B,B}(\\varphi)\\) eine Diagonalmatrix ist.\nEs gibt eine Orthonormalbasis \\(B\\), die aus Eigenvektoren besteht\nDer Endomorphismus \\(\\varphi\\) ist diagonaliserbar und je zwei Eigenräume sind orthogonal zueinander.",
+    "section": "Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:",
+    "text": "Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:\n\n\nBei Basiswechel ist die Spur invariant\nBei Basiswechsel sind die Eigenwerte Invariant\nDie Winkel in der komplexen Isometrie-Normalform sind die selben wie in der Reelen\nIst \\(A\\in\\Bbb R^{n\\times n}\\), und ist \\(\\lambda\\in\\Bbb C\\) ein EW von A, so ist auch \\(\\bar\\lambda\\) ein EV von A.",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
-      "Orthogonal bzw unitär diagonalisierbar"
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-bestimmt-man-die-reele-isometrie-normalform",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-bestimmt-man-die-reele-isometrie-normalform",
+    "title": "Lineare Algebra II",
+    "section": "Wie bestimmt man die Reele Isometrie-Normalform?",
+    "text": "Wie bestimmt man die Reele Isometrie-Normalform?\n\nNie vergessen: alle Drehkästchen müssen einen Winkel zwischen \\(0\\) und \\(\\pi\\) haben!\n\n1. Spurtrick:\nMan beobachtet, dass die Spur bei Basiswechel erhalten bleibt (Lineare Algebra 1 5.5). Also können wir bei kleineren Matrizen manchmal die Spur unserer Matrix damit vergleichen, wie sie in der Isometrie-Normalform aussehen kann und daraus Schlüsse ziehen.\n\nBeispiel:\nWas ist die reele Isometrienormalform von \\(\\varphi: V\\rightarrow V,\\varphi\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ -1 \\end{pmatrix}, \\varphi\\begin{pmatrix} 0 \\\\ 1\\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}\\).\n\\(\\implies M_{E,E}(\\varphi)=\\begin{pmatrix} 0 & 1 \\\\ -1 & 0\\end{pmatrix}\\implies  Spur(\\varphi)=0\\).\n\\(\\implies\\) Die Spur der Isometrienormalform muss auch \\(0\\) sein, also ist sie \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) oder \\(D_\\alpha\\) mit \\(2cos(\\alpha)=0\\).\nDa \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) keine reelen Eigenwerte hat, kann \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) nicht die Isometrienormalform sein.\n\n\n\n2. Trick mit der Transponierten\nEs sei Matrix \\(A\\in\\Bbb R^{n\\times n}\\)\n\n\\(A\\) hat EW 1 \\(\\iff\\) \\(A+A^T\\) hat EW 2\n\\(A\\) hat EW -1 \\(\\iff\\) \\(A+A^T\\) hat EW -2\n\\(A\\) hat das Paar \\(e^{i\\alpha}\\) und \\(e^{-i\\alpha}\\) als EW \\(\\iff\\) \\(A+A^T\\) hat den doppelten EW \\(2cos(\\alpha)\\).\n\n\nBeispiel:\n\\(A=\\begin{pmatrix} 0&0&1&0 \\\\ 0&0&0&1 \\\\ -1&0&0&0 \\\\ 0&-1&0&0 \\end{pmatrix}, \\varphi:\\Bbb R^4\\rightarrow\\Bbb R^4,\\varphi(x)=Ax\\)- Welche Isometrienormalform hat \\(\\varphi\\)?\n\\(B:=A+A^T=0,p_B(X)=\\det\\begin{pmatrix} X&0&0&0 \\\\ 0&X&0&0 \\\\ 0&0&X&0 \\\\ 0&0&0&X \\end{pmatrix}=X^4\\implies B\\) hat nur EW 0.\nTranspositionstrick: INF von \\(\\varphi\\) ist \\(\\begin{pmatrix} D_\\alpha&\\\\&D_\\alpha \\end{pmatrix}\\) mit \\(2\\cos(\\alpha)=0\\), also \\(\\alpha=\\frac \\pi 2\\)",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
+    "title": "Lineare Algebra II",
+    "section": "Wie findet man eine passende Orthonormalbasis B?",
+    "text": "Wie findet man eine passende Orthonormalbasis B?\n\nGegeben \\(A\\in\\Bbb R^{n\\times n}\\) mit \\(\\varphi:\\Bbb R^n\\rightarrow\\Bbb R^n,\\varphi(x)=Ax\\).\n\nBestimme alle EW von \\(A\\) (z.b. mit dem Transponiertrick)\nFalls \\(A\\) die EW \\(-1\\) oder \\(1\\) hat, bestimme Orthonormalbasen \\(B_1\\) von \\(E_1(A)\\) und \\(B_{-1}\\) von \\(E_{-1}(A)\\).\nFür jede EW-paar \\(\\underbrace{e^{i\\alpha}}_{=\\lambda_j},\\underbrace{e^{-i\\alpha}}_{=\\bar\\lambda_j}\\) mit \\(0&lt;\\alpha_k&lt;\\pi\\):\n\nBestimme Orthonormalbasis \\((v_1,\\dots,v_t)\\) von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)\\). (! Auch komplexe Vektoren erlaubt!)\nSetze \\(a_k:=Re(v_k)\\) und \\(b_k:=Im(v_K)\\)\nSetze \\(\\widetilde{a_k}:=\\frac {a_k}{||a_k||}\\) und \\(\\widetilde{b_k}:=\\frac {b_k}{||b_k||}\\)\n\\(B_{\\lambda_j}:=(\\widetilde{a_1},\\widetilde{b_1},\\dots,\\widetilde{a_t}\\widetilde{b_t})\\) ist ONB von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)+E_{\\bar\\lambda_j}(\\varphi_\\Bbb C)\\)\n\\(\\implies B:=B_1\\cup B_{-1}\\cup B_{\\lambda_1}\\cup\\dots\\cup B_{\\lambda_m}\\).\n\n\n\nBeispiel:\n\\(\\textbf{Beispiel:}\\)\n\\(A = \\begin{pmatrix} 0&0 & 1 & 0 \\\\ 0&0&0&1 \\\\ 0&-1& 0& 0\\\\0&-1&0&0\\end{pmatrix}\\), hat EQ \\(\\lambda_1 = \\underbrace{e^{i \\frac{\\pi}{2}}}_{=i}, \\bar\\lambda_1 = \\underbrace{e^{-i \\frac{\\pi}{2}}}_{=i}\\)\n\\(E_{\\lambda_1}(A) = E_{i}(A) = \\ker(A - i\\Bbb 14) =^{[...]} LH \\left(\\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix},\\begin{pmatrix} -i \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix}\\right)\\)\\(v_1 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix} , \\; v_2 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -i \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}\\),bilden ONB von \\(E_{\\lambda_i}(A)\\)\n\\(a_1 = \\text{Re}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\ 1 \\end{pmatrix}, \\quad b_1 = \\text{Im}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\)\\(a_2 = \\text{Re}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}, \\quad b_2 = \\text{Im}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -1 \\\\ 0 \\\\ 0\\\\0 \\end{pmatrix}\\)\n\\(B = (\\widetilde b_1,\\widetilde a_1,\\widetilde b_2,\\widetilde a_2)\\) ist gesuchte ONB von A \\(A \\widetilde{b_1} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0\\\\1 \\end{pmatrix} =\\widetilde{a_1}, \\quad A \\widetilde{b_2} = \\begin{pmatrix} 0 \\\\ 0\\\\1 \\\\ 0 \\end{pmatrix} \\widetilde{a_2}\\)\n\\(A \\widetilde{a_1} = \\begin{pmatrix} 0 \\\\ 1 \\\\ 0\\\\0 \\end{pmatrix} =\\widetilde{-b_1}, \\quad A \\widetilde{a_2} = \\begin{pmatrix} 1 \\\\ 0\\\\0 \\\\ 0 \\end{pmatrix} \\widetilde{-b_2}\\)\n\\(\\implies M_{B,B}(A) = \\begin{pmatrix} 0 & -1 & 0&0 \\\\ 1 & 0 & 0&0 \\\\ 0 & 0 & 0&-1\\\\0&0&1&0 \\end{pmatrix}\\). ist Isometrienormalform ✅",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.3 Unitäre Trigonalisierung und Diagonalisierung",
-      "Orthogonal bzw unitär diagonalisierbar"
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reele Isometrie-Normalform"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#vorhilfssätze",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#vorhilfssätze",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#definition",
     "title": "Lineare Algebra II",
-    "section": "Vorhilfssätze",
-    "text": "Vorhilfssätze\n\nEs sei \\(A\\in\\Bbb C^{n\\times n}\\). Dann:\n\n\\(A\\) ist obere dreiecksmatrix und selbstadjungiert\n\\(A\\) ist eine Diagonalmatrix mit reelen Einträgen\n\nSowie\nEs sei jetzt auch \\(B\\in\\Bbb C^{n\\times n}\\)\nFalls \\(A\\) unitär und ähnlich zu \\(B\\) ist und \\(A\\) selbstadjungiert ist, dann ist auch \\(B\\) selbstadjungiert.",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}\\) und \\((V,〈·,·〉V )\\) und \\((W,〈·,·〉W)\\) seien Vektorräume mit Skalarprodukt. Weiterhin seien zwei Abbildungen \\(ϕ : V → W\\) und \\(ψ : W → V\\) gegeben.\nWir sagen \\(ψ\\) ist adjungiert zu \\(ϕ\\), falls gilt:\n\\[\\forall v\\in V;\\forall w\\in W: &lt;\\varphi(v),w&gt;_W=&lt;v,\\psi(w)&gt;_V\\]",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
-      "Spektralsatz"
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Adjungierte Abbildungen"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#satz",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#satz",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#eigenschaften",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#eigenschaften",
     "title": "Lineare Algebra II",
-    "section": "Satz",
-    "text": "Satz\n\n\n\\(A\\) ist selbstadjungiert, d.h. \\(A^*=A\\)\nDie Matrix \\(A\\) ist unitär diagonalisierbar und alle Eigenwerte von \\(A\\) sind reel.\n\nDas ist Äquivalent :OOOOOOO OOO",
+    "section": "Eigenschaften",
+    "text": "Eigenschaften\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}\\) und \\((V,〈·,·〉V )\\) und \\((W,〈·,·〉W)\\) seien Vektorräume mit Skalarprodukt.\n\nWenn \\(ψ : W → V\\) zu \\(ϕ : V → W\\) adjungiert ist, dann sind \\(ϕ\\) und \\(ψ\\) linear.\nWenn \\(ψ : W → V\\) zu \\(ϕ : V → W\\) adjungiert ist, dann ist \\(ϕ\\) zu \\(ψ\\) adjungiert.\nWenn \\(ϕ : V → W\\) eine adjungierte Abbildung \\(ψ : W → V\\) besitzt, so ist diese eindeutig.",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
-      "Spektralsatz"
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Adjungierte Abbildungen"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nSpektralsatz für komplexe normale Matrizen",
+    "text": "Siehe auch\n\n\nDer Satz, der sagt, dass im endlichdimensionalen alles gut geht",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
-      "Spektralsatz"
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Adjungierte Abbildungen"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#für-normale-abbildungen",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#für-normale-abbildungen",
+    "title": "Lineare Algebra II",
+    "section": "für normale Abbildungen",
+    "text": "für normale Abbildungen\n\nEs sei \\(n ∈ \\Bbb N\\) und \\(V\\) ein unitärer Vektorraum der Dimension \\(n\\). Ein Endomorphismus \\(ϕ ∈ End_{\\Bbb C}(V)\\) ist genau dann unitär diagonalisierbar, wenn er eine normale Abbildung ist.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Spektralsätze für diverse Abbildungen"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#für-selbstadjungierte-abbildungen",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#für-selbstadjungierte-abbildungen",
+    "title": "Lineare Algebra II",
+    "section": "für selbstadjungierte Abbildungen",
+    "text": "für selbstadjungierte Abbildungen\n\nEs sei \\(n ∈ \\Bbb N\\) und \\(V\\) ein Euklidischer Vektorraum der Dimension \\(n\\). Ein Endomorphismus \\(ϕ ∈ End_{\\Bbb R}(V)\\) ist genau dann orthogonal diagonalisierbar, wenn er eine selbstadjungierte Abbildung ist.",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Spektralsätze für diverse Abbildungen"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Spektralsätze für diverse Abbildungen"
     ]
   },
   {
@@ -1686,86 +1792,6 @@
       "2 Isometrien und Homomorphismen",
       "2.5 Normale Matrizen",
       "Spektralsatz für komplexe normale Matrizen"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEine Matrix \\(A\\in\\Bbb R^{n\\times n}\\) heißt orthogonale Matrix, wenn \\(A\\) die Eigenschaften eines isometrischen Isomorphismuse erfüllt.\n\\(A \\text{ orthogonal}\\iff A^TA=\\Bbb 1_n\\iff \\text{Spalten von A ONB von }\\Bbb R^n\\)\nMan schreibt\n\\(O(n):=\\{A\\in\\Bbb R^{n\\times n}|A^TA=\\Bbb 1_n\\}\\)\nAlle Drehungen und Spiegelungen im Raum sind da drinnen!",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "Die orthogonale Gruppe"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#die-spezielle-orthogonale-gruppe-orientierungserhaltened",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#die-spezielle-orthogonale-gruppe-orientierungserhaltened",
-    "title": "Lineare Algebra II",
-    "section": "Die spezielle orthogonale Gruppe (orientierungserhaltened)",
-    "text": "Die spezielle orthogonale Gruppe (orientierungserhaltened)\n\nManchmal sind alle orthogonalen Matrizen interessant, dessen Determinante 1 beträgt. Man schreibt für diese:\n\\(SO(n):=\\{A\\in O(n)|det(A)=1\\}\\).",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "Die orthogonale Gruppe"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/Die orthogonale Gruppe.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nunitäre Matrix\nOrthogonal ähnlich\nOrthogonal bzw unitär diagonalisierbar",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "Die orthogonale Gruppe"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nIst \\(A\\in\\Bbb K^{n\\times n}\\)\n\n\\(\\varphi\\) ist isometrischer Isomorphismus bezüglich Standartskalarprodukt\n\\(\\varphi\\) ist Isometrie bezüglich Standartskalarprodukt\nSpalten von \\(A\\) sind ONB von \\(\\Bbb K^n\\) Standartskalarprodukt\nSpalten von \\(A\\) sind ONB von \\(\\Bbb K^n\\) Standartskalarprodukt\n\\(A^*A=\\Bbb 1\\)\nA ist invertierbar und \\(A^{-1}=A^*\\)",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "TITLE"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.2 Die orthogonale und unitäre Gruppe/isometrischer Isomorphismus.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.2 Die orthogonale und unitäre Gruppe",
-      "TITLE"
-    ]
-  },
-  {
-    "objectID": "Welcome.html",
-    "href": "Welcome.html",
-    "title": "Lineare Algebra II",
-    "section": "",
-    "text": "This is your new vault.\nMake a note of something, [[create a link]], or try the Importer!\nWhen you’re ready, delete this note and make the vault your own.",
-    "crumbs": [
-      "Welcome.html"
-    ]
-  },
-  {
-    "objectID": "Testfile.html",
-    "href": "Testfile.html",
-    "title": "Lineare Algebra II",
-    "section": "",
-    "text": "Hello this is a test! Will this be displayed in the website?",
-    "crumbs": [
-      "Testfile.html"
     ]
   }
 ]
