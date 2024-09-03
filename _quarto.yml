@@ -24,9 +24,11 @@ website:
           contents:
           - "1 Skalarprodukte/1.1 Vektoren in R/Neue Operationen auf R.md"
           - "1 Skalarprodukte/1.1 Vektoren in R/Skalar- und Kreuzprodukt.md"
+          - "1 Skalarprodukte/1.1 Vektoren in R/Wichtige Eigenschaften von Vektoren in R.md"
         - section: "1.2 Skalarprodukte, Längen und Winkel"
           contents:
           - "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.md"
+          - "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Euklidischer, unitärer Vektorraum.md"
           - "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.md"
           - "1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Skalarprodukt.md"
         - section: "1.3 Orthonomalbasen"
@@ -58,6 +60,7 @@ website:
           contents:
           - "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.md"
           - "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.md"
+          - "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.md"
         - section: "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen"
           contents:
           - "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.md"
@@ -106,10 +109,6 @@ website:
           contents:
           - "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.md"
       - "Auswendiglern-Spickzettelsachen.md"
-      - "README.md"
-      - "Testfile.md"
-      - "Welcome.md"
-      - "index.qmd"
 
 execute:
   freeze: true
