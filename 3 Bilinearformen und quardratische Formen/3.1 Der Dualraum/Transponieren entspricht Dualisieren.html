@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>spektralsatz-für-komplexe-normale-matrizen – Lineare Algebra II</title>
+<title>transponieren-entspricht-dualisieren – Lineare Algebra II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -139,7 +139,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2 Isometrien und Homomorphismen</li><li class="breadcrumb-item"><a href="../../2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Normale Matrix.html">2.5 Normale Matrizen</a></li><li class="breadcrumb-item"><a href="../../2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Spektralsatz für komplexe normale Matrizen.html">Spektralsatz für komplexe normale Matrizen</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Lineare Algebra II
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -456,13 +458,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
  <span class="menu-text">2.5 Normale Matrizen</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Normale Matrix.html" class="sidebar-item-text sidebar-link">
@@ -471,7 +473,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Spektralsatz für komplexe normale Matrizen.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Spektralsatz für komplexe normale Matrizen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Spektralsatz für komplexe normale Matrizen</span></a>
   </div>
 </li>
@@ -714,7 +716,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2 Isometrien und Homomorphismen</li><li class="breadcrumb-item"><a href="../../2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Normale Matrix.html">2.5 Normale Matrizen</a></li><li class="breadcrumb-item"><a href="../../2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Spektralsatz für komplexe normale Matrizen.html">Spektralsatz für komplexe normale Matrizen</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 </div>
 
@@ -738,17 +740,16 @@ window.Quarto = {
 </header>
 
 
-<section id="spektralsatz-für-komplexe-normale-matrizen" class="level2">
-<h2 class="anchored" data-anchor-id="spektralsatz-für-komplexe-normale-matrizen">Spektralsatz für komplexe normale Matrizen</h2>
+<section id="transponieren-entspricht-dualisieren" class="level2">
+<h2 class="anchored" data-anchor-id="transponieren-entspricht-dualisieren">Transponieren entspricht Dualisieren</h2>
 </section>
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
 <hr>
-<p>Es sind äquivalent:</p>
-<ol type="1">
-<li><p>Die Matrix <span class="math inline">\(A\)</span> ist normal, d.h. <span class="math inline">\(A^*A=AA^*\)</span></p></li>
-<li><p>Die Matrix <span class="math inline">\(A\)</span> ist unitär diagonalisierbar.</p></li>
-</ol>
+<p>Es seien <span class="math inline">\(V\)</span> und <span class="math inline">\(W\)</span> endlichdimensionale Vektorräume über einem Körper <span class="math inline">\(\Bbb K\)</span>. Weiterhin sei eine geordnete Basis <span class="math inline">\(B\)</span> von <span class="math inline">\(V\)</span>, sowie eine geordnete Basis <span class="math inline">\(C\)</span> von <span class="math inline">\(W\)</span> gegeben. Die dazugehörigen dualen Basen von <span class="math inline">\(V^*\)</span> und <span class="math inline">\(W^*\)</span> werden mit <span class="math inline">\(B^*\)</span> und <span class="math inline">\(C^*\)</span> bezeichnet.</p>
+<p>Für jede lineare Abbildung <span class="math inline">\(\varphi:V\rightarrow W\)</span> und ihre duale Abbildung <span class="math inline">\(\varphi^*:W^*\rightarrow V^*\)</span> gilt:</p>
+<p><span class="math display">\[M_{B^*,C^*}(\varphi^*)=(M_{C,B}(\varphi))^T.\]</span></p>
+<p>Das Dualisieren einer Abbildung entspricht also dem Transponieren der Matrix.</p>
 </section>
 <section id="siehe-auch" class="level2">
 <h2 class="anchored" data-anchor-id="siehe-auch">Siehe auch</h2>
