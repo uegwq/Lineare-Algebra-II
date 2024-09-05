@@ -923,6 +923,90 @@
     ]
   },
   {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2, \\(n\\in\\Bbb N\\) und \\(Q\\subseteq\\Bbb K^n\\) eine Quadrik. Dann ist es immer möglich einen Vektorraumautomorphismus \\(\\psi:\\Bbb K^n\\rightarrow\\Bbb K^n,x\\mapsto Sx\\) mit \\(S\\in GL(n,\\Bbb K)\\) und Skalare \\(\\alpha_1,\\dots,\\alpha_n,\\beta_1,\\dots,\\beta_n,c\\in\\Bbb K\\) zu finden, sodass:\n\\(\\psi(Q)=\\left\\{(u_1,\\dots,u_n)^T\\in\\Bbb K^n,|\\sum^n_{i=1}a_iu_i^2+2\\sum^n_{j=1}\\beta_ju_j+c=0\\right\\}\\)\nFalls \\(\\Bbb K=\\Bbb R\\), so kann man \\(\\psi\\) als isometrischen Isomorphismus des Standartskalarproduktes wählen.\nES GILT WAS COOLES! \\(\\psi:\\Bbb K^n\\rightarrow\\Bbb K^n,x\\mapsto Sx\\): \\(S\\) ist diejenige Basiswechselmatrix, die die Fundamentalmatrix diagonal macht, also \\(S^TFM_E(\\beta)S=D\\)iagonal. :OO"
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#noch-schöner",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#noch-schöner",
+    "title": "Lineare Algebra II",
+    "section": "Noch SCHÖNER!!!",
+    "text": "Noch SCHÖNER!!!\n\nJetzt darf die der quadratischen Abbildung zugrundelegende Bilinearform nicht entartet sein.\nDANN GILT, dass es für eine Quadrik \\(Q\\subseteq\\Bbb K^n\\) sogar einen Affinen Automorphismus \\(\\Psi:\\Bbb K^n\\rightarrow\\Bbb K^n,s\\mapsto Sx+v_0\\) und Skalare \\(\\alpha_1,\\dots,\\alpha_n\\not=0\\) sowie ein \\(d\\in\\Bbb K\\) zu finden, sodass!:\n\\(\\Psi(Q)=\\left\\{(u_1,\\dots,u_n)^T\\in\\Bbb K^n,|\\sum^n_{i=1}a_iu_i^2+2+d=0\\right\\}\\)\nBeweis: geschickter basiswechsel :p"
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#affiner-fall",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#affiner-fall",
+    "title": "Lineare Algebra II",
+    "section": "affiner Fall",
+    "text": "affiner Fall\n\nSei \\(\\Bbb K\\) ein Körper mit \\(\\text{char}(\\Bbb K) \\neq 2\\) und \\(Q \\subseteq \\Bbb K^n\\) eine Quadrik. Dann gibt es immer einen affinen Automorphismus \\(\\Psi : \\Bbb K^n \\to \\Bbb K^n\\), \\(x \\mapsto Sx + v_0\\) mit \\(S \\in \\text{GL}(n, \\Bbb K)\\) und \\(v_0 \\in \\Bbb K^n\\), eine Zahl \\(m \\in \\{1, \\dots, n\\}\\) und Skalare \\(\\alpha_1, \\dots, \\alpha_m \\neq 0\\), sodass genau einer der drei folgenden Fälle zutrifft:\n\n\\(Q\\) ist eine kegelartige Quadrik (oder auch kegelige Quadrik), d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 0 \\right\\}\\)\n\\(Q\\) ist eine Mittelpunktsquadrik, d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 1 \\right\\}\\)\n\\(Q\\) ist eine parabolische Quadrik, d.h. \\(m \\leq n-1\\) und\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 + 2u_{m+1} = 0 \\right\\}\\)\n\nDie Zahl \\(m\\) entspricht hier dem Rang der zur Quadrik gehörenden symmetrischen Bilinearform."
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#isometrischer-fall-hauptachsentransformation",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#isometrischer-fall-hauptachsentransformation",
+    "title": "Lineare Algebra II",
+    "section": "isometrischer Fall; Hauptachsentransformation",
+    "text": "isometrischer Fall; Hauptachsentransformation\n\nEs sei \\(Q \\subseteq \\Bbb R^n\\) eine Quadrik. Dann gibt es immer einen isometrischen affinen Automorphismus \\(\\Psi : \\Bbb R^n \\to \\Bbb R^n\\), \\(x \\mapsto Sx + v_0\\) mit \\(S \\in S(n)\\) und \\(v_0 \\in \\Bbb R^n\\), eine Zahl \\(m \\in \\{1, \\dots, n\\}\\) und Skalare \\(\\alpha_1, \\dots, \\alpha_m \\neq 0\\), sodass genau einer der drei folgenden Fälle zutrifft:\n\n\\(Q\\) ist eine kegelartige Quadrik (oder auch kegelige Quadrik), d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 0 \\right\\}\\)\n\\(Q\\) ist eine Mittelpunktsquadrik, d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 1 \\right\\}\\)\n\\(Q\\) ist eine parabolische Quadrik, d.h. \\(m \\leq n-1\\) und\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 + 2u_{m+1} = 0 \\right\\}\\)\n\nDie Zahl \\(m\\) entspricht hier dem Rang der zur Quadrik gehörenden symmetrischen Bilinearform.\nDas Verfahren, eine Quadrik durch eine affine Isometrie \\(\\Psi\\) in eine dieser Formen zu bringen, nennt man auch Hauptachsentransformation."
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#motivation",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#motivation",
+    "title": "Lineare Algebra II",
+    "section": "Motivation",
+    "text": "Motivation\n\nJa es gibt viele verschiedene Lösungsmengen von quadratischen Gleichungen, z.b. ist die Lösungsmenge von \\(x_1^2+x_2^2=1\\) ein Kreis mit dem Radius 1, \\(x_1^2+x_2^2+x_3^3\\) ist eine Kugel mit Radius 1 und die Lösung von \\(x_1^2+x_2^2-x_3^2=0\\) beschreibt den Mantel eines Doppelkegels. Wenn man diese Art von Gleichungen nun verallgemeinern will, dann kommt man auf die Definition einer Quadrik"
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit \\(char(\\Bbb K)\\not=2\\) und \\(n\\in\\Bbb N\\). Eine Quadrik ist eine Teilmenge von \\(\\Bbb K^n\\), die sich scheiben lässt als Lösungsmenge einer Gleichung der Form \\[q(x)+2\\varphi(x)+c=0,\\]wobei \\(q:\\Bbb K^n\\rightarrow\\Bbb K\\) eine quadratische Form (erinnerung: Bilinearformen) mit \\(q\\not=0\\) und \\(\\varphi:\\Bbb K^n\\rightarrow\\Bbb K\\) eine Linearform und \\(c\\in\\Bbb K\\) eine Konstante ist.\nSolch eine Gleichung nennt man quadratische Gleichung in \\(n\\) Variablen. Falls \\(q=0\\) ist, so liegt keine quadratische Gleichung vor, sondern eine lineare Gleichung."
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#folgerung",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#folgerung",
+    "title": "Lineare Algebra II",
+    "section": "Folgerung",
+    "text": "Folgerung\n\nWait nononono, this cannot be true!\n\\(q(x)\\) als quadratische Form?!?! Bedeutet dies? ohnein…\nMan kann eine Quadrik immer durch \\(A\\in\\Bbb K^{n\\times n}, b\\in\\Bbb K^n\\) beschreiben als\n\\[\\{x\\in\\Bbb K^n|x^TAx+2b^Tx+c=0),\\]wobei \\(A=FM_E(\\beta)\\) BITTE UNGLEICH 0 IST."
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) und \\(W\\) seien Vektorräiume über \\(\\Bbb K\\). Eine Abbildung \\(\\Psi:V\\rightarrow W\\) heißt eine affine Abbildung, wenn sich \\(\\Psi\\) schreiben lässt als die Summe einer linearen und einer konstanten Abbildung, d.h. \\(\\Psi(x)=\\varphi(x)+w_0\\).\nDie Menge \\(Aff(V)\\) ist eine Gruppe mit der Verkettung"
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+  },
+  {
     "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
     "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
     "title": "Lineare Algebra II",
@@ -1266,7 +1350,7 @@
     "href": "Auswendiglern-Spickzettelsachen.html",
     "title": "Lineare Algebra II",
     "section": "",
-    "text": "Gram-Schmidt\n\\[w_j:=v_j-\\sum^{j-1}_{i=1}\\frac{&lt;v_j,w_i&gt;}{&lt;w_i,w_i&gt;}w_i\\]\nOrthogonalprojektion, wenn ORTHONORMALBASIS!!! NORMAL!!!! NORMAL!!!!!!!!!!!!!!!!!!!!!!!!!\n\\[\\pi_U(x)=\\sum^n_{j=0}&lt;x,b_j&gt;b_j\\]\nPolarisierugsidentität\n\\(\\beta(v,w)=\\frac 1 2\\) \\((q(v+w)-q(v)-q(w))\\).\n[[Definitheit einer reelen Bilinearform#Hurwitz-Kriterium]]\nEs sei \\(A \\in \\mathbb{R}^{n \\times n}\\) eine symmetrische Matrix und für jedes \\(k \\in \\{1, \\dots, n\\}\\) sei \\(F_k \\in \\mathbb{R}^{k \\times k}\\) die Matrix, die aus den obersten \\(k\\) Zeilen und den ersten \\(k\\) Spalten besteht.\n\nDie Matrix \\(A\\) ist genau dann positiv definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\(\\det(F_k) &gt; 0\\).\nDie Matrix \\(A\\) ist genau dann negativ definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\((-1)^k \\cdot \\det(F_k) &gt; 0\\).\nFalls \\(\\det(A) \\neq 0\\) ist und \\(A\\) weder positiv noch negativ definit ist, dann ist \\(A\\) indefinit.",
+    "text": "Gram-Schmidt\n\\[w_j:=v_j-\\sum^{j-1}_{i=1}\\frac{&lt;v_j,w_i&gt;}{&lt;w_i,w_i&gt;}w_i\\]\nOrthogonalprojektion, wenn ORTHONORMALBASIS!!! NORMAL!!!! NORMAL!!!!!!!!!!!!!!!!!!!!!!!!!\n\\[\\pi_U(x)=\\sum^n_{j=0}&lt;x,b_j&gt;b_j\\]\nPolarisierugsidentität\n\\(\\beta(v,w)=\\frac 1 2\\) \\((q(v+w)-q(v)-q(w))\\).\n[[Definitheit einer reelen Bilinearform#Hurwitz-Kriterium]]\nEs sei \\(A \\in \\mathbb{R}^{n \\times n}\\) eine symmetrische Matrix und für jedes \\(k \\in \\{1, \\dots, n\\}\\) sei \\(F_k \\in \\mathbb{R}^{k \\times k}\\) die Matrix, die aus den obersten \\(k\\) Zeilen und den ersten \\(k\\) Spalten besteht.\n\nDie Matrix \\(A\\) ist genau dann positiv definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\(\\det(F_k) &gt; 0\\).\nDie Matrix \\(A\\) ist genau dann negativ definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\((-1)^k \\cdot \\det(F_k) &gt; 0\\).\nFalls \\(\\det(A) \\neq 0\\) ist und \\(A\\) weder positiv noch negativ definit ist, dann ist \\(A\\) indefinit.\n\nWeil ich ihn noch nicht so gut auswendig kenne:\nSatz von Vieta:\n\\(x_1+x_2=-p\\), \\(x_1\\cdot x_2=q\\)!",
     "crumbs": [
       "Auswendiglern-Spickzettelsachen.html"
     ]
