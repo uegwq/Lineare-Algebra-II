@@ -84,27 +84,39 @@
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(n\\in\\Bbb N\\) und \\(A\\in\\Bbb C^{n\\times n}\\).\n\nWenn \\(v\\in\\Bbb C^n\\) ein Eigenvektor von \\(A\\) zum Eigenwert \\(\\lambda\\) ist, dann ist \\(\\bar v\\in\\Bbb C^n\\) ein Eigenvektor von \\(\\bar A\\) zum Eigenwert \\(\\bar \\lambda\\).\nFalls \\(A\\) nur reelle Einträge besitzt, dann ist zu jedem komplexen Eigenwert \\(λ\\) auch die komplex konjugierte Zahl \\(\\bar λ\\) ein Eigenwert. Insbesondere treten nicht-reelle Eigenwerte immer in Paaren auf.",
+    "text": "Definition\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}\\) und \\((V,〈·,·〉V )\\) und \\((W,〈·,·〉W)\\) seien Vektorräume mit Skalarprodukt. Weiterhin seien zwei Abbildungen \\(ϕ : V → W\\) und \\(ψ : W → V\\) gegeben.\nWir sagen \\(ψ\\) ist adjungiert zu \\(ϕ\\), falls gilt:\n\\[\\forall v\\in V;\\forall w\\in W: &lt;\\varphi(v),w&gt;_W=&lt;v,\\psi(w)&gt;_V\\]",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Konjugierte Eigenwerte"
+      "Adjungierte Abbildungen"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#eigenschaften",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#eigenschaften",
     "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "section": "Eigenschaften",
+    "text": "Eigenschaften\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}\\) und \\((V,〈·,·〉V )\\) und \\((W,〈·,·〉W)\\) seien Vektorräume mit Skalarprodukt.\n\nWenn \\(ψ : W → V\\) zu \\(ϕ : V → W\\) adjungiert ist, dann sind \\(ϕ\\) und \\(ψ\\) linear.\nWenn \\(ψ : W → V\\) zu \\(ϕ : V → W\\) adjungiert ist, dann ist \\(ϕ\\) zu \\(ψ\\) adjungiert.\nWenn \\(ϕ : V → W\\) eine adjungierte Abbildung \\(ψ : W → V\\) besitzt, so ist diese eindeutig.",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Konjugierte Eigenwerte"
+      "Adjungierte Abbildungen"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nDer Satz, der sagt, dass im endlichdimensionalen alles gut geht",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Adjungierte Abbildungen"
     ]
   },
   {
@@ -116,7 +128,7 @@
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
+      "Normale Abbildung"
     ]
   },
   {
@@ -128,7 +140,7 @@
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
+      "Normale Abbildung"
     ]
   },
   {
@@ -276,38 +288,38 @@
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Selbstadjungierte Matrix.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Selbstadjungierte Matrix.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) reel oder komplex. Eine Matrix \\(A\\in\\Bbb K^{n\\times n}\\) heißt selbstadjungiert oder hermitesch, falls sie gleich ihrer Adjungierten ist, falls also gilt \\(A^*=\\bar A^T=A\\).",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) reell oder komplex. Eine Matrix \\(A\\in\\Bbb K^{n\\times n}\\) heißt selbstadjungiert oder hermitesch, falls sie gleich ihrer Adjungierten ist, falls also gilt \\(A^*=\\bar A^T=A\\).",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen",
       "Selbstadjungierte Matrix"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.html#eigenschaften",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.html#eigenschaften",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Selbstadjungierte Matrix.html#eigenschaften",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Selbstadjungierte Matrix.html#eigenschaften",
     "title": "Lineare Algebra II",
     "section": "Eigenschaften",
     "text": "Eigenschaften\n\n\nDie Menge \\(\\{A ∈ K^{n×n} | A^* = A\\}\\) ist ein \\(\\Bbb R\\)-Vektorraum.\nWenn \\(A,B ∈ K^{n×n}\\) selbstadjungiert sind, dann ist das Produkt \\(AB\\) nur dann selbstadjungiert, falls \\(A\\) und \\(B\\) kommutieren.\nDie Diagonaleinträge einer selbstadjungierten Matrix sind reell.\nJeder komplexe Eigenwert \\(λ\\) einer selbstadjungierten Matrix ist reell.\nFür jede komplexe Matrix \\(A ∈ C^{n×n}\\) gibt es selbstadjungierte komplexe Matrizen \\(X,Y\\) mit \\(A = X +iY\\). Diese Darstellung ist eindeutig\n\nEs sei \\(n ∈\\Bbb N\\) und \\(A ∈ C^{n×n}\\) . Dann sind äquivalent:\n\n\\(A\\) ist eine obere Dreiecksmatrix und \\(A\\) ist selbstadjungiert.\nA ist eine Diagonalmatrix mit reellen Einträgen.\n\nFalls \\(A\\) selbstadjungiert ist und \\(A\\) zu \\(B\\) unitär ähnlich sind, so ist auch \\(B\\) selbstadjungiert.",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen",
       "Selbstadjungierte Matrix"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Selbstadjungierte Matrix.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Selbstadjungierte Matrix.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nSpektralsatz\nNormale Matrix",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen",
       "Selbstadjungierte Matrix"
     ]
   },
@@ -537,714 +549,39 @@
     "text": "Hello this is a test! Will this be displayed in the website?"
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Trägheitssatz von Sylvester.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Trägheitssatz von Sylvester.html#definition",
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(n\\in\\Bbb N\\) und \\(V\\) ein \\(n\\)-dimensionaler reeler Vektorraum. Da sei \\(\\beta:V\\times V\\rightarrow\\Bbb R\\) eine symmetrische Bilinearform.\n\nDann können wir \\(V\\) zerlegen in \\(V=V_+\\oplus V_-\\oplus V_0\\),\nsodass \\(\\beta|_{V_+\\times V_+}\\) positiv definit, \\(\\beta|_{V_-\\times V_-}\\) negativ definit und \\(\\beta|_{V_0\\times V_0}\\) die Nullabbildung ist und Vektoren aus verschiedenen der drei direkten Summanden stammen, orthogonal bezüglich \\(\\beta\\) sind, d.h. \\(\\beta(u,v)=0\\)."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Trägheitssatz von Sylvester.html#folgerungen",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Trägheitssatz von Sylvester.html#folgerungen",
-    "title": "Lineare Algebra II",
-    "section": "Folgerungen",
-    "text": "Folgerungen\n\n\nDas Tripel \\((\\dim(V_+), \\dim(V_-), \\dim(V_0)) \\in \\mathbb{N}_0^3\\) hängt nicht von der Zerlegung ab und ist eindeutig bestimmt. Die Zahl \\(\\dim(V_-)\\) wird die Signatur von \\(\\beta\\) genannt. Wenn die Signatur von \\(\\beta\\) und der Rang \\(\\dim(V_+) + \\dim(V_-)\\) bekannt sind, ist die Bilinearform bis auf Basiswechsel eindeutig bestimmt.\nEs gibt eine geordnete Basis \\(B\\) von \\(V\\), sodass \\(FM_{B}(\\beta)\\) eine Diagonalmatrix ist, die nur die Zahlen \\(1\\), \\(-1\\) und \\(0\\) auf der Diagonale hat. Die Signatur entspricht der Anzahl der \\(-1\\) auf der Diagonale. Der Rang ist die Summe der Anzahl aller \\(1\\) und aller \\(-1\\)."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Trägheitssatz von Sylvester.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Trägheitssatz von Sylvester.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein reeler Vektorraum und \\(\\beta:V\\times V\\rightarrow\\Bbb R\\) eine symmetrische Bilinearform mit dazugehöroger quadratischer Form \\(q_\\beta:V\\rightarrow\\Bbb R\\). Dann nennen wir \\(\\beta\\) (und auch \\(q_\\beta\\)):\n\npositiv definit, falls \\(\\forall v\\in V\\setminus\\{0\\}:q_\\beta&gt;0\\)\nnegativ definit, falls \\(\\forall v\\in V\\setminus\\{0\\}:q_\\beta&lt;0\\)\npositiv semidefinit, falls \\(\\forall v\\in V:q_\\beta\\ge0\\)\nnegativ semidefinit, falls \\(\\forall v\\in V:q_\\beta\\le0\\)\ninfefinit, falls es Vektoren gibt die \\(&gt;0\\) und \\(&lt;0\\) auf der quadratischen Form sind."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#bestimmung-der-definitheit",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#bestimmung-der-definitheit",
-    "title": "Lineare Algebra II",
-    "section": "Bestimmung der Definitheit",
-    "text": "Bestimmung der Definitheit\n\nEs sei \\(n ∈ \\Bbb N\\). Eine symmetrische Matrix \\(A ∈ \\Bbb R^ {n×n}\\) heiße\n\npositiv definit, falls \\(∀x ∈ \\Bbb R^ n \\setminus\\{0\\} : x ^T Ax &gt; 0\\)\nnegativ definit, falls \\(∀x ∈ \\Bbb R^ n \\setminus\\{0\\} : x ^T Ax &lt; 0\\)\npositiv semidefinit, falls \\(∀x ∈ \\Bbb R^ n : x ^T Ax ≥ 0\\)\nnegativ semidefinit, falls \\(∀x ∈ \\Bbb R^ n : x ^T Ax ≤ 0\\)\nindefinit, falls es Vektoren \\(x, y ∈ \\Bbb R^ n\\) gibt mit \\(x ^T Ax &lt; 0\\) und \\(y ^T A y &gt; 0\\)."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#erstes-kriterium",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#erstes-kriterium",
-    "title": "Lineare Algebra II",
-    "section": "Erstes Kriterium",
-    "text": "Erstes Kriterium\n\nSei \\(V\\) ein \\(n\\)-dimensionaler reeller Vektorraum und \\(\\beta : V \\times V \\to \\mathbb{R}\\) eine symmetrische Bilinearform. Es sei weiterhin \\(B\\) eine Orthogonalbasis (diese gibt es immer und für diese Ist \\(FM_B\\) in diagonalform) für \\(\\beta\\). Dann gilt:\n\npositiv definit, falls alle Diagonaleinträge von \\(FM_{B}(\\beta)\\) größer als \\(0\\) sind.\nnegativ definit, falls alle Diagonaleinträge von \\(FM_{B}(\\beta)\\) kleiner als \\(0\\) sind.\npositiv semidefinit, falls alle Diagonaleinträge von \\(FM_{B}(\\beta)\\) größer als oder gleich \\(0\\) sind.\nnegativ semidefinit, falls alle Diagonaleinträge von \\(FM_{B}(\\beta)\\) kleiner als oder gleich \\(0\\) sind.\nindefinit, falls es sowohl positive als auch negative Zahlen auf der Diagonalen gibt.\n\nMan bringt die Matrix mit Gauß-Umformungen also in diagonalform und schaut sich die Vorzeichen an!"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#kriterium-über-determinante-nur-für-positive-definitheit",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#kriterium-über-determinante-nur-für-positive-definitheit",
-    "title": "Lineare Algebra II",
-    "section": "Kriterium über Determinante (NUR FÜR POSITIVE DEFINITHEIT)",
-    "text": "Kriterium über Determinante (NUR FÜR POSITIVE DEFINITHEIT)\n\n\nDie Matrix einer Positiv definiten Matrix ist immer positiv.\n\nEs sei \\(A\\in\\Bbb R^{n\\times n}\\) eine symmetrsiche \\((n\\times n)\\)-Matrix mit \\(n\\ge2\\) und \\(B\\in\\Bbb R^{(n-1)\\times(n-1)}\\) die Matrix die man erhält, wenn man von \\(A\\) die letzte Zeile und Spalte streicht,\nDann ist äquivalent:\n\nDie Matrix \\(A\\) ist positiv definit\nDie Matrix \\(B\\) ist positiv definit und \\(det(A)&gt;0\\)"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#hurwitz-kriterium",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#hurwitz-kriterium",
-    "title": "Lineare Algebra II",
-    "section": "Hurwitz-Kriterium",
-    "text": "Hurwitz-Kriterium\n\nEs sei \\(A \\in \\mathbb{R}^{n \\times n}\\) eine symmetrische Matrix und für jedes \\(k \\in \\{1, \\dots, n\\}\\) sei \\(F_k \\in \\mathbb{R}^{k \\times k}\\) die Matrix, die aus den obersten \\(k\\) Zeilen und den ersten \\(k\\) Spalten besteht.\n\nDie Matrix \\(A\\) ist genau dann positiv definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\(\\det(F_k) &gt; 0\\).\nDie Matrix \\(A\\) ist genau dann negativ definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\((-1)^k \\cdot \\det(F_k) &gt; 0\\).\nFalls \\(\\det(A) \\neq 0\\) ist und \\(A\\) weder positiv noch negativ definit ist, dann ist \\(A\\) indefinit."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#definitheit-mit-eigenwerten",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#definitheit-mit-eigenwerten",
-    "title": "Lineare Algebra II",
-    "section": "Definitheit mit Eigenwerten",
-    "text": "Definitheit mit Eigenwerten\n\nEs sei \\(A \\in \\mathbb{R}^{n \\times n}\\) eine symmetrische Matrix. Dann gilt:\n\npositiv definit, falls alle Eigenwerte von \\(A\\) größer als \\(0\\) sind.\nnegativ definit, falls alle Eigenwerte von \\(A\\) kleiner als \\(0\\) sind.\npositiv semidefinit, falls alle Eigenwerte von \\(A\\) größer als oder gleich \\(0\\) sind.\nnegativ semidefinit, falls alle Eigenwerte von \\(A\\) kleiner als oder gleich \\(0\\) sind.\nindefinit, falls \\(A\\) sowohl positive als auch negative Eigenwerte besitzt."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Definitheit einer reelen Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nFür jede Bilinearform \\(\\beta\\in Bil(V,\\Bbb K)\\) ist \\[q_\\beta:V\\rightarrow\\Bbb K, v\\mapsto \\beta(v,v)\\]die zu \\(\\beta\\) zugehörige quadratische Form",
+    "text": "Definition\n\nDie Fundamentalmatrix ist sozusagen eine “charakteristische Matrix”, die eine Bilinearform beschreiben soll. Sie hat andere eigenschaften wie die Matrix, die eine Lineare Abbildung beschreiben würde!!!\nEs gilt:\n\\(B\\) basis, \\(B^*\\) duale Basis\n\\(FM_B(\\beta):=M_{B^*,B}(\\beta^\\vee))\\in\\Bbb K^{n\\times n}\\).\nSomit gilt dann:\n\\((FM_B(\\beta))_{ij}=\\beta(b_i,b_j)\\)\n\\(\\beta(v,w)=v^TFM_E(\\beta)w\\)",
     "crumbs": [
       "3 Bilinearformen und quardratische Formen",
       "3.2 Bilinearformen über beliebigen Körpern",
-      "Quadratische Form"
+      "Fundamentalmatrix"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#siehe-auch",
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#basiswechsel",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#basiswechsel",
+    "title": "Lineare Algebra II",
+    "section": "Basiswechsel",
+    "text": "Basiswechsel\n\n\\(FM_C(\\beta)=FM_{B,C}(id)^TFM_B(\\beta)FM_{B,C}(id)\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Fundamentalmatrix"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "3 Bilinearformen und quardratische Formen",
       "3.2 Bilinearformen über beliebigen Körpern",
-      "Quadratische Form"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\n\\(B=(b_1,\\dots,b_n)\\) ist eine Orthonormalbasis für \\(\\beta\\), wenn \\(\\beta(b_i,b_j)=0\\), \\(i\\not=j\\).\nEs gilt (Lemma 3.3.5):\n\n\\(B \\text{ Orthogonalbasis für } \\beta\\iff FM_B(\\beta)\\text{ Diagonalisierbar.}\\)",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Orthogonalbasis einer Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#satz",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#satz",
-    "title": "Lineare Algebra II",
-    "section": "Satz",
-    "text": "Satz\n\nWenn \\(char(\\Bbb K)\\not=2\\) (also \\(1+1\\not=0\\)), \\(V-\\Bbb K\\)-Vektorraum, \\(\\beta\\in Bil(V\\Bbb K)\\), dann:\n\\(\\beta\\) Symetrisch \\(\\iff\\) \\(\\exists\\) Orthogonalbasis von \\(\\beta\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Orthogonalbasis einer Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Orthogonalbasis einer Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum über einem Körper \\(\\Bbb K\\). Eine Bilinearform ist eine Abbildung \\[\\beta:V\\times V\\rightarrow\\Bbb K\\]die in jeder Komponente linear ist.\nWir bezeichnen die Menge aller Bilinearformen auf \\(V\\) als\n\\(Bil(V,\\Bbb K):=\\{\\beta:V\\times V\\rightarrow\\Bbb K|\\beta\\text{ ist bilinear}\\}\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEine Bilinearform \\(\\beta\\) sei symetrisch, wenn \\(\\forall v,w\\in V:\\beta(v,w)=\\beta(w,v)\\iff \\exists\\) geordnete Basis \\(B\\) mit \\(FM_B(\\beta)\\) ist symetrisch",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Symetrische Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Symetrische Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein \\(n\\)-Dimensionaler Vektorraum über einem Körper \\(\\Bbb K\\) und es sei \\(\\beta: V\\times V\\rightarrow\\Bbb K\\) eine Bilinearform. Eine geordnete Basis \\(B\\) ist eine Orthogonalbasis für Beta, wenn für zwei ungleiche \\(b_i,b_j\\) gilt, dass \\(\\beta(b_i,b_j)=0\\)",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Orthogonalbasis"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#bemerkung",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#bemerkung",
-    "title": "Lineare Algebra II",
-    "section": "Bemerkung",
-    "text": "Bemerkung\n\nEs ist erlaubt, dass \\(\\beta(b_i,b_i)=0\\) ist und insbesondere ist für die Nullabbildung \\(\\beta=0\\) jede Basis eine Orthogonalbasis.",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Orthogonalbasis"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Orthogonalbasis"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\beta:V\\times V\\rightarrow\\Bbb K\\) eine Bilinearform und \\(B\\) eine geordnete Basis. Dann ist äquivalent:\n\n\\(FM_B(\\beta)\\) ist eine Diagonalmatrix\n\\(B\\) ist eine Orthogonalbasis für \\(\\beta\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Diagonale Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#lemma",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#lemma",
-    "title": "Lineare Algebra II",
-    "section": "Lemma",
-    "text": "Lemma\n\nWenn \\(\\beta\\) eine Orthgonalbasis besitzt, dann ist \\(\\beta\\) insbesondere auch symmetrisch, da eine Diagonalform ja symmetrisch ist.",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Diagonale Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#folgerung",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#folgerung",
-    "title": "Lineare Algebra II",
-    "section": "Folgerung",
-    "text": "Folgerung\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2 und \\(V\\) ein Vektorraum über diesem Körper mit Dimension \\(n\\). Dann ist äquivalent:\n\n\\(\\beta\\) ist symetrisch\nEs gibt eine Orthogonalbasis \\(B\\) für \\(\\beta\\), das heißt dann alternativ, dass für diese Basis \\(FM_B(\\beta)\\) diagonalform hat.",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Diagonale Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Diagonale Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#definition-entartete-bilinearform",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#definition-entartete-bilinearform",
-    "title": "Lineare Algebra II",
-    "section": "Definition entartete Bilinearform",
-    "text": "Definition entartete Bilinearform\n\nEine symmetrsiche Bilinearform \\(\\beta\\) ist entartet, wenn es einen Vektor gibt \\(v\\) gibt, für den \\(\\forall w\\in V:\\beta(v,w)=0\\)",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Nicht entartete symmetrische Bilinearformen"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#eigenschaften",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#eigenschaften",
-    "title": "Lineare Algebra II",
-    "section": "Eigenschaften",
-    "text": "Eigenschaften\n\nIst \\(\\beta\\) eine nicht entartete symmetrische Bilinearform über einem Körper \\(\\Bbb K\\), dann ist folgendes äquivalent:\n\n\\(\\beta\\) ist nicht entartet\n\\(\\forall v\\not=0:\\exists w\\not=0:\\beta(v,w)\\not=0\\)\nDie Abbildung \\(\\beta^\\text v:V\\rightarrow V^*\\) ist injektiv.\n\nFalls \\(V\\) endlich dimensional ist, dann sind die eben genannten Aussagen auch noch äquivalent zu\n\nDie Abbildung \\(\\beta^\\text v:V\\rightarrow V^*\\) ist bijektiv.\nEs gibt eine geordnete Basis \\(B\\) von \\(V\\) mit \\(\\det FM_B(\\beta)\\not=0\\)\nFür jede geordnete Basis \\(B\\) von \\(V\\) gilt: \\(\\det FM_B(\\beta)\\not=0\\)\n\nZusätzlich gilt, falls \\(\\Bbb K\\) algebraisch abgeschlossen ist, dass es immer eine geordnete Basis \\(B\\) von \\(V\\) gibt, mit\n\\(FM_B(\\beta)=\\begin{pmatrix}1 & & \\\\ & \\ddots & \\\\ & & 1\\end{pmatrix}\\)\nEs sind also alle nicht entarteten symmetrischen Bilineaformen durch Basiswechsel ineinander überführbar.",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Nicht entartete symmetrische Bilinearformen"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#klassifikation",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#klassifikation",
-    "title": "Lineare Algebra II",
-    "section": "Klassifikation",
-    "text": "Klassifikation\n\nAlle Bilinearformen (auch entartet) über algebraisch abgeschlossenen Körpern können eindeutig klassifitiert werden durch die Anzahl der Einsen, die auf den Diagonaleinträgen stehen, wenn man versucht es durch Basiswechel in eine Einheitsmatrixform zu bringen. Diese Zahl wird dann auch der Rang genannt.",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Nicht entartete symmetrische Bilinearformen"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Nicht entartete symmetrische Bilinearformen"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nDie Koordinatenabbildung \\(b_j\\) bildet einen Vektor \\(v\\in V\\) auf den \\(\\lambda_j\\)-ten Koeffizienten seiner Linearkombination bezüglich einer Basis ab.",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Koordinatenabbildung"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Koordinatenabbildung"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum über einem Körper \\(\\Bbb K\\).\n\nDie Abbildung \\(\\eta_V:V\\rightarrow (V^*)^*, v\\mapsto \\eta_V(v)\\), die jeden Vektor auf die dazugehörige Auswertungsabbildung abbildet, ist \\(\\Bbb K\\)-linear."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) ein endlichdimensionaler Vektorraum über \\(\\Bbb K\\) mit geordneter Basis \\(B=(b_1,\\dots,b_n)\\).\nDann bilden die Koordinatenabbildungen \\(B^*=(b_1^*,\\dots,b_n^*)\\) eine geordnete Basis des Dualraums \\(V*\\), genannt die duale Basis.\nFür eine Linearform \\(\\sigma:V\\rightarrow\\Bbb K\\) gilt: \\[(\\sigma)_{B^*}=(M_{E,B}(\\sigma))^T\\]"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\n\nGegeben sei eine \\(\\Bbb K\\)-lineare Abbildung \\(\\varphi: V\\rightarrow W\\). Dann ist die Abbildung \\[\\varphi^*:W^*\\rightarrow V^*, \\sigma\\mapsto\\sigma\\circ\\varphi\\]Diese nennt man auch die duale Abbildung.\nIst \\(\\varphi:V\\rightarrow W\\) surjektiv, so ist \\(\\varphi^*:W^*\\rightarrow V^*\\) injektiv\nIst \\(\\varphi: V\\rightarrow W\\) bijektiv, so ist \\(\\varphi^*:W^*\\rightarrow V^*\\) bijektiv.\nEs gilt \\((id_V)^*=id_{V^*}\\)\nEs sei \\(U\\) ein Vektorraum über \\(\\Bbb K\\) und \\(\\varphi: V\\rightarrow W\\) und \\(\\psi:U\\rightarrow V\\) lineare Abbildungen. Dann gilt \\((\\varphi\\circ\\psi)^*=\\psi^*\\circ\\varphi^*\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Dualisieren von linearen Abbildungen"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Dualisieren von linearen Abbildungen"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2, \\(n\\in\\Bbb N\\) und \\(Q\\subseteq\\Bbb K^n\\) eine Quadrik. Dann ist es immer möglich einen Vektorraumautomorphismus \\(\\psi:\\Bbb K^n\\rightarrow\\Bbb K^n,x\\mapsto Sx\\) mit \\(S\\in GL(n,\\Bbb K)\\) und Skalare \\(\\alpha_1,\\dots,\\alpha_n,\\beta_1,\\dots,\\beta_n,c\\in\\Bbb K\\) zu finden, sodass:\n\\(\\psi(Q)=\\left\\{(u_1,\\dots,u_n)^T\\in\\Bbb K^n,|\\sum^n_{i=1}a_iu_i^2+2\\sum^n_{j=1}\\beta_ju_j+c=0\\right\\}\\)\nFalls \\(\\Bbb K=\\Bbb R\\), so kann man \\(\\psi\\) als isometrischen Isomorphismus des Standartskalarproduktes wählen.\nES GILT WAS COOLES! \\(\\psi:\\Bbb K^n\\rightarrow\\Bbb K^n,x\\mapsto Sx\\): \\(S\\) ist diejenige Basiswechselmatrix, die die Fundamentalmatrix diagonal macht, also \\(S^TFM_E(\\beta)S=D\\)iagonal. :OO"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#noch-schöner",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#noch-schöner",
-    "title": "Lineare Algebra II",
-    "section": "Noch SCHÖNER!!!",
-    "text": "Noch SCHÖNER!!!\n\nJetzt darf die der quadratischen Abbildung zugrundelegende Bilinearform nicht entartet sein.\nDANN GILT, dass es für eine Quadrik \\(Q\\subseteq\\Bbb K^n\\) sogar einen Affinen Automorphismus \\(\\Psi:\\Bbb K^n\\rightarrow\\Bbb K^n,s\\mapsto Sx+v_0\\) und Skalare \\(\\alpha_1,\\dots,\\alpha_n\\not=0\\) sowie ein \\(d\\in\\Bbb K\\) zu finden, sodass!:\n\\(\\Psi(Q)=\\left\\{(u_1,\\dots,u_n)^T\\in\\Bbb K^n,|\\sum^n_{i=1}a_iu_i^2+2+d=0\\right\\}\\)\nBeweis: geschickter basiswechsel :p"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#affiner-fall",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#affiner-fall",
-    "title": "Lineare Algebra II",
-    "section": "affiner Fall",
-    "text": "affiner Fall\n\nSei \\(\\Bbb K\\) ein Körper mit \\(\\text{char}(\\Bbb K) \\neq 2\\) und \\(Q \\subseteq \\Bbb K^n\\) eine Quadrik. Dann gibt es immer einen affinen Automorphismus \\(\\Psi : \\Bbb K^n \\to \\Bbb K^n\\), \\(x \\mapsto Sx + v_0\\) mit \\(S \\in \\text{GL}(n, \\Bbb K)\\) und \\(v_0 \\in \\Bbb K^n\\), eine Zahl \\(m \\in \\{1, \\dots, n\\}\\) und Skalare \\(\\alpha_1, \\dots, \\alpha_m \\neq 0\\), sodass genau einer der drei folgenden Fälle zutrifft:\n\n\\(Q\\) ist eine kegelartige Quadrik (oder auch kegelige Quadrik), d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 0 \\right\\}\\)\n\\(Q\\) ist eine Mittelpunktsquadrik, d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 1 \\right\\}\\)\n\\(Q\\) ist eine parabolische Quadrik, d.h. \\(m \\leq n-1\\) und\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 + 2u_{m+1} = 0 \\right\\}\\)\n\nDie Zahl \\(m\\) entspricht hier dem Rang der zur Quadrik gehörenden symmetrischen Bilinearform."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#isometrischer-fall-hauptachsentransformation",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#isometrischer-fall-hauptachsentransformation",
-    "title": "Lineare Algebra II",
-    "section": "isometrischer Fall; Hauptachsentransformation",
-    "text": "isometrischer Fall; Hauptachsentransformation\n\nEs sei \\(Q \\subseteq \\Bbb R^n\\) eine Quadrik. Dann gibt es immer einen isometrischen affinen Automorphismus \\(\\Psi : \\Bbb R^n \\to \\Bbb R^n\\), \\(x \\mapsto Sx + v_0\\) mit \\(S \\in S(n)\\) und \\(v_0 \\in \\Bbb R^n\\), eine Zahl \\(m \\in \\{1, \\dots, n\\}\\) und Skalare \\(\\alpha_1, \\dots, \\alpha_m \\neq 0\\), sodass genau einer der drei folgenden Fälle zutrifft:\n\n\\(Q\\) ist eine kegelartige Quadrik (oder auch kegelige Quadrik), d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 0 \\right\\}\\)\n\\(Q\\) ist eine Mittelpunktsquadrik, d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 1 \\right\\}\\)\n\\(Q\\) ist eine parabolische Quadrik, d.h. \\(m \\leq n-1\\) und\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 + 2u_{m+1} = 0 \\right\\}\\)\n\nDie Zahl \\(m\\) entspricht hier dem Rang der zur Quadrik gehörenden symmetrischen Bilinearform.\nDas Verfahren, eine Quadrik durch eine affine Isometrie \\(\\Psi\\) in eine dieser Formen zu bringen, nennt man auch Hauptachsentransformation."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#motivation",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#motivation",
-    "title": "Lineare Algebra II",
-    "section": "Motivation",
-    "text": "Motivation\n\nJa es gibt viele verschiedene Lösungsmengen von quadratischen Gleichungen, z.b. ist die Lösungsmenge von \\(x_1^2+x_2^2=1\\) ein Kreis mit dem Radius 1, \\(x_1^2+x_2^2+x_3^3\\) ist eine Kugel mit Radius 1 und die Lösung von \\(x_1^2+x_2^2-x_3^2=0\\) beschreibt den Mantel eines Doppelkegels. Wenn man diese Art von Gleichungen nun verallgemeinern will, dann kommt man auf die Definition einer Quadrik"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit \\(char(\\Bbb K)\\not=2\\) und \\(n\\in\\Bbb N\\). Eine Quadrik ist eine Teilmenge von \\(\\Bbb K^n\\), die sich scheiben lässt als Lösungsmenge einer Gleichung der Form \\[q(x)+2\\varphi(x)+c=0,\\]wobei \\(q:\\Bbb K^n\\rightarrow\\Bbb K\\) eine quadratische Form (erinnerung: Bilinearformen) mit \\(q\\not=0\\) und \\(\\varphi:\\Bbb K^n\\rightarrow\\Bbb K\\) eine Linearform und \\(c\\in\\Bbb K\\) eine Konstante ist.\nSolch eine Gleichung nennt man quadratische Gleichung in \\(n\\) Variablen. Falls \\(q=0\\) ist, so liegt keine quadratische Gleichung vor, sondern eine lineare Gleichung."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#folgerung",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#folgerung",
-    "title": "Lineare Algebra II",
-    "section": "Folgerung",
-    "text": "Folgerung\n\nWait nononono, this cannot be true!\n\\(q(x)\\) als quadratische Form?!?! Bedeutet dies? ohnein…\nMan kann eine Quadrik immer durch \\(A\\in\\Bbb K^{n\\times n}, b\\in\\Bbb K^n\\) beschreiben als\n\\[\\{x\\in\\Bbb K^n|x^TAx+2b^Tx+c=0),\\]wobei \\(A=FM_E(\\beta)\\) BITTE UNGLEICH 0 IST."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) und \\(W\\) seien Vektorräiume über \\(\\Bbb K\\). Eine Abbildung \\(\\Psi:V\\rightarrow W\\) heißt eine affine Abbildung, wenn sich \\(\\Psi\\) schreiben lässt als die Summe einer linearen und einer konstanten Abbildung, d.h. \\(\\Psi(x)=\\varphi(x)+w_0\\).\nDie Menge \\(Aff(V)\\) ist eine Gruppe mit der Verkettung"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEine Gleichung \\(x^2=s\\) hat eine Lösung, wenn:\nFalls \\(\\text{char}(\\Bbb K)\\not=2\\):\n\n\\(s\\) ist quadratisch in \\(\\Bbb K\\) (\\(\\exists w\\in\\Bbb K: w^2=s\\)) und ja.",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.5 Quadriken und Hauptachsentransformation",
-      "Lösung einer quadratischen Gleichung"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.5 Quadriken und Hauptachsentransformation",
-      "Lösung einer quadratischen Gleichung"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs seien \\(V\\) und \\(W\\) endlichdimensionale Vektorräume über einem Körper \\(\\Bbb K\\). Weiterhin sei eine geordnete Basis \\(B\\) von \\(V\\), sowie eine geordnete Basis \\(C\\) von \\(W\\) gegeben. Die dazugehörigen dualen Basen von \\(V^*\\) und \\(W^*\\) werden mit \\(B^*\\) und \\(C^*\\) bezeichnet.\nFür jede lineare Abbildung \\(\\varphi:V\\rightarrow W\\) und ihre duale Abbildung \\(\\varphi^*:W^*\\rightarrow V^*\\) gilt:\n\\[M_{B^*,C^*}(\\varphi^*)=(M_{C,B}(\\varphi))^T.\\]\nDas Dualisieren einer Abbildung entspricht also dem Transponieren der Matrix."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum über einem Körper \\(\\Bbb K\\) und \\(v\\in V\\) ein Element. Dann ist die Auswertungsabbildung: \\[\\eta_V(v):V^*\\rightarrow\\Bbb K, \\sigma\\mapsto\\sigma(v)\\]eine \\(\\Bbb K\\)-Linearform definiert auf dem Dualraum \\(V\\).\nErinnerung: Linearform ist ein Element aus dem Dualraum, also ein Element in \\(Hom_{\\Bbb K}(V,\\Bbb K)\\)."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) ein Vektorraum. Eine Linearform (manchmal auch lineares Funktional) \\(σ\\) auf \\(V\\) ist ein Element in \\(Hom_{\\Bbb K}(V,\\Bbb K)\\), also eine lineare Abbildung \\(σ : V →\\Bbb K\\).\nDer Vektorraum \\(V ^∗ := Hom_{\\Bbb K}(V,\\Bbb K)\\) aller Linearformen auf \\(V\\) heißt der Dualraum von \\(V\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Linearform und Dualraum"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.1 Der Dualraum",
-      "Linearform und Dualraum"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEine Bilinearform heißt symetrisch, falls: \\[\\beta(v,w)=\\beta(w,v)\\]Es gilt: Eine Bilinearform ist symetrisch genau dann, wenn ihre Fundamentalmatrix \\(FM_B(\\beta)\\) symetrisch ist.",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Symetrische Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Symetrische Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#einleitung",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#einleitung",
-    "title": "Lineare Algebra II",
-    "section": "Einleitung",
-    "text": "Einleitung\n\nMan kennt ja, dass man für jede Bilinearform eine Quadratische Form finden kann. Jedoch stellt sich auch die Frage, ob das umgekehrt geht. Und antwort: ja! Nunja solange die Charakteristik ungleich 2 ist, dann findet man immer eine umgekehrte symmetrische Bilinearform!",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Polarisierungsidentität"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2 und \\(V\\) ein Vektorraum über \\(\\Bbb K\\). Zu jeder quadratischen Form \\(q:V\\rightarrow\\Bbb K\\) gibt es genau eine symmetrische Bilinearform \\(\\beta\\)! Es gilt:\n\\(\\beta(v,w)=\\frac 1 2 (q(v+w)-q(w)-q(v))\\), wobei \\(\\frac 1 2\\) das multiplikatve Inverse von \\(2 = 1+1\\) ist.\nALSO:\nDie Abbildung\n\\[\\{β ∈ Bil(V,K) | β ist symmetrisch\\} → \\{q : V → K | \\text{ q ist eine quadratische Form}\\}, β \\mapsto q_β\\]\nist ein Isomorphismus von \\(\\Bbb K\\)-Vektorräumen hüüü",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Polarisierungsidentität"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.3 Symetrische Bilinearformen",
-      "Polarisierungsidentität"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nJa, wann ist eigentlich jetzt eine Fundamentalmatrix diagonal? Antwort:\n\\(FM_B(\\beta)\\) ist eine Diagonalmatrix \\(\\iff\\) \\(B=(b_1,\\dots,b_n)\\) ist eine Orthogonalbasis für \\(\\beta\\)."
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#folgerung",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#folgerung",
-    "title": "Lineare Algebra II",
-    "section": "Folgerung:",
-    "text": "Folgerung:\n\nEs sei \\(V\\) ein n-dimensionaler Vektorraum über einem Körper \\(\\Bbb K\\) und es sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform. Wenn \\(V\\) eine Orthogonalbasis bezüglich \\(β\\) besitzt, dann ist \\(β\\) symmetrisch. Das folgt einfach aus [[3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform|Symetrische Bilinearform]]\nABER! Dies gilt nicht immer umgekehrt! Es muss gelten, dass der Körper \\(\\Bbb K\\) eine charakteristik ungleich 2 hat (also \\(1+1=0\\) darf nicht gelten)"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\nDt. Schönfinkeln.\nBilinearformen sind keine lineare Abbildungen und deshalb können wir es nicht so epic mit den ganzen Tools aus der Linearen Algebra untersuchen. Wenn wir aber eine Variable sozusagen “festhalten”, dann erhalten wir eine Abbildung, die einfacher handzuhaben ist.\nAlso\n\\(f:X\\times Y\\rightarrow Z\\). Wenn wir z.B. \\(y\\in Y\\) festhalten, erhalten wir die Funktion \\(f(\\cdot,y):X\\rightarrow Z\\). Man schreibt auch:\n\\(f^\\vee Y\\rightarrow Z^X, y\\mapsto f(\\cdot,y)\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "[kœri]ing"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#bilinearformen-dann",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#bilinearformen-dann",
-    "title": "Lineare Algebra II",
-    "section": "Bilinearformen dann",
-    "text": "Bilinearformen dann\n\nEs sei V ein Vektorraum über einem Körper \\(\\Bbb K\\).\nWie Defintion 3.1.1 eingeführt bezeichnen wir den Dualraum von V mit V ∗ := HomK(V,K).\n\nEs sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform auf \\(V\\). Dann ist für jeden Vektor \\(w ∈ V\\) die Abbildung \\(β(·,w) : V → \\Bbb K, v \\mapsto β(v,w)\\) linear, d.h. \\(β(·,w) ∈ V ^∗\\) .\nEs sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform auf \\(V\\). Dann ist \\(β^ ∨ : V → V ^∗ , w \\mapsto β(·,w)\\) linear. Jede Bilinearform auf \\(V\\) lässt sich also natürlich auf eine lineare Abbildung von \\(V\\) nach \\(V^ ∗\\) abbilden.\nDie Abbildung, die eine Bilinearform \\(β\\) auf \\(β ^∨\\) abbildet, ist ein Isomorphismus von \\(\\Bbb K\\)-Vektorräumen: \\(Bil(V,\\Bbb K) → Hom(V,V^ ∗ ), β \\mapsto β ^∨\\) .",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "[kœri]ing"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "[kœri]ing"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\n\\(char(\\Bbb K)\\not= 0\\) (also \\(1+1\\not=0\\))- Zu jeder quadratischen Form \\(q\\) einer \\(\\beta\\in Bil(V,\\Bbb K)\\), so \\(\\exists !\\) symetrische Bilinearform \\(\\beta_s\\) mit \\(q=q_{\\beta_1}\\). Es ist \\(\\beta(v,w)=\\frac 1 2\\) \\((q(v+w)-q(v)-q(w))\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Polarisierugsidentität"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Polarisierugsidentität"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.html#definition",
-    "title": "Lineare Algebra II",
-    "section": "Definition",
-    "text": "Definition\n\n\\(\\beta\\) ist eine symetrische Bilinearform und \\(\\exists w\\in V\\setminus \\{0\\}:\\forall v\\in V:\\beta(v,w)=0\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Degenerierte Bilinearform"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.html#siehe-auch",
-    "title": "Lineare Algebra II",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Degenerierte Bilinearform"
+      "Fundamentalmatrix"
     ]
   },
   {
@@ -1296,61 +633,911 @@
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#definition",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#definition",
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nDie Fundamentalmatrix ist sozusagen eine “charakteristische Matrix”, die eine Bilinearform beschreiben soll. Sie hat andere eigenschaften wie die Matrix, die eine Lineare Abbildung beschreiben würde!!!\nEs gilt:\n\\(B\\) basis, \\(B^*\\) duale Basis\n\\(FM_B(\\beta):=M_{B^*,B}(\\beta^\\vee))\\in\\Bbb K^{n\\times n}\\).\nSomit gilt dann:\n\\((FM_B(\\beta))_{ij}=\\beta(b_i,b_j)\\)\n\\(\\beta(v,w)=v^TFM_E(\\beta)w\\)",
+    "text": "Definition\n\n\\(\\beta\\) ist eine symetrische Bilinearform und \\(\\exists w\\in V\\setminus \\{0\\}:\\forall v\\in V:\\beta(v,w)=0\\).",
     "crumbs": [
       "3 Bilinearformen und quardratische Formen",
       "3.2 Bilinearformen über beliebigen Körpern",
-      "Fundamentalmatrix"
+      "Degenerierte Bilinearform"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#basiswechsel",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#basiswechsel",
-    "title": "Lineare Algebra II",
-    "section": "Basiswechsel",
-    "text": "Basiswechsel\n\n\\(FM_C(\\beta)=FM_{B,C}(id)^TFM_B(\\beta)FM_{B,C}(id)\\).",
-    "crumbs": [
-      "3 Bilinearformen und quardratische Formen",
-      "3.2 Bilinearformen über beliebigen Körpern",
-      "Fundamentalmatrix"
-    ]
-  },
-  {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Fundamentalmatrix.html#siehe-auch",
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Degenerierte Bilinearform.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "3 Bilinearformen und quardratische Formen",
       "3.2 Bilinearformen über beliebigen Körpern",
-      "Fundamentalmatrix"
+      "Degenerierte Bilinearform"
     ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Folgerungen aus der Definitheit.html#was-bringt-uns-das-hier-alles",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Folgerungen aus der Definitheit.html#was-bringt-uns-das-hier-alles",
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#definition",
     "title": "Lineare Algebra II",
-    "section": "Was bringt uns das hier alles?",
-    "text": "Was bringt uns das hier alles?\n\nEs sind äquivalent:\n\n\\(A\\) ist symmetrisch und positiv definit.\nEs gibt ein \\(S \\in \\text{GL}(n, \\mathbb{R})\\) mit \\(S^\\top S = A\\).\nEs gibt eine symmetrische positiv definite Matrix \\(S \\in \\mathbb{R}^{n \\times n}\\) mit \\(S^2 = A\\).\n\nEs sind äquivalent:\n\n\\(A\\) ist symmetrisch und positiv semidefinit.\nEs gibt ein \\(m \\in \\mathbb{N}\\) und ein \\(S \\in \\mathbb{R}^{m \\times n}\\) mit \\(S^\\top S = A\\).\nEs gibt eine symmetrische positiv semidefinite Matrix \\(S \\in \\mathbb{R}^{n \\times n}\\) mit \\(S^2 = A\\)."
+    "section": "Definition",
+    "text": "Definition\n\n\\(char(\\Bbb K)\\not= 0\\) (also \\(1+1\\not=0\\))- Zu jeder quadratischen Form \\(q\\) einer \\(\\beta\\in Bil(V,\\Bbb K)\\), so \\(\\exists !\\) symetrische Bilinearform \\(\\beta_s\\) mit \\(q=q_{\\beta_1}\\). Es ist \\(\\beta(v,w)=\\frac 1 2\\) \\((q(v+w)-q(v)-q(w))\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Polarisierugsidentität"
+    ]
   },
   {
-    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Folgerungen aus der Definitheit.html#siehe-auch",
-    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reelen Zahlen/Folgerungen aus der Definitheit.html#siehe-auch",
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Polarisierugsidentität.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Polarisierugsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nDt. Schönfinkeln.\nBilinearformen sind keine lineare Abbildungen und deshalb können wir es nicht so epic mit den ganzen Tools aus der Linearen Algebra untersuchen. Wenn wir aber eine Variable sozusagen “festhalten”, dann erhalten wir eine Abbildung, die einfacher handzuhaben ist.\nAlso\n\\(f:X\\times Y\\rightarrow Z\\). Wenn wir z.B. \\(y\\in Y\\) festhalten, erhalten wir die Funktion \\(f(\\cdot,y):X\\rightarrow Z\\). Man schreibt auch:\n\\(f^\\vee Y\\rightarrow Z^X, y\\mapsto f(\\cdot,y)\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "[kœri]ing"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#bilinearformen-dann",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#bilinearformen-dann",
+    "title": "Lineare Algebra II",
+    "section": "Bilinearformen dann",
+    "text": "Bilinearformen dann\n\nEs sei V ein Vektorraum über einem Körper \\(\\Bbb K\\).\nWie Defintion 3.1.1 eingeführt bezeichnen wir den Dualraum von V mit V ∗ := HomK(V,K).\n\nEs sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform auf \\(V\\). Dann ist für jeden Vektor \\(w ∈ V\\) die Abbildung \\(β(·,w) : V → \\Bbb K, v \\mapsto β(v,w)\\) linear, d.h. \\(β(·,w) ∈ V ^∗\\) .\nEs sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform auf \\(V\\). Dann ist \\(β^ ∨ : V → V ^∗ , w \\mapsto β(·,w)\\) linear. Jede Bilinearform auf \\(V\\) lässt sich also natürlich auf eine lineare Abbildung von \\(V\\) nach \\(V^ ∗\\) abbilden.\nDie Abbildung, die eine Bilinearform \\(β\\) auf \\(β ^∨\\) abbildet, ist ein Isomorphismus von \\(\\Bbb K\\)-Vektorräumen: \\(Bil(V,\\Bbb K) → Hom(V,V^ ∗ ), β \\mapsto β ^∨\\) .",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "[kœri]ing"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/kœring.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "[kœri]ing"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nJa, wann ist eigentlich jetzt eine Fundamentalmatrix diagonal? Antwort:\n\\(FM_B(\\beta)\\) ist eine Diagonalmatrix \\(\\iff\\) \\(B=(b_1,\\dots,b_n)\\) ist eine Orthogonalbasis für \\(\\beta\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Diagonale Fundamentalmatrizen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#folgerung",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#folgerung",
+    "title": "Lineare Algebra II",
+    "section": "Folgerung:",
+    "text": "Folgerung:\n\nEs sei \\(V\\) ein n-dimensionaler Vektorraum über einem Körper \\(\\Bbb K\\) und es sei \\(β : V ×V → \\Bbb K\\) eine Bilinearform. Wenn \\(V\\) eine Orthogonalbasis bezüglich \\(β\\) besitzt, dann ist \\(β\\) symmetrisch. Das folgt einfach aus [[3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform|Symetrische Bilinearform]]\nABER! Dies gilt nicht immer umgekehrt! Es muss gelten, dass der Körper \\(\\Bbb K\\) eine charakteristik ungleich 2 hat (also \\(1+1=0\\) darf nicht gelten)",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Diagonale Fundamentalmatrizen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Diagonale Fundamentalmatrizen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#einleitung",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#einleitung",
+    "title": "Lineare Algebra II",
+    "section": "Einleitung",
+    "text": "Einleitung\n\nMan kennt ja, dass man für jede Bilinearform eine Quadratische Form finden kann. Jedoch stellt sich auch die Frage, ob das umgekehrt geht. Und antwort: ja! Nunja solange die Charakteristik ungleich 2 ist, dann findet man immer eine umgekehrte symmetrische Bilinearform!",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Polarisierungsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2 und \\(V\\) ein Vektorraum über \\(\\Bbb K\\). Zu jeder quadratischen Form \\(q:V\\rightarrow\\Bbb K\\) gibt es genau eine symmetrische Bilinearform \\(\\beta\\)! Es gilt:\n\\(\\beta(v,w)=\\frac 1 2 (q(v+w)-q(w)-q(v))\\), wobei \\(\\frac 1 2\\) das multiplikatve Inverse von \\(2 = 1+1\\) ist.\nALSO:\nDie Abbildung\n\\[\\{β ∈ Bil(V,K) | β ist symmetrisch\\} → \\{q : V → K | \\text{ q ist eine quadratische Form}\\}, β \\mapsto q_β\\]\nist ein Isomorphismus von \\(\\Bbb K\\)-Vektorräumen hüüü",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Polarisierungsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Polarisierungsidentität"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Bilinearform heißt symetrisch, falls: \\[\\beta(v,w)=\\beta(w,v)\\]Es gilt: Eine Bilinearform ist symetrisch genau dann, wenn ihre Fundamentalmatrix \\(FM_B(\\beta)\\) symetrisch ist.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Symetrische Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Symetrische Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) ein Vektorraum. Eine Linearform (manchmal auch lineares Funktional) \\(σ\\) auf \\(V\\) ist ein Element in \\(Hom_{\\Bbb K}(V,\\Bbb K)\\), also eine lineare Abbildung \\(σ : V →\\Bbb K\\).\nDer Vektorraum \\(V ^∗ := Hom_{\\Bbb K}(V,\\Bbb K)\\) aller Linearformen auf \\(V\\) heißt der Dualraum von \\(V\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Linearform und Dualraum"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Linearform und Dualraum"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum über einem Körper \\(\\Bbb K\\) und \\(v\\in V\\) ein Element. Dann ist die Auswertungsabbildung: \\[\\eta_V(v):V^*\\rightarrow\\Bbb K, \\sigma\\mapsto\\sigma(v)\\]eine \\(\\Bbb K\\)-Linearform definiert auf dem Dualraum \\(V\\).\nErinnerung: Linearform ist ein Element aus dem Dualraum, also ein Element in \\(Hom_{\\Bbb K}(V,\\Bbb K)\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Auswertungsabbildung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Auswertungsabbildung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs seien \\(V\\) und \\(W\\) endlichdimensionale Vektorräume über einem Körper \\(\\Bbb K\\). Weiterhin sei eine geordnete Basis \\(B\\) von \\(V\\), sowie eine geordnete Basis \\(C\\) von \\(W\\) gegeben. Die dazugehörigen dualen Basen von \\(V^*\\) und \\(W^*\\) werden mit \\(B^*\\) und \\(C^*\\) bezeichnet.\nFür jede lineare Abbildung \\(\\varphi:V\\rightarrow W\\) und ihre duale Abbildung \\(\\varphi^*:W^*\\rightarrow V^*\\) gilt:\n\\[M_{B^*,C^*}(\\varphi^*)=(M_{C,B}(\\varphi))^T.\\]\nDas Dualisieren einer Abbildung entspricht also dem Transponieren der Matrix.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Transponieren entspricht Dualisieren"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Transponieren entspricht Dualisieren"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Trägheitssatz von Sylvester.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Trägheitssatz von Sylvester.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(n\\in\\Bbb N\\) und \\(V\\) ein \\(n\\)-dimensionaler reeller Vektorraum. Da sei \\(\\beta:V\\times V\\rightarrow\\Bbb R\\) eine symmetrische Bilinearform.\n\nDann können wir \\(V\\) zerlegen in \\(V=V_+\\oplus V_-\\oplus V_0\\),\nsodass \\(\\beta|_{V_+\\times V_+}\\) positiv definit, \\(\\beta|_{V_-\\times V_-}\\) negativ definit und \\(\\beta|_{V_0\\times V_0}\\) die Nullabbildung ist und Vektoren aus verschiedenen der drei direkten Summanden stammen, orthogonal bezüglich \\(\\beta\\) sind, d.h. \\(\\beta(u,v)=0\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Trägheitssatz von Sylvester"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Trägheitssatz von Sylvester.html#folgerungen",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Trägheitssatz von Sylvester.html#folgerungen",
+    "title": "Lineare Algebra II",
+    "section": "Folgerungen",
+    "text": "Folgerungen\n\n\nDas Tripel \\((\\dim(V_+), \\dim(V_-), \\dim(V_0)) \\in \\mathbb{N}_0^3\\) hängt nicht von der Zerlegung ab und ist eindeutig bestimmt. Die Zahl \\(\\dim(V_-)\\) wird die Signatur von \\(\\beta\\) genannt. Wenn die Signatur von \\(\\beta\\) und der Rang \\(\\dim(V_+) + \\dim(V_-)\\) bekannt sind, ist die Bilinearform bis auf Basiswechsel eindeutig bestimmt.\nEs gibt eine geordnete Basis \\(B\\) von \\(V\\), sodass \\(FM_{B}(\\beta)\\) eine Diagonalmatrix ist, die nur die Zahlen \\(1\\), \\(-1\\) und \\(0\\) auf der Diagonale hat. Die Signatur entspricht der Anzahl der \\(-1\\) auf der Diagonale. Der Rang ist die Summe der Anzahl aller \\(1\\) und aller \\(-1\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Trägheitssatz von Sylvester"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Trägheitssatz von Sylvester.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Trägheitssatz von Sylvester.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Trägheitssatz von Sylvester"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Folgerungen aus der Definitheit.html#was-bringt-uns-das-hier-alles",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Folgerungen aus der Definitheit.html#was-bringt-uns-das-hier-alles",
+    "title": "Lineare Algebra II",
+    "section": "Was bringt uns das hier alles?",
+    "text": "Was bringt uns das hier alles?\n\nEs sind äquivalent:\n\n\\(A\\) ist symmetrisch und positiv definit.\nEs gibt ein \\(S \\in \\text{GL}(n, \\mathbb{R})\\) mit \\(S^\\top S = A\\).\nEs gibt eine symmetrische positiv definite Matrix \\(S \\in \\mathbb{R}^{n \\times n}\\) mit \\(S^2 = A\\).\n\nEs sind äquivalent:\n\n\\(A\\) ist symmetrisch und positiv semidefinit.\nEs gibt ein \\(m \\in \\mathbb{N}\\) und ein \\(S \\in \\mathbb{R}^{m \\times n}\\) mit \\(S^\\top S = A\\).\nEs gibt eine symmetrische positiv semidefinite Matrix \\(S \\in \\mathbb{R}^{n \\times n}\\) mit \\(S^2 = A\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Folgerungen aus der Definitheit"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Folgerungen aus der Definitheit.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Folgerungen aus der Definitheit.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Folgerungen aus der Definitheit"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2, \\(n\\in\\Bbb N\\) und \\(Q\\subseteq\\Bbb K^n\\) eine Quadrik. Dann ist es immer möglich einen Vektorraumautomorphismus \\(\\psi:\\Bbb K^n\\rightarrow\\Bbb K^n,x\\mapsto Sx\\) mit \\(S\\in GL(n,\\Bbb K)\\) und Skalare \\(\\alpha_1,\\dots,\\alpha_n,\\beta_1,\\dots,\\beta_n,c\\in\\Bbb K\\) zu finden, sodass:\n\\(\\psi(Q)=\\left\\{(u_1,\\dots,u_n)^T\\in\\Bbb K^n,|\\sum^n_{i=1}a_iu_i^2+2\\sum^n_{j=1}\\beta_ju_j+c=0\\right\\}\\)\nFalls \\(\\Bbb K=\\Bbb R\\), so kann man \\(\\psi\\) als isometrischen Isomorphismus des Standartskalarproduktes wählen.\nES GILT WAS COOLES! \\(\\psi:\\Bbb K^n\\rightarrow\\Bbb K^n,x\\mapsto Sx\\): \\(S\\) ist diejenige Basiswechselmatrix, die die Fundamentalmatrix diagonal macht, also \\(S^TFM_E(\\beta)S=D\\)iagonal. :OO",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Quadrik in einer schönen Form"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#noch-schöner",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#noch-schöner",
+    "title": "Lineare Algebra II",
+    "section": "Noch SCHÖNER!!!",
+    "text": "Noch SCHÖNER!!!\n\nJetzt darf die der quadratischen Abbildung zugrundelegende Bilinearform nicht entartet sein.\nDANN GILT, dass es für eine Quadrik \\(Q\\subseteq\\Bbb K^n\\) sogar einen Affinen Automorphismus \\(\\Psi:\\Bbb K^n\\rightarrow\\Bbb K^n,s\\mapsto Sx+v_0\\) und Skalare \\(\\alpha_1,\\dots,\\alpha_n\\not=0\\) sowie ein \\(d\\in\\Bbb K\\) zu finden, sodass!:\n\\(\\Psi(Q)=\\left\\{(u_1,\\dots,u_n)^T\\in\\Bbb K^n,|\\sum^n_{i=1}a_iu_i^2+2+d=0\\right\\}\\)\nBeweis: geschickter basiswechsel :p",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Quadrik in einer schönen Form"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Quadrik in einer schönen Form"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#affiner-fall",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#affiner-fall",
+    "title": "Lineare Algebra II",
+    "section": "affiner Fall",
+    "text": "affiner Fall\n\nSei \\(\\Bbb K\\) ein Körper mit \\(\\text{char}(\\Bbb K) \\neq 2\\) und \\(Q \\subseteq \\Bbb K^n\\) eine Quadrik. Dann gibt es immer einen affinen Automorphismus \\(\\Psi : \\Bbb K^n \\to \\Bbb K^n\\), \\(x \\mapsto Sx + v_0\\) mit \\(S \\in \\text{GL}(n, \\Bbb K)\\) und \\(v_0 \\in \\Bbb K^n\\), eine Zahl \\(m \\in \\{1, \\dots, n\\}\\) und Skalare \\(\\alpha_1, \\dots, \\alpha_m \\neq 0\\), sodass genau einer der drei folgenden Fälle zutrifft:\n\n\\(Q\\) ist eine kegelartige Quadrik (oder auch kegelige Quadrik), d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 0 \\right\\}\\)\n\\(Q\\) ist eine Mittelpunktsquadrik, d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 1 \\right\\}\\)\n\\(Q\\) ist eine parabolische Quadrik, d.h. \\(m \\leq n-1\\) und\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb K^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 + 2u_{m+1} = 0 \\right\\}\\)\n\nDie Zahl \\(m\\) entspricht hier dem Rang der zur Quadrik gehörenden symmetrischen Bilinearform.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Klassifikation von Quadriken"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#isometrischer-fall-hauptachsentransformation",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#isometrischer-fall-hauptachsentransformation",
+    "title": "Lineare Algebra II",
+    "section": "isometrischer Fall; Hauptachsentransformation",
+    "text": "isometrischer Fall; Hauptachsentransformation\n\nEs sei \\(Q \\subseteq \\Bbb R^n\\) eine Quadrik. Dann gibt es immer einen isometrischen affinen Automorphismus \\(\\Psi : \\Bbb R^n \\to \\Bbb R^n\\), \\(x \\mapsto Sx + v_0\\) mit \\(S \\in S(n)\\) und \\(v_0 \\in \\Bbb R^n\\), eine Zahl \\(m \\in \\{1, \\dots, n\\}\\) und Skalare \\(\\alpha_1, \\dots, \\alpha_m \\neq 0\\), sodass genau einer der drei folgenden Fälle zutrifft:\n\n\\(Q\\) ist eine kegelartige Quadrik (oder auch kegelige Quadrik), d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 0 \\right\\}\\)\n\\(Q\\) ist eine Mittelpunktsquadrik, d.h.\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 = 1 \\right\\}\\)\n\\(Q\\) ist eine parabolische Quadrik, d.h. \\(m \\leq n-1\\) und\n\\(\\Psi(Q) = \\left\\{ \\begin{pmatrix} u_1 \\\\ \\vdots \\\\ u_n \\end{pmatrix} \\in \\Bbb R^n \\ \\middle|\\ \\sum_{j=1}^{m} \\alpha_j u_j^2 + 2u_{m+1} = 0 \\right\\}\\)\n\nDie Zahl \\(m\\) entspricht hier dem Rang der zur Quadrik gehörenden symmetrischen Bilinearform.\nDas Verfahren, eine Quadrik durch eine affine Isometrie \\(\\Psi\\) in eine dieser Formen zu bringen, nennt man auch Hauptachsentransformation.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Klassifikation von Quadriken"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Klassifikation von Quadriken"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#motivation",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#motivation",
+    "title": "Lineare Algebra II",
+    "section": "Motivation",
+    "text": "Motivation\n\nJa es gibt viele verschiedene Lösungsmengen von quadratischen Gleichungen, z.b. ist die Lösungsmenge von \\(x_1^2+x_2^2=1\\) ein Kreis mit dem Radius 1, \\(x_1^2+x_2^2+x_3^3\\) ist eine Kugel mit Radius 1 und die Lösung von \\(x_1^2+x_2^2-x_3^2=0\\) beschreibt den Mantel eines Doppelkegels. Wenn man diese Art von Gleichungen nun verallgemeinern will, dann kommt man auf die Definition einer Quadrik",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Quadrik"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper mit \\(char(\\Bbb K)\\not=2\\) und \\(n\\in\\Bbb N\\). Eine Quadrik ist eine Teilmenge von \\(\\Bbb K^n\\), die sich scheiben lässt als Lösungsmenge einer Gleichung der Form \\[q(x)+2\\varphi(x)+c=0,\\]wobei \\(q:\\Bbb K^n\\rightarrow\\Bbb K\\) eine quadratische Form (erinnerung: Bilinearformen) mit \\(q\\not=0\\) und \\(\\varphi:\\Bbb K^n\\rightarrow\\Bbb K\\) eine Linearform und \\(c\\in\\Bbb K\\) eine Konstante ist.\nSolch eine Gleichung nennt man quadratische Gleichung in \\(n\\) Variablen. Falls \\(q=0\\) ist, so liegt keine quadratische Gleichung vor, sondern eine lineare Gleichung.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Quadrik"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#folgerung",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#folgerung",
+    "title": "Lineare Algebra II",
+    "section": "Folgerung",
+    "text": "Folgerung\n\nWait nononono, this cannot be true!\n\\(q(x)\\) als quadratische Form?!?! Bedeutet dies? ohnein…\nMan kann eine Quadrik immer durch \\(A\\in\\Bbb K^{n\\times n}, b\\in\\Bbb K^n\\) beschreiben als\n\\[\\{x\\in\\Bbb K^n|x^TAx+2b^Tx+c=0),\\]wobei \\(A=FM_E(\\beta)\\) BITTE UNGLEICH 0 IST.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Quadrik"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Quadrik"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) und \\(W\\) seien Vektorräiume über \\(\\Bbb K\\). Eine Abbildung \\(\\Psi:V\\rightarrow W\\) heißt eine affine Abbildung, wenn sich \\(\\Psi\\) schreiben lässt als die Summe einer linearen und einer konstanten Abbildung, d.h. \\(\\Psi(x)=\\varphi(x)+w_0\\).\nDie Menge \\(Aff(V)\\) ist eine Gruppe mit der Verkettung",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Affine Abbildungen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Affine Abbildungen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Gleichung \\(x^2=s\\) hat eine Lösung, wenn:\nFalls \\(\\text{char}(\\Bbb K)\\not=2\\):\n\n\\(s\\) ist quadratisch in \\(\\Bbb K\\) (\\(\\exists w\\in\\Bbb K: w^2=s\\)) und ja.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Lösung einer quadratischen Gleichung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.5 Quadriken und Hauptachsentransformation",
+      "Lösung einer quadratischen Gleichung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V\\) ein reeller Vektorraum und \\(\\beta:V\\times V\\rightarrow\\Bbb R\\) eine symmetrische Bilinearform mit dazugehöroger quadratischer Form \\(q_\\beta:V\\rightarrow\\Bbb R\\). Dann nennen wir \\(\\beta\\) (und auch \\(q_\\beta\\)):\n\npositiv definit, falls \\(\\forall v\\in V\\setminus\\{0\\}:q_\\beta&gt;0\\)\nnegativ definit, falls \\(\\forall v\\in V\\setminus\\{0\\}:q_\\beta&lt;0\\)\npositiv semidefinit, falls \\(\\forall v\\in V:q_\\beta\\ge0\\)\nnegativ semidefinit, falls \\(\\forall v\\in V:q_\\beta\\le0\\)\ninfefinit, falls es Vektoren gibt die \\(&gt;0\\) und \\(&lt;0\\) auf der quadratischen Form sind.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Definitheit einer reellen Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#bestimmung-der-definitheit",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#bestimmung-der-definitheit",
+    "title": "Lineare Algebra II",
+    "section": "Bestimmung der Definitheit",
+    "text": "Bestimmung der Definitheit\n\nEs sei \\(n ∈ \\Bbb N\\). Eine symmetrische Matrix \\(A ∈ \\Bbb R^ {n×n}\\) heiße\n\npositiv definit, falls \\(∀x ∈ \\Bbb R^ n \\setminus\\{0\\} : x ^T Ax &gt; 0\\)\nnegativ definit, falls \\(∀x ∈ \\Bbb R^ n \\setminus\\{0\\} : x ^T Ax &lt; 0\\)\npositiv semidefinit, falls \\(∀x ∈ \\Bbb R^ n : x ^T Ax ≥ 0\\)\nnegativ semidefinit, falls \\(∀x ∈ \\Bbb R^ n : x ^T Ax ≤ 0\\)\nindefinit, falls es Vektoren \\(x, y ∈ \\Bbb R^ n\\) gibt mit \\(x ^T Ax &lt; 0\\) und \\(y ^T A y &gt; 0\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Definitheit einer reellen Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#erstes-kriterium",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#erstes-kriterium",
+    "title": "Lineare Algebra II",
+    "section": "Erstes Kriterium",
+    "text": "Erstes Kriterium\n\nSei \\(V\\) ein \\(n\\)-dimensionaler reeller Vektorraum und \\(\\beta : V \\times V \\to \\mathbb{R}\\) eine symmetrische Bilinearform. Es sei weiterhin \\(B\\) eine Orthogonalbasis (diese gibt es immer und für diese Ist \\(FM_B\\) in diagonalform) für \\(\\beta\\). Dann gilt:\n\npositiv definit, falls alle Diagonaleinträge von \\(FM_{B}(\\beta)\\) größer als \\(0\\) sind.\nnegativ definit, falls alle Diagonaleinträge von \\(FM_{B}(\\beta)\\) kleiner als \\(0\\) sind.\npositiv semidefinit, falls alle Diagonaleinträge von \\(FM_{B}(\\beta)\\) größer als oder gleich \\(0\\) sind.\nnegativ semidefinit, falls alle Diagonaleinträge von \\(FM_{B}(\\beta)\\) kleiner als oder gleich \\(0\\) sind.\nindefinit, falls es sowohl positive als auch negative Zahlen auf der Diagonalen gibt.\n\nMan bringt die Matrix mit Gauß-Umformungen also in diagonalform und schaut sich die Vorzeichen an!",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Definitheit einer reellen Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#kriterium-über-determinante-nur-für-positive-definitheit",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#kriterium-über-determinante-nur-für-positive-definitheit",
+    "title": "Lineare Algebra II",
+    "section": "Kriterium über Determinante (NUR FÜR POSITIVE DEFINITHEIT)",
+    "text": "Kriterium über Determinante (NUR FÜR POSITIVE DEFINITHEIT)\n\n\nDie Matrix einer Positiv definiten Matrix ist immer positiv.\n\nEs sei \\(A\\in\\Bbb R^{n\\times n}\\) eine symmetrsiche \\((n\\times n)\\)-Matrix mit \\(n\\ge2\\) und \\(B\\in\\Bbb R^{(n-1)\\times(n-1)}\\) die Matrix die man erhält, wenn man von \\(A\\) die letzte Zeile und Spalte streicht,\nDann ist äquivalent:\n\nDie Matrix \\(A\\) ist positiv definit\nDie Matrix \\(B\\) ist positiv definit und \\(det(A)&gt;0\\)",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Definitheit einer reellen Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#hurwitz-kriterium",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#hurwitz-kriterium",
+    "title": "Lineare Algebra II",
+    "section": "Hurwitz-Kriterium",
+    "text": "Hurwitz-Kriterium\n\nEs sei \\(A \\in \\mathbb{R}^{n \\times n}\\) eine symmetrische Matrix und für jedes \\(k \\in \\{1, \\dots, n\\}\\) sei \\(F_k \\in \\mathbb{R}^{k \\times k}\\) die Matrix, die aus den obersten \\(k\\) Zeilen und den ersten \\(k\\) Spalten besteht.\n\nDie Matrix \\(A\\) ist genau dann positiv definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\(\\det(F_k) &gt; 0\\).\nDie Matrix \\(A\\) ist genau dann negativ definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\((-1)^k \\cdot \\det(F_k) &gt; 0\\).\nFalls \\(\\det(A) \\neq 0\\) ist und \\(A\\) weder positiv noch negativ definit ist, dann ist \\(A\\) indefinit.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Definitheit einer reellen Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#definitheit-mit-eigenwerten",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#definitheit-mit-eigenwerten",
+    "title": "Lineare Algebra II",
+    "section": "Definitheit mit Eigenwerten",
+    "text": "Definitheit mit Eigenwerten\n\nEs sei \\(A \\in \\mathbb{R}^{n \\times n}\\) eine symmetrische Matrix. Dann gilt:\n\npositiv definit, falls alle Eigenwerte von \\(A\\) größer als \\(0\\) sind.\nnegativ definit, falls alle Eigenwerte von \\(A\\) kleiner als \\(0\\) sind.\npositiv semidefinit, falls alle Eigenwerte von \\(A\\) größer als oder gleich \\(0\\) sind.\nnegativ semidefinit, falls alle Eigenwerte von \\(A\\) kleiner als oder gleich \\(0\\) sind.\nindefinit, falls \\(A\\) sowohl positive als auch negative Eigenwerte besitzt.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Definitheit einer reellen Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen",
+      "Definitheit einer reellen Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\n\nGegeben sei eine \\(\\Bbb K\\)-lineare Abbildung \\(\\varphi: V\\rightarrow W\\). Dann ist die Abbildung \\[\\varphi^*:W^*\\rightarrow V^*, \\sigma\\mapsto\\sigma\\circ\\varphi\\]Diese nennt man auch die duale Abbildung.\nIst \\(\\varphi:V\\rightarrow W\\) surjektiv, so ist \\(\\varphi^*:W^*\\rightarrow V^*\\) injektiv\nIst \\(\\varphi: V\\rightarrow W\\) bijektiv, so ist \\(\\varphi^*:W^*\\rightarrow V^*\\) bijektiv.\nEs gilt \\((id_V)^*=id_{V^*}\\)\nEs sei \\(U\\) ein Vektorraum über \\(\\Bbb K\\) und \\(\\varphi: V\\rightarrow W\\) und \\(\\psi:U\\rightarrow V\\) lineare Abbildungen. Dann gilt \\((\\varphi\\circ\\psi)^*=\\psi^*\\circ\\varphi^*\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Dualisieren von linearen Abbildungen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Dualisieren von linearen Abbildungen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) ein endlichdimensionaler Vektorraum über \\(\\Bbb K\\) mit geordneter Basis \\(B=(b_1,\\dots,b_n)\\).\nDann bilden die Koordinatenabbildungen \\(B^*=(b_1^*,\\dots,b_n^*)\\) eine geordnete Basis des Dualraums \\(V*\\), genannt die duale Basis.\nFür eine Linearform \\(\\sigma:V\\rightarrow\\Bbb K\\) gilt: \\[(\\sigma)_{B^*}=(M_{E,B}(\\sigma))^T\\]",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Duale Basis"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Duale Basis"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum über einem Körper \\(\\Bbb K\\).\n\nDie Abbildung \\(\\eta_V:V\\rightarrow (V^*)^*, v\\mapsto \\eta_V(v)\\), die jeden Vektor auf die dazugehörige Auswertungsabbildung abbildet, ist \\(\\Bbb K\\)-linear.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Bidual"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Bidual"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nDie Koordinatenabbildung \\(b_j\\) bildet einen Vektor \\(v\\in V\\) auf den \\(\\lambda_j\\)-ten Koeffizienten seiner Linearkombination bezüglich einer Basis ab.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Koordinatenabbildung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.1 Der Dualraum",
+      "Koordinatenabbildung"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#definition-entartete-bilinearform",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#definition-entartete-bilinearform",
+    "title": "Lineare Algebra II",
+    "section": "Definition entartete Bilinearform",
+    "text": "Definition entartete Bilinearform\n\nEine symmetrsiche Bilinearform \\(\\beta\\) ist entartet, wenn es einen Vektor gibt \\(v\\) gibt, für den \\(\\forall w\\in V:\\beta(v,w)=0\\)",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Nicht entartete symmetrische Bilinearformen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#eigenschaften",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#eigenschaften",
+    "title": "Lineare Algebra II",
+    "section": "Eigenschaften",
+    "text": "Eigenschaften\n\nIst \\(\\beta\\) eine nicht entartete symmetrische Bilinearform über einem Körper \\(\\Bbb K\\), dann ist folgendes äquivalent:\n\n\\(\\beta\\) ist nicht entartet\n\\(\\forall v\\not=0:\\exists w\\not=0:\\beta(v,w)\\not=0\\)\nDie Abbildung \\(\\beta^\\text v:V\\rightarrow V^*\\) ist injektiv.\n\nFalls \\(V\\) endlich dimensional ist, dann sind die eben genannten Aussagen auch noch äquivalent zu\n\nDie Abbildung \\(\\beta^\\text v:V\\rightarrow V^*\\) ist bijektiv.\nEs gibt eine geordnete Basis \\(B\\) von \\(V\\) mit \\(\\det FM_B(\\beta)\\not=0\\)\nFür jede geordnete Basis \\(B\\) von \\(V\\) gilt: \\(\\det FM_B(\\beta)\\not=0\\)\n\nZusätzlich gilt, falls \\(\\Bbb K\\) algebraisch abgeschlossen ist, dass es immer eine geordnete Basis \\(B\\) von \\(V\\) gibt, mit\n\\(FM_B(\\beta)=\\begin{pmatrix}1 & & \\\\ & \\ddots & \\\\ & & 1\\end{pmatrix}\\)\nEs sind also alle nicht entarteten symmetrischen Bilineaformen durch Basiswechsel ineinander überführbar.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Nicht entartete symmetrische Bilinearformen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#klassifikation",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#klassifikation",
+    "title": "Lineare Algebra II",
+    "section": "Klassifikation",
+    "text": "Klassifikation\n\nAlle Bilinearformen (auch entartet) über algebraisch abgeschlossenen Körpern können eindeutig klassifitiert werden durch die Anzahl der Einsen, die auf den Diagonaleinträgen stehen, wenn man versucht es durch Basiswechel in eine Einheitsmatrixform zu bringen. Diese Zahl wird dann auch der Rang genannt.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Nicht entartete symmetrische Bilinearformen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Nicht entartete symmetrische Bilinearformen"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\beta:V\\times V\\rightarrow\\Bbb K\\) eine Bilinearform und \\(B\\) eine geordnete Basis. Dann ist äquivalent:\n\n\\(FM_B(\\beta)\\) ist eine Diagonalmatrix\n\\(B\\) ist eine Orthogonalbasis für \\(\\beta\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Diagonale Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#lemma",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#lemma",
+    "title": "Lineare Algebra II",
+    "section": "Lemma",
+    "text": "Lemma\n\nWenn \\(\\beta\\) eine Orthgonalbasis besitzt, dann ist \\(\\beta\\) insbesondere auch symmetrisch, da eine Diagonalform ja symmetrisch ist.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Diagonale Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#folgerung",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#folgerung",
+    "title": "Lineare Algebra II",
+    "section": "Folgerung",
+    "text": "Folgerung\n\nEs sei \\(\\Bbb K\\) ein Körper mit charakteristik ungleich 2 und \\(V\\) ein Vektorraum über diesem Körper mit Dimension \\(n\\). Dann ist äquivalent:\n\n\\(\\beta\\) ist symetrisch\nEs gibt eine Orthogonalbasis \\(B\\) für \\(\\beta\\), das heißt dann alternativ, dass für diese Basis \\(FM_B(\\beta)\\) diagonalform hat.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Diagonale Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Diagonale Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V\\) ein \\(n\\)-Dimensionaler Vektorraum über einem Körper \\(\\Bbb K\\) und es sei \\(\\beta: V\\times V\\rightarrow\\Bbb K\\) eine Bilinearform. Eine geordnete Basis \\(B\\) ist eine Orthogonalbasis für Beta, wenn für zwei ungleiche \\(b_i,b_j\\) gilt, dass \\(\\beta(b_i,b_j)=0\\)",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Orthogonalbasis"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#bemerkung",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#bemerkung",
+    "title": "Lineare Algebra II",
+    "section": "Bemerkung",
+    "text": "Bemerkung\n\nEs ist erlaubt, dass \\(\\beta(b_i,b_i)=0\\) ist und insbesondere ist für die Nullabbildung \\(\\beta=0\\) jede Basis eine Orthogonalbasis.",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Orthogonalbasis"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.3 Symetrische Bilinearformen",
+      "Orthogonalbasis"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEine Bilinearform \\(\\beta\\) sei symetrisch, wenn \\(\\forall v,w\\in V:\\beta(v,w)=\\beta(w,v)\\iff \\exists\\) geordnete Basis \\(B\\) mit \\(FM_B(\\beta)\\) ist symetrisch",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Symetrische Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Symetrische Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Symetrische Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum über einem Körper \\(\\Bbb K\\). Eine Bilinearform ist eine Abbildung \\[\\beta:V\\times V\\rightarrow\\Bbb K\\]die in jeder Komponente linear ist.\nWir bezeichnen die Menge aller Bilinearformen auf \\(V\\) als\n\\(Bil(V,\\Bbb K):=\\{\\beta:V\\times V\\rightarrow\\Bbb K|\\beta\\text{ ist bilinear}\\}\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\n\\(B=(b_1,\\dots,b_n)\\) ist eine Orthonormalbasis für \\(\\beta\\), wenn \\(\\beta(b_i,b_j)=0\\), \\(i\\not=j\\).\nEs gilt (Lemma 3.3.5):\n\n\\(B \\text{ Orthogonalbasis für } \\beta\\iff FM_B(\\beta)\\text{ Diagonalisierbar.}\\)",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Orthogonalbasis einer Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#satz",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#satz",
+    "title": "Lineare Algebra II",
+    "section": "Satz",
+    "text": "Satz\n\nWenn \\(char(\\Bbb K)\\not=2\\) (also \\(1+1\\not=0\\)), \\(V-\\Bbb K\\)-Vektorraum, \\(\\beta\\in Bil(V\\Bbb K)\\), dann:\n\\(\\beta\\) Symetrisch \\(\\iff\\) \\(\\exists\\) Orthogonalbasis von \\(\\beta\\).",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Orthogonalbasis einer Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Orthogonalbasis einer Bilinearform.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Orthogonalbasis einer Bilinearform"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#definition",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#definition",
+    "title": "Lineare Algebra II",
+    "section": "Definition",
+    "text": "Definition\n\nFür jede Bilinearform \\(\\beta\\in Bil(V,\\Bbb K)\\) ist \\[q_\\beta:V\\rightarrow\\Bbb K, v\\mapsto \\beta(v,v)\\]die zu \\(\\beta\\) zugehörige quadratische Form",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Quadratische Form"
+    ]
+  },
+  {
+    "objectID": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#siehe-auch",
+    "href": "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Quadratische Form.html#siehe-auch",
+    "title": "Lineare Algebra II",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Bilinearformen und quardratische Formen",
+      "3.2 Bilinearformen über beliebigen Körpern",
+      "Quadratische Form"
+    ]
   },
   {
     "objectID": "Auswendiglern-Spickzettelsachen.html",
     "href": "Auswendiglern-Spickzettelsachen.html",
     "title": "Lineare Algebra II",
     "section": "",
-    "text": "Gram-Schmidt\n\\[w_j:=v_j-\\sum^{j-1}_{i=1}\\frac{&lt;v_j,w_i&gt;}{&lt;w_i,w_i&gt;}w_i\\]\nOrthogonalprojektion, wenn ORTHONORMALBASIS!!! NORMAL!!!! NORMAL!!!!!!!!!!!!!!!!!!!!!!!!!\n\\[\\pi_U(x)=\\sum^n_{j=0}&lt;x,b_j&gt;b_j\\]\nPolarisierugsidentität\n\\(\\beta(v,w)=\\frac 1 2\\) \\((q(v+w)-q(v)-q(w))\\).\n[[Definitheit einer reelen Bilinearform#Hurwitz-Kriterium]]\nEs sei \\(A \\in \\mathbb{R}^{n \\times n}\\) eine symmetrische Matrix und für jedes \\(k \\in \\{1, \\dots, n\\}\\) sei \\(F_k \\in \\mathbb{R}^{k \\times k}\\) die Matrix, die aus den obersten \\(k\\) Zeilen und den ersten \\(k\\) Spalten besteht.\n\nDie Matrix \\(A\\) ist genau dann positiv definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\(\\det(F_k) &gt; 0\\).\nDie Matrix \\(A\\) ist genau dann negativ definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\((-1)^k \\cdot \\det(F_k) &gt; 0\\).\nFalls \\(\\det(A) \\neq 0\\) ist und \\(A\\) weder positiv noch negativ definit ist, dann ist \\(A\\) indefinit.\n\nWeil ich ihn noch nicht so gut auswendig kenne:\nSatz von Vieta:\n\\(x_1+x_2=-p\\), \\(x_1\\cdot x_2=q\\)!",
+    "text": "Gram-Schmidt\n\\[w_j:=v_j-\\sum^{j-1}_{i=1}\\frac{&lt;v_j,w_i&gt;}{&lt;w_i,w_i&gt;}w_i\\]\nOrthogonalprojektion, wenn ORTHONORMALBASIS!!! NORMAL!!!! NORMAL!!!!!!!!!!!!!!!!!!!!!!!!!\n\\[\\pi_U(x)=\\sum^n_{j=0}&lt;x,b_j&gt;b_j\\]\nPolarisierugsidentität\n\\(\\beta(v,w)=\\frac 1 2\\) \\((q(v+w)-q(v)-q(w))\\).\n[[3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform]]\nEs sei \\(A \\in \\mathbb{R}^{n \\times n}\\) eine symmetrische Matrix und für jedes \\(k \\in \\{1, \\dots, n\\}\\) sei \\(F_k \\in \\mathbb{R}^{k \\times k}\\) die Matrix, die aus den obersten \\(k\\) Zeilen und den ersten \\(k\\) Spalten besteht.\n\nDie Matrix \\(A\\) ist genau dann positiv definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\(\\det(F_k) &gt; 0\\).\nDie Matrix \\(A\\) ist genau dann negativ definit, wenn für alle \\(k \\in \\{1, \\dots, n\\}\\) gilt: \\((-1)^k \\cdot \\det(F_k) &gt; 0\\).\nFalls \\(\\det(A) \\neq 0\\) ist und \\(A\\) weder positiv noch negativ definit ist, dann ist \\(A\\) indefinit.\n\nWeil ich ihn noch nicht so gut auswendig kenne:\nSatz von Vieta:\n\\(x_1+x_2=-p\\), \\(x_1\\cdot x_2=q\\)!",
     "crumbs": [
       "Auswendiglern-Spickzettelsachen.html"
     ]
@@ -1692,38 +1879,38 @@
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#vorhilfssätze",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#vorhilfssätze",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Spektralsatz.html#vorhilfssätze",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Spektralsatz.html#vorhilfssätze",
     "title": "Lineare Algebra II",
     "section": "Vorhilfssätze",
-    "text": "Vorhilfssätze\n\nEs sei \\(A\\in\\Bbb C^{n\\times n}\\). Dann:\n\n\\(A\\) ist obere dreiecksmatrix und selbstadjungiert\n\\(A\\) ist eine Diagonalmatrix mit reelen Einträgen\n\nSowie\nEs sei jetzt auch \\(B\\in\\Bbb C^{n\\times n}\\)\nFalls \\(A\\) unitär und ähnlich zu \\(B\\) ist und \\(A\\) selbstadjungiert ist, dann ist auch \\(B\\) selbstadjungiert.",
+    "text": "Vorhilfssätze\n\nEs sei \\(A\\in\\Bbb C^{n\\times n}\\). Dann:\n\n\\(A\\) ist obere dreiecksmatrix und selbstadjungiert\n\\(A\\) ist eine Diagonalmatrix mit reellen Einträgen\n\nSowie\nEs sei jetzt auch \\(B\\in\\Bbb C^{n\\times n}\\)\nFalls \\(A\\) unitär und ähnlich zu \\(B\\) ist und \\(A\\) selbstadjungiert ist, dann ist auch \\(B\\) selbstadjungiert.",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen",
       "Spektralsatz"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#satz",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#satz",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Spektralsatz.html#satz",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Spektralsatz.html#satz",
     "title": "Lineare Algebra II",
     "section": "Satz",
-    "text": "Satz\n\n\n\\(A\\) ist selbstadjungiert, d.h. \\(A^*=A\\)\nDie Matrix \\(A\\) ist unitär diagonalisierbar und alle Eigenwerte von \\(A\\) sind reel.\n\nDas ist Äquivalent :OOOOOOO OOO",
+    "text": "Satz\n\n\n\\(A\\) ist selbstadjungiert, d.h. \\(A^*=A\\)\nDie Matrix \\(A\\) ist unitär diagonalisierbar und alle Eigenwerte von \\(A\\) sind reell.\n\nDas ist Äquivalent :OOOOOOO OOO",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen",
       "Spektralsatz"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Spektralsatz.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Spektralsatz.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nSpektralsatz für komplexe normale Matrizen",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
-      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen",
+      "2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen",
       "Spektralsatz"
     ]
   },
@@ -1908,99 +2095,87 @@
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition",
+    "text": "Definition\n\nEs sei \\(n\\in\\Bbb N\\) und \\(A\\in\\Bbb C^{n\\times n}\\).\n\nWenn \\(v\\in\\Bbb C^n\\) ein Eigenvektor von \\(A\\) zum Eigenwert \\(\\lambda\\) ist, dann ist \\(\\bar v\\in\\Bbb C^n\\) ein Eigenvektor von \\(\\bar A\\) zum Eigenwert \\(\\bar \\lambda\\).\nFalls \\(A\\) nur reelle Einträge besitzt, dann ist zu jedem komplexen Eigenwert \\(λ\\) auch die komplex konjugierte Zahl \\(\\bar λ\\) ein Eigenwert. Insbesondere treten nicht-reelle Eigenwerte immer in Paaren auf.",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
+      "Konjugierte Eigenwerte"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reelen-isometrie-normalformen-helfen",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reelen-isometrie-normalformen-helfen",
-    "title": "Lineare Algebra II",
-    "section": "Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:",
-    "text": "Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:\n\n\nBei Basiswechel ist die Spur invariant\nBei Basiswechsel sind die Eigenwerte Invariant\nDie Winkel in der komplexen Isometrie-Normalform sind die selben wie in der Reelen\nIst \\(A\\in\\Bbb R^{n\\times n}\\), und ist \\(\\lambda\\in\\Bbb C\\) ein EW von A, so ist auch \\(\\bar\\lambda\\) ein EV von A.",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-bestimmt-man-die-reele-isometrie-normalform",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-bestimmt-man-die-reele-isometrie-normalform",
-    "title": "Lineare Algebra II",
-    "section": "Wie bestimmt man die Reele Isometrie-Normalform?",
-    "text": "Wie bestimmt man die Reele Isometrie-Normalform?\n\nNie vergessen: alle Drehkästchen müssen einen Winkel zwischen \\(0\\) und \\(\\pi\\) haben!\n\n1. Spurtrick:\nMan beobachtet, dass die Spur bei Basiswechel erhalten bleibt (Lineare Algebra 1 5.5). Also können wir bei kleineren Matrizen manchmal die Spur unserer Matrix damit vergleichen, wie sie in der Isometrie-Normalform aussehen kann und daraus Schlüsse ziehen.\n\nBeispiel:\nWas ist die reele Isometrienormalform von \\(\\varphi: V\\rightarrow V,\\varphi\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ -1 \\end{pmatrix}, \\varphi\\begin{pmatrix} 0 \\\\ 1\\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}\\).\n\\(\\implies M_{E,E}(\\varphi)=\\begin{pmatrix} 0 & 1 \\\\ -1 & 0\\end{pmatrix}\\implies  Spur(\\varphi)=0\\).\n\\(\\implies\\) Die Spur der Isometrienormalform muss auch \\(0\\) sein, also ist sie \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) oder \\(D_\\alpha\\) mit \\(2cos(\\alpha)=0\\).\nDa \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) keine reelen Eigenwerte hat, kann \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) nicht die Isometrienormalform sein.\n\n\n\n2. Trick mit der Transponierten\nEs sei Matrix \\(A\\in\\Bbb R^{n\\times n}\\)\n\n\\(A\\) hat EW 1 \\(\\iff\\) \\(A+A^T\\) hat EW 2\n\\(A\\) hat EW -1 \\(\\iff\\) \\(A+A^T\\) hat EW -2\n\\(A\\) hat das Paar \\(e^{i\\alpha}\\) und \\(e^{-i\\alpha}\\) als EW \\(\\iff\\) \\(A+A^T\\) hat den doppelten EW \\(2cos(\\alpha)\\).\n\n\nBeispiel:\n\\(A=\\begin{pmatrix} 0&0&1&0 \\\\ 0&0&0&1 \\\\ -1&0&0&0 \\\\ 0&-1&0&0 \\end{pmatrix}, \\varphi:\\Bbb R^4\\rightarrow\\Bbb R^4,\\varphi(x)=Ax\\)- Welche Isometrienormalform hat \\(\\varphi\\)?\n\\(B:=A+A^T=0,p_B(X)=\\det\\begin{pmatrix} X&0&0&0 \\\\ 0&X&0&0 \\\\ 0&0&X&0 \\\\ 0&0&0&X \\end{pmatrix}=X^4\\implies B\\) hat nur EW 0.\nTranspositionstrick: INF von \\(\\varphi\\) ist \\(\\begin{pmatrix} D_\\alpha&\\\\&D_\\alpha \\end{pmatrix}\\) mit \\(2\\cos(\\alpha)=0\\), also \\(\\alpha=\\frac \\pi 2\\)",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
-    "title": "Lineare Algebra II",
-    "section": "Wie findet man eine passende Orthonormalbasis B?",
-    "text": "Wie findet man eine passende Orthonormalbasis B?\n\nGegeben \\(A\\in\\Bbb R^{n\\times n}\\) mit \\(\\varphi:\\Bbb R^n\\rightarrow\\Bbb R^n,\\varphi(x)=Ax\\).\n\nBestimme alle EW von \\(A\\) (z.b. mit dem Transponiertrick)\nFalls \\(A\\) die EW \\(-1\\) oder \\(1\\) hat, bestimme Orthonormalbasen \\(B_1\\) von \\(E_1(A)\\) und \\(B_{-1}\\) von \\(E_{-1}(A)\\).\nFür jede EW-paar \\(\\underbrace{e^{i\\alpha}}_{=\\lambda_j},\\underbrace{e^{-i\\alpha}}_{=\\bar\\lambda_j}\\) mit \\(0&lt;\\alpha_k&lt;\\pi\\):\n\nBestimme Orthonormalbasis \\((v_1,\\dots,v_t)\\) von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)\\). (! Auch komplexe Vektoren erlaubt!)\nSetze \\(a_k:=Re(v_k)\\) und \\(b_k:=Im(v_K)\\)\nSetze \\(\\widetilde{a_k}:=\\frac {a_k}{||a_k||}\\) und \\(\\widetilde{b_k}:=\\frac {b_k}{||b_k||}\\)\n\\(B_{\\lambda_j}:=(\\widetilde{a_1},\\widetilde{b_1},\\dots,\\widetilde{a_t}\\widetilde{b_t})\\) ist ONB von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)+E_{\\bar\\lambda_j}(\\varphi_\\Bbb C)\\)\n\\(\\implies B:=B_1\\cup B_{-1}\\cup B_{\\lambda_1}\\cup\\dots\\cup B_{\\lambda_m}\\).\n\n\n\nBeispiel:\n\\(\\textbf{Beispiel:}\\)\n\\(A = \\begin{pmatrix} 0&0 & 1 & 0 \\\\ 0&0&0&1 \\\\ 0&-1& 0& 0\\\\0&-1&0&0\\end{pmatrix}\\), hat EQ \\(\\lambda_1 = \\underbrace{e^{i \\frac{\\pi}{2}}}_{=i}, \\bar\\lambda_1 = \\underbrace{e^{-i \\frac{\\pi}{2}}}_{=i}\\)\n\\(E_{\\lambda_1}(A) = E_{i}(A) = \\ker(A - i\\Bbb 14) =^{[...]} LH \\left(\\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix},\\begin{pmatrix} -i \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix}\\right)\\)\\(v_1 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix} , \\; v_2 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -i \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}\\),bilden ONB von \\(E_{\\lambda_i}(A)\\)\n\\(a_1 = \\text{Re}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\ 1 \\end{pmatrix}, \\quad b_1 = \\text{Im}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\)\\(a_2 = \\text{Re}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}, \\quad b_2 = \\text{Im}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -1 \\\\ 0 \\\\ 0\\\\0 \\end{pmatrix}\\)\n\\(B = (\\widetilde b_1,\\widetilde a_1,\\widetilde b_2,\\widetilde a_2)\\) ist gesuchte ONB von A \\(A \\widetilde{b_1} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0\\\\1 \\end{pmatrix} =\\widetilde{a_1}, \\quad A \\widetilde{b_2} = \\begin{pmatrix} 0 \\\\ 0\\\\1 \\\\ 0 \\end{pmatrix} \\widetilde{a_2}\\)\n\\(A \\widetilde{a_1} = \\begin{pmatrix} 0 \\\\ 1 \\\\ 0\\\\0 \\end{pmatrix} =\\widetilde{-b_1}, \\quad A \\widetilde{a_2} = \\begin{pmatrix} 1 \\\\ 0\\\\0 \\\\ 0 \\end{pmatrix} \\widetilde{-b_2}\\)\n\\(\\implies M_{B,B}(A) = \\begin{pmatrix} 0 & -1 & 0&0 \\\\ 1 & 0 & 0&0 \\\\ 0 & 0 & 0&-1\\\\0&0&1&0 \\end{pmatrix}\\). ist Isometrienormalform ✅",
-    "crumbs": [
-      "2 Isometrien und Homomorphismen",
-      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
-    ]
-  },
-  {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Reele Isometrie-Normalform"
+      "Konjugierte Eigenwerte"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#definition",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#definition",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#definition",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}\\) und \\((V,〈·,·〉V )\\) und \\((W,〈·,·〉W)\\) seien Vektorräume mit Skalarprodukt. Weiterhin seien zwei Abbildungen \\(ϕ : V → W\\) und \\(ψ : W → V\\) gegeben.\nWir sagen \\(ψ\\) ist adjungiert zu \\(ϕ\\), falls gilt:\n\\[\\forall v\\in V;\\forall w\\in W: &lt;\\varphi(v),w&gt;_W=&lt;v,\\psi(w)&gt;_V\\]",
+    "text": "Definition",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Adjungierte Abbildungen"
+      "Reelle Isometrie-Normalform"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#eigenschaften",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#eigenschaften",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reellen-isometrie-normalformen-helfen",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#random-eigenschaften-die-dir-bei-reellen-isometrie-normalformen-helfen",
     "title": "Lineare Algebra II",
-    "section": "Eigenschaften",
-    "text": "Eigenschaften\n\nEs sei \\(\\Bbb K ∈ {\\Bbb R,\\Bbb C}\\) und \\((V,〈·,·〉V )\\) und \\((W,〈·,·〉W)\\) seien Vektorräume mit Skalarprodukt.\n\nWenn \\(ψ : W → V\\) zu \\(ϕ : V → W\\) adjungiert ist, dann sind \\(ϕ\\) und \\(ψ\\) linear.\nWenn \\(ψ : W → V\\) zu \\(ϕ : V → W\\) adjungiert ist, dann ist \\(ϕ\\) zu \\(ψ\\) adjungiert.\nWenn \\(ϕ : V → W\\) eine adjungierte Abbildung \\(ψ : W → V\\) besitzt, so ist diese eindeutig.",
+    "section": "Random Eigenschaften die dir bei Reellen Isometrie-Normalformen helfen:",
+    "text": "Random Eigenschaften die dir bei Reellen Isometrie-Normalformen helfen:\n\n\nBei Basiswechel ist die Spur invariant\nBei Basiswechsel sind die Eigenwerte Invariant\nDie Winkel in der komplexen Isometrie-Normalform sind die selben wie in der Reellen\nIst \\(A\\in\\Bbb R^{n\\times n}\\), und ist \\(\\lambda\\in\\Bbb C\\) ein EW von A, so ist auch \\(\\bar\\lambda\\) ein EV von A.",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Adjungierte Abbildungen"
+      "Reelle Isometrie-Normalform"
     ]
   },
   {
-    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#siehe-auch",
-    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Adjungierte Abbildungen.html#siehe-auch",
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#wie-bestimmt-man-die-reelle-isometrie-normalform",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#wie-bestimmt-man-die-reelle-isometrie-normalform",
+    "title": "Lineare Algebra II",
+    "section": "Wie bestimmt man die Reelle Isometrie-Normalform?",
+    "text": "Wie bestimmt man die Reelle Isometrie-Normalform?\n\nNie vergessen: alle Drehkästchen müssen einen Winkel zwischen \\(0\\) und \\(\\pi\\) haben!\n\n1. Spurtrick:\nMan beobachtet, dass die Spur bei Basiswechel erhalten bleibt (Lineare Algebra 1 5.5). Also können wir bei kleineren Matrizen manchmal die Spur unserer Matrix damit vergleichen, wie sie in der Isometrie-Normalform aussehen kann und daraus Schlüsse ziehen.\n\nBeispiel:\nWas ist die reefle Isometrienormalform von \\(\\varphi: V\\rightarrow V,\\varphi\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ -1 \\end{pmatrix}, \\varphi\\begin{pmatrix} 0 \\\\ 1\\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}\\).\n\\(\\implies M_{E,E}(\\varphi)=\\begin{pmatrix} 0 & 1 \\\\ -1 & 0\\end{pmatrix}\\implies  Spur(\\varphi)=0\\).\n\\(\\implies\\) Die Spur der Isometrienormalform muss auch \\(0\\) sein, also ist sie \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) oder \\(D_\\alpha\\) mit \\(2cos(\\alpha)=0\\).\nDa \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) keine reellen Eigenwerte hat, kann \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\) nicht die Isometrienormalform sein.\n\n\n\n2. Trick mit der Transponierten\nEs sei Matrix \\(A\\in\\Bbb R^{n\\times n}\\)\n\n\\(A\\) hat EW 1 \\(\\iff\\) \\(A+A^T\\) hat EW 2\n\\(A\\) hat EW -1 \\(\\iff\\) \\(A+A^T\\) hat EW -2\n\\(A\\) hat das Paar \\(e^{i\\alpha}\\) und \\(e^{-i\\alpha}\\) als EW \\(\\iff\\) \\(A+A^T\\) hat den doppelten EW \\(2cos(\\alpha)\\).\n\n\nBeispiel:\n\\(A=\\begin{pmatrix} 0&0&1&0 \\\\ 0&0&0&1 \\\\ -1&0&0&0 \\\\ 0&-1&0&0 \\end{pmatrix}, \\varphi:\\Bbb R^4\\rightarrow\\Bbb R^4,\\varphi(x)=Ax\\)- Welche Isometrienormalform hat \\(\\varphi\\)?\n\\(B:=A+A^T=0,p_B(X)=\\det\\begin{pmatrix} X&0&0&0 \\\\ 0&X&0&0 \\\\ 0&0&X&0 \\\\ 0&0&0&X \\end{pmatrix}=X^4\\implies B\\) hat nur EW 0.\nTranspositionstrick: INF von \\(\\varphi\\) ist \\(\\begin{pmatrix} D_\\alpha&\\\\&D_\\alpha \\end{pmatrix}\\) mit \\(2\\cos(\\alpha)=0\\), also \\(\\alpha=\\frac \\pi 2\\)",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reelle Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#wie-findet-man-eine-passende-orthonormalbasis-b",
+    "title": "Lineare Algebra II",
+    "section": "Wie findet man eine passende Orthonormalbasis B?",
+    "text": "Wie findet man eine passende Orthonormalbasis B?\n\nGegeben \\(A\\in\\Bbb R^{n\\times n}\\) mit \\(\\varphi:\\Bbb R^n\\rightarrow\\Bbb R^n,\\varphi(x)=Ax\\).\n\nBestimme alle EW von \\(A\\) (z.b. mit dem Transponiertrick)\nFalls \\(A\\) die EW \\(-1\\) oder \\(1\\) hat, bestimme Orthonormalbasen \\(B_1\\) von \\(E_1(A)\\) und \\(B_{-1}\\) von \\(E_{-1}(A)\\).\nFür jede EW-paar \\(\\underbrace{e^{i\\alpha}}_{=\\lambda_j},\\underbrace{e^{-i\\alpha}}_{=\\bar\\lambda_j}\\) mit \\(0&lt;\\alpha_k&lt;\\pi\\):\n\nBestimme Orthonormalbasis \\((v_1,\\dots,v_t)\\) von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)\\). (! Auch komplexe Vektoren erlaubt!)\nSetze \\(a_k:=Re(v_k)\\) und \\(b_k:=Im(v_K)\\)\nSetze \\(\\widetilde{a_k}:=\\frac {a_k}{||a_k||}\\) und \\(\\widetilde{b_k}:=\\frac {b_k}{||b_k||}\\)\n\\(B_{\\lambda_j}:=(\\widetilde{a_1},\\widetilde{b_1},\\dots,\\widetilde{a_t}\\widetilde{b_t})\\) ist ONB von \\(E_{\\lambda_j}(\\varphi_\\Bbb C)+E_{\\bar\\lambda_j}(\\varphi_\\Bbb C)\\)\n\\(\\implies B:=B_1\\cup B_{-1}\\cup B_{\\lambda_1}\\cup\\dots\\cup B_{\\lambda_m}\\).\n\n\n\nBeispiel:\n\\(\\textbf{Beispiel:}\\)\n\\(A = \\begin{pmatrix} 0&0 & 1 & 0 \\\\ 0&0&0&1 \\\\ 0&-1& 0& 0\\\\0&-1&0&0\\end{pmatrix}\\), hat EQ \\(\\lambda_1 = \\underbrace{e^{i \\frac{\\pi}{2}}}_{=i}, \\bar\\lambda_1 = \\underbrace{e^{-i \\frac{\\pi}{2}}}_{=i}\\)\n\\(E_{\\lambda_1}(A) = E_{i}(A) = \\ker(A - i\\Bbb 14) =^{[...]} LH \\left(\\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix},\\begin{pmatrix} -i \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix}\\right)\\)\\(v_1 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -i \\\\ 0 \\\\ 1 \\end{pmatrix} , \\; v_2 = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -i \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}\\),bilden ONB von \\(E_{\\lambda_i}(A)\\)\n\\(a_1 = \\text{Re}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\ 1 \\end{pmatrix}, \\quad b_1 = \\text{Im}(v_1) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ -1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\)\\(a_2 = \\text{Re}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 0 \\\\ 0 \\\\ 1\\\\0 \\end{pmatrix}, \\quad b_2 = \\text{Im}(v_2) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -1 \\\\ 0 \\\\ 0\\\\0 \\end{pmatrix}\\)\n\\(B = (\\widetilde b_1,\\widetilde a_1,\\widetilde b_2,\\widetilde a_2)\\) ist gesuchte ONB von A \\(A \\widetilde{b_1} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0\\\\1 \\end{pmatrix} =\\widetilde{a_1}, \\quad A \\widetilde{b_2} = \\begin{pmatrix} 0 \\\\ 0\\\\1 \\\\ 0 \\end{pmatrix} \\widetilde{a_2}\\)\n\\(A \\widetilde{a_1} = \\begin{pmatrix} 0 \\\\ 1 \\\\ 0\\\\0 \\end{pmatrix} =\\widetilde{-b_1}, \\quad A \\widetilde{a_2} = \\begin{pmatrix} 1 \\\\ 0\\\\0 \\\\ 0 \\end{pmatrix} \\widetilde{-b_2}\\)\n\\(\\implies M_{B,B}(A) = \\begin{pmatrix} 0 & -1 & 0&0 \\\\ 1 & 0 & 0&0 \\\\ 0 & 0 & 0&-1\\\\0&0&1&0 \\end{pmatrix}\\). ist Isometrienormalform ✅",
+    "crumbs": [
+      "2 Isometrien und Homomorphismen",
+      "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
+      "Reelle Isometrie-Normalform"
+    ]
+  },
+  {
+    "objectID": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#siehe-auch",
+    "href": "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.html#siehe-auch",
     "title": "Lineare Algebra II",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nDer Satz, der sagt, dass im endlichdimensionalen alles gut geht",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "2 Isometrien und Homomorphismen",
       "2.6 Adjungierte Abbildungen und die Isometrie-Normalform",
-      "Adjungierte Abbildungen"
+      "Reelle Isometrie-Normalform"
     ]
   },
   {
