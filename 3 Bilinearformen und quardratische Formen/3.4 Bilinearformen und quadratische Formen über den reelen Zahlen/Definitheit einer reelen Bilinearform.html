@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>abstandsfunktion – Lineare Algebra II</title>
+<title>definitheit-einer-reelen-bilinearform – Lineare Algebra II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -139,7 +139,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">1 Skalarprodukte</li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">1.2 Skalarprodukte, Längen und Winkel</a></li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">Abstandsfunktion</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Lineare Algebra II
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -224,16 +226,16 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
  <span class="menu-text">1.2 Skalarprodukte, Längen und Winkel</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Abstandsfunktion</span></a>
   </div>
 </li>
@@ -714,7 +716,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">1 Skalarprodukte</li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">1.2 Skalarprodukte, Längen und Winkel</a></li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">Abstandsfunktion</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 </div>
 
@@ -738,30 +740,86 @@ window.Quarto = {
 </header>
 
 
-<section id="abstandsfunktion" class="level2">
-<h2 class="anchored" data-anchor-id="abstandsfunktion">Abstandsfunktion</h2>
+<section id="definitheit-einer-reelen-bilinearform" class="level2">
+<h2 class="anchored" data-anchor-id="definitheit-einer-reelen-bilinearform">Definitheit einer reelen Bilinearform</h2>
 </section>
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
 <hr>
-<p>Es sei <span class="math inline">\(\Bbb K\in \{\Bbb R,\Bbb C\}\)</span> und <span class="math inline">\(V\)</span> ein <span class="math inline">\(\Bbb K\)</span>-Vektorraum mit Skalarprodukt. Dann ist der Abstand zwischen zwei Punkten <span class="math inline">\(a,b\in V\)</span> definiert als</p>
-<p><span class="math display">\[d(a,b)=||a-b||\]</span></p>
+<p>Es sei <span class="math inline">\(V\)</span> ein reeler Vektorraum und <span class="math inline">\(\beta:V\times V\rightarrow\Bbb R\)</span> eine symmetrische Bilinearform mit dazugehöroger quadratischer Form <span class="math inline">\(q_\beta:V\rightarrow\Bbb R\)</span>. Dann nennen wir <span class="math inline">\(\beta\)</span> (und auch <span class="math inline">\(q_\beta\)</span>):</p>
+<ul>
+<li><p>positiv definit, falls <span class="math inline">\(\forall v\in V\setminus\{0\}:q_\beta&gt;0\)</span></p></li>
+<li><p>negativ definit, falls <span class="math inline">\(\forall v\in V\setminus\{0\}:q_\beta&lt;0\)</span></p></li>
+<li><p>positiv semidefinit, falls <span class="math inline">\(\forall v\in V:q_\beta\ge0\)</span></p></li>
+<li><p>negativ semidefinit, falls <span class="math inline">\(\forall v\in V:q_\beta\le0\)</span></p></li>
+<li><p>infefinit, falls es Vektoren gibt die <span class="math inline">\(&gt;0\)</span> und <span class="math inline">\(&lt;0\)</span> auf der quadratischen Form sind.</p></li>
+</ul>
 </section>
-<section id="eigenschaften" class="level2">
-<h2 class="anchored" data-anchor-id="eigenschaften">Eigenschaften</h2>
+<section id="bestimmung-der-definitheit" class="level2">
+<h2 class="anchored" data-anchor-id="bestimmung-der-definitheit">Bestimmung der Definitheit</h2>
+<hr>
+<p>Es sei <span class="math inline">\(n ∈ \Bbb N\)</span>. Eine symmetrische Matrix <span class="math inline">\(A ∈ \Bbb R^ {n×n}\)</span> heiße</p>
+<ul>
+<li><p>positiv definit, falls <span class="math inline">\(∀x ∈ \Bbb R^ n \setminus\{0\} : x ^T Ax &gt; 0\)</span></p></li>
+<li><p>negativ definit, falls <span class="math inline">\(∀x ∈ \Bbb R^ n \setminus\{0\} : x ^T Ax &lt; 0\)</span></p></li>
+<li><p>positiv semidefinit, falls <span class="math inline">\(∀x ∈ \Bbb R^ n : x ^T Ax ≥ 0\)</span></p></li>
+<li><p>negativ semidefinit, falls <span class="math inline">\(∀x ∈ \Bbb R^ n : x ^T Ax ≤ 0\)</span></p></li>
+<li><p>indefinit, falls es Vektoren <span class="math inline">\(x, y ∈ \Bbb R^ n\)</span> gibt mit <span class="math inline">\(x ^T Ax &lt; 0\)</span> und <span class="math inline">\(y ^T A y &gt; 0\)</span>.</p></li>
+</ul>
+</section>
+<section id="erstes-kriterium" class="level2">
+<h2 class="anchored" data-anchor-id="erstes-kriterium">Erstes Kriterium</h2>
+<hr>
+<p>Sei <span class="math inline">\(V\)</span> ein <span class="math inline">\(n\)</span>-dimensionaler reeller Vektorraum und <span class="math inline">\(\beta : V \times V \to \mathbb{R}\)</span> eine symmetrische Bilinearform. Es sei weiterhin <span class="math inline">\(B\)</span> eine Orthogonalbasis (diese gibt es immer und für diese Ist <span class="math inline">\(FM_B\)</span> in diagonalform) für <span class="math inline">\(\beta\)</span>. Dann gilt:</p>
+<ul>
+<li><p><strong>positiv definit</strong>, falls alle Diagonaleinträge von <span class="math inline">\(FM_{B}(\beta)\)</span> größer als <span class="math inline">\(0\)</span> sind.</p></li>
+<li><p><strong>negativ definit</strong>, falls alle Diagonaleinträge von <span class="math inline">\(FM_{B}(\beta)\)</span> kleiner als <span class="math inline">\(0\)</span> sind.</p></li>
+<li><p><strong>positiv semidefinit</strong>, falls alle Diagonaleinträge von <span class="math inline">\(FM_{B}(\beta)\)</span> größer als oder gleich <span class="math inline">\(0\)</span> sind.</p></li>
+<li><p><strong>negativ semidefinit</strong>, falls alle Diagonaleinträge von <span class="math inline">\(FM_{B}(\beta)\)</span> kleiner als oder gleich <span class="math inline">\(0\)</span> sind.</p></li>
+<li><p><strong>indefinit</strong>, falls es sowohl positive als auch negative Zahlen auf der Diagonalen gibt.</p></li>
+</ul>
+<p>Man bringt die Matrix mit Gauß-Umformungen also in diagonalform und schaut sich die Vorzeichen an!</p>
+</section>
+<section id="kriterium-über-determinante-nur-für-positive-definitheit" class="level2">
+<h2 class="anchored" data-anchor-id="kriterium-über-determinante-nur-für-positive-definitheit">Kriterium über Determinante (NUR FÜR POSITIVE DEFINITHEIT)</h2>
 <hr>
 <ol type="1">
-<li><p><span class="math inline">\(\forall a,b\in V: d(a,b)=0 \iff (a=b)\)</span></p></li>
-<li><p><span class="math inline">\(\forall a,b\in V: d(a,b)=d(b,a)\)</span></p></li>
-<li><p><span class="math inline">\(\forall a,b,c\in V: d(a,c)\le d(a,b)+d(b,c)\)</span></p></li>
+<li>Die Matrix einer Positiv definiten Matrix ist immer positiv.</li>
 </ol>
+<p>Es sei <span class="math inline">\(A\in\Bbb R^{n\times n}\)</span> eine symmetrsiche <span class="math inline">\((n\times n)\)</span>-Matrix mit <span class="math inline">\(n\ge2\)</span> und <span class="math inline">\(B\in\Bbb R^{(n-1)\times(n-1)}\)</span> die Matrix die man erhält, wenn man von <span class="math inline">\(A\)</span> die letzte Zeile und Spalte streicht,</p>
+<p>Dann ist äquivalent:</p>
+<ul>
+<li><p>Die Matrix <span class="math inline">\(A\)</span> ist positiv definit</p></li>
+<li><p>Die Matrix <span class="math inline">\(B\)</span> ist positiv definit und <span class="math inline">\(det(A)&gt;0\)</span></p></li>
+</ul>
+</section>
+<section id="hurwitz-kriterium" class="level2">
+<h2 class="anchored" data-anchor-id="hurwitz-kriterium">Hurwitz-Kriterium</h2>
+<hr>
+<p>Es sei <span class="math inline">\(A \in \mathbb{R}^{n \times n}\)</span> eine symmetrische Matrix und für jedes <span class="math inline">\(k \in \{1, \dots, n\}\)</span> sei <span class="math inline">\(F_k \in \mathbb{R}^{k \times k}\)</span> die Matrix, die aus den obersten <span class="math inline">\(k\)</span> Zeilen und den ersten <span class="math inline">\(k\)</span> Spalten besteht.</p>
+<ul>
+<li><p>Die Matrix <span class="math inline">\(A\)</span> ist genau dann <strong>positiv definit</strong>, wenn für alle <span class="math inline">\(k \in \{1, \dots, n\}\)</span> gilt: <span class="math inline">\(\det(F_k) &gt; 0\)</span>.</p></li>
+<li><p>Die Matrix <span class="math inline">\(A\)</span> ist genau dann <strong>negativ definit</strong>, wenn für alle <span class="math inline">\(k \in \{1, \dots, n\}\)</span> gilt: <span class="math inline">\((-1)^k \cdot \det(F_k) &gt; 0\)</span>.</p></li>
+<li><p>Falls <span class="math inline">\(\det(A) \neq 0\)</span> ist und <span class="math inline">\(A\)</span> weder positiv noch negativ definit ist, dann ist <span class="math inline">\(A\)</span> <strong>indefinit</strong>.</p></li>
+</ul>
+</section>
+<section id="definitheit-mit-eigenwerten" class="level2">
+<h2 class="anchored" data-anchor-id="definitheit-mit-eigenwerten">Definitheit mit Eigenwerten</h2>
+<hr>
+<p>Es sei <span class="math inline">\(A \in \mathbb{R}^{n \times n}\)</span> eine symmetrische Matrix. Dann gilt:</p>
+<ul>
+<li><p><strong>positiv definit</strong>, falls alle Eigenwerte von <span class="math inline">\(A\)</span> größer als <span class="math inline">\(0\)</span> sind.</p></li>
+<li><p><strong>negativ definit</strong>, falls alle Eigenwerte von <span class="math inline">\(A\)</span> kleiner als <span class="math inline">\(0\)</span> sind.</p></li>
+<li><p><strong>positiv semidefinit</strong>, falls alle Eigenwerte von <span class="math inline">\(A\)</span> größer als oder gleich <span class="math inline">\(0\)</span> sind.</p></li>
+<li><p><strong>negativ semidefinit</strong>, falls alle Eigenwerte von <span class="math inline">\(A\)</span> kleiner als oder gleich <span class="math inline">\(0\)</span> sind.</p></li>
+<li><p><strong>indefinit</strong>, falls <span class="math inline">\(A\)</span> sowohl positive als auch negative Eigenwerte besitzt.</p></li>
+</ul>
 </section>
 <section id="siehe-auch" class="level2">
 <h2 class="anchored" data-anchor-id="siehe-auch">Siehe auch</h2>
 <hr>
 <ul>
-<li><p><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html">Metrischer Raum</a></p></li>
-<li><p><a href="../../1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html">Abstand Punkt von einer Teilmenge</a></p></li>
+<li>Hier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt</li>
 </ul>
 
 

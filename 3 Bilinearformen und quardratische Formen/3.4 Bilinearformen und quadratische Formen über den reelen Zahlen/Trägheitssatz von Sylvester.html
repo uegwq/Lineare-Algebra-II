@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>abstandsfunktion – Lineare Algebra II</title>
+<title>trägheitssatz-von-sylvester – Lineare Algebra II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -139,7 +139,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">1 Skalarprodukte</li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">1.2 Skalarprodukte, Längen und Winkel</a></li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">Abstandsfunktion</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Lineare Algebra II
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -224,16 +226,16 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
  <span class="menu-text">1.2 Skalarprodukte, Längen und Winkel</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Abstandsfunktion</span></a>
   </div>
 </li>
@@ -714,7 +716,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">1 Skalarprodukte</li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">1.2 Skalarprodukte, Längen und Winkel</a></li><li class="breadcrumb-item"><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Abstandsfunktion.html">Abstandsfunktion</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 </div>
 
@@ -738,30 +740,31 @@ window.Quarto = {
 </header>
 
 
-<section id="abstandsfunktion" class="level2">
-<h2 class="anchored" data-anchor-id="abstandsfunktion">Abstandsfunktion</h2>
+<section id="trägheitssatz-von-sylvester" class="level2">
+<h2 class="anchored" data-anchor-id="trägheitssatz-von-sylvester">Trägheitssatz von Sylvester</h2>
 </section>
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
 <hr>
-<p>Es sei <span class="math inline">\(\Bbb K\in \{\Bbb R,\Bbb C\}\)</span> und <span class="math inline">\(V\)</span> ein <span class="math inline">\(\Bbb K\)</span>-Vektorraum mit Skalarprodukt. Dann ist der Abstand zwischen zwei Punkten <span class="math inline">\(a,b\in V\)</span> definiert als</p>
-<p><span class="math display">\[d(a,b)=||a-b||\]</span></p>
+<p>Es sei <span class="math inline">\(n\in\Bbb N\)</span> und <span class="math inline">\(V\)</span> ein <span class="math inline">\(n\)</span>-dimensionaler reeler Vektorraum. Da sei <span class="math inline">\(\beta:V\times V\rightarrow\Bbb R\)</span> eine symmetrische Bilinearform.</p>
+<ul>
+<li><p>Dann können wir <span class="math inline">\(V\)</span> zerlegen in <span class="math inline">\(V=V_+\oplus V_-\oplus V_0\)</span>,</p>
+<p>sodass <span class="math inline">\(\beta|_{V_+\times V_+}\)</span> positiv definit, <span class="math inline">\(\beta|_{V_-\times V_-}\)</span> negativ definit und <span class="math inline">\(\beta|_{V_0\times V_0}\)</span> die Nullabbildung ist und Vektoren aus verschiedenen der drei direkten Summanden stammen, orthogonal bezüglich <span class="math inline">\(\beta\)</span> sind, d.h. <span class="math inline">\(\beta(u,v)=0\)</span>.</p></li>
+</ul>
 </section>
-<section id="eigenschaften" class="level2">
-<h2 class="anchored" data-anchor-id="eigenschaften">Eigenschaften</h2>
+<section id="folgerungen" class="level2">
+<h2 class="anchored" data-anchor-id="folgerungen">Folgerungen</h2>
 <hr>
 <ol type="1">
-<li><p><span class="math inline">\(\forall a,b\in V: d(a,b)=0 \iff (a=b)\)</span></p></li>
-<li><p><span class="math inline">\(\forall a,b\in V: d(a,b)=d(b,a)\)</span></p></li>
-<li><p><span class="math inline">\(\forall a,b,c\in V: d(a,c)\le d(a,b)+d(b,c)\)</span></p></li>
+<li><p>Das Tripel <span class="math inline">\((\dim(V_+), \dim(V_-), \dim(V_0)) \in \mathbb{N}_0^3\)</span> hängt nicht von der Zerlegung ab und ist eindeutig bestimmt. Die Zahl <span class="math inline">\(\dim(V_-)\)</span> wird die <strong>Signatur</strong> von <span class="math inline">\(\beta\)</span> genannt. Wenn die Signatur von <span class="math inline">\(\beta\)</span> und der Rang <span class="math inline">\(\dim(V_+) + \dim(V_-)\)</span> bekannt sind, ist die Bilinearform bis auf Basiswechsel eindeutig bestimmt.</p></li>
+<li><p>Es gibt eine geordnete Basis <span class="math inline">\(B\)</span> von <span class="math inline">\(V\)</span>, sodass <span class="math inline">\(FM_{B}(\beta)\)</span> eine Diagonalmatrix ist, die nur die Zahlen <span class="math inline">\(1\)</span>, <span class="math inline">\(-1\)</span> und <span class="math inline">\(0\)</span> auf der Diagonale hat. Die Signatur entspricht der Anzahl der <span class="math inline">\(-1\)</span> auf der Diagonale. Der Rang ist die Summe der Anzahl aller <span class="math inline">\(1\)</span> und aller <span class="math inline">\(-1\)</span>.</p></li>
 </ol>
 </section>
 <section id="siehe-auch" class="level2">
 <h2 class="anchored" data-anchor-id="siehe-auch">Siehe auch</h2>
 <hr>
 <ul>
-<li><p><a href="../../1 Skalarprodukte/1.2 Skalarprodukte, Längen und Winkel/Metrischer Raum.html">Metrischer Raum</a></p></li>
-<li><p><a href="../../1 Skalarprodukte/1.4 Orthogonale Komplemente und Projektionen/Abstand Punkt von einer Teilmenge.html">Abstand Punkt von einer Teilmenge</a></p></li>
+<li>Hier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt</li>
 </ul>
 
 
