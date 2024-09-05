@@ -1069,7 +1069,7 @@
     "href": "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.html#definition",
     "title": "Lineare Algebra II",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) und \\(W\\) seien Vektorräiume über \\(\\Bbb K\\). Eine Abbildung \\(\\Psi:V\\rightarrow W\\) heißt eine affine Abbildung, wenn sich \\(\\Psi\\) schreiben lässt als die Summe einer linearen und einer konstanten Abbildung, d.h. \\(\\Psi(x)=\\varphi(x)+w_0\\).\nDie Menge \\(Aff(V)\\) ist eine Gruppe mit der Verkettung",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(V\\) und \\(W\\) seien Vektorräiume über \\(\\Bbb K\\). Eine Abbildung \\(\\Psi:V\\rightarrow W\\) heißt eine affine Abbildung, wenn sich \\(\\Psi\\) schreiben lässt als die Summe einer linearen und einer konstanten Abbildung, d.h. \\(\\Psi(x)=\\varphi(x)+w_0\\).\nDie Menge \\(Aff(V)\\) ist eine Gruppe mit der Verkettung.",
     "crumbs": [
       "3 Bilinearformen und quardratische Formen",
       "3.5 Quadriken und Hauptachsentransformation",
