@@ -2,27 +2,27 @@
 TARGET DECK
 Lineare Algebra II
 
-Reele Isometrie-Normalform
+Reelle Isometrie-Normalform
 --
 ## Definition
 ***
 ![[Pasted image 20240614081540.png]]
-## Random eigenschaften die dir bei Reelen Isometrie-Normalformen helfen:
+## Random Eigenschaften die dir bei Reellen Isometrie-Normalformen helfen:
 ***
 1. Bei Basiswechel ist die Spur invariant
 2. Bei Basiswechsel sind die Eigenwerte Invariant
-3. Die Winkel in der komplexen Isometrie-Normalform sind die selben wie in der Reelen
+3. Die Winkel in der komplexen Isometrie-Normalform sind die selben wie in der Reellen
 4. Ist $A\in\Bbb R^{n\times n}$, und ist $\lambda\in\Bbb C$ ein EW von A, so ist auch $\bar\lambda$ ein EV von A.
-## Wie bestimmt man die Reele Isometrie-Normalform?
+## Wie bestimmt man die Reelle Isometrie-Normalform?
 ***
 Nie vergessen: alle Drehkästchen müssen einen Winkel zwischen $0$ und $\pi$ haben!
 ### 1. Spurtrick:
 Man beobachtet, dass die Spur bei Basiswechel erhalten bleibt (Lineare Algebra 1 5.5). Also können wir bei kleineren Matrizen manchmal die Spur unserer Matrix damit vergleichen, wie sie in der Isometrie-Normalform aussehen kann und daraus Schlüsse ziehen.
 #### Beispiel:
-Was ist die reele Isometrienormalform von $\varphi: V\rightarrow V,\varphi\begin{pmatrix} 1 \\ 0 \end{pmatrix}=\begin{pmatrix} 0 \\ -1 \end{pmatrix}, \varphi\begin{pmatrix} 0 \\ 1\end{pmatrix}=\begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
+Was ist die reefle Isometrienormalform von $\varphi: V\rightarrow V,\varphi\begin{pmatrix} 1 \\ 0 \end{pmatrix}=\begin{pmatrix} 0 \\ -1 \end{pmatrix}, \varphi\begin{pmatrix} 0 \\ 1\end{pmatrix}=\begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
 $\implies M_{E,E}(\varphi)=\begin{pmatrix} 0 & 1 \\ -1 & 0\end{pmatrix}\implies  Spur(\varphi)=0$.
 $\implies$ Die Spur der Isometrienormalform muss auch $0$ sein, also ist sie $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ oder $D_\alpha$ mit $2cos(\alpha)=0$.
-Da $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ keine reelen Eigenwerte hat, kann $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ nicht die Isometrienormalform sein.
+Da $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ keine reellen Eigenwerte hat, kann $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ nicht die Isometrienormalform sein.
 ### 2. Trick mit der Transponierten
 Es sei Matrix $A\in\Bbb R^{n\times n}$
 - $A$ hat EW 1 $\iff$ $A+A^T$ hat EW 2

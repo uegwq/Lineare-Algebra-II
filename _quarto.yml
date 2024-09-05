@@ -61,10 +61,10 @@ website:
           - "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal bzw unitär diagonalisierbar.md"
           - "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonal ähnlich.md"
           - "2 Isometrien und Homomorphismen/2.3 Unitäre Trigonalisierung und Diagonalisierung/Orthogonale bzw Unitäre Trigonalisierung.md"
-        - section: "2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen"
+        - section: "2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen"
           contents:
-          - "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Selbstadjungierte Matrix.md"
-          - "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reele Matrizen/Spektralsatz.md"
+          - "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Selbstadjungierte Matrix.md"
+          - "2 Isometrien und Homomorphismen/2.4 Selbstadjungierte komplexe Matrizen und symetrische reelle Matrizen/Spektralsatz.md"
         - section: "2.5 Normale Matrizen"
           contents:
           - "2 Isometrien und Homomorphismen/2.5 Normale Matrizen/Normale Matrix.md"
@@ -76,15 +76,19 @@ website:
           - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Komplexe Isometrienormalform.md"
           - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Konjugierte Eigenwerte.md"
           - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Normale Abbildung.md"
-          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reele Isometrie-Normalform.md"
+          - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Reelle Isometrie-Normalform.md"
           - "2 Isometrien und Homomorphismen/2.6 Adjungierte Abbildungen und die Isometrie-Normalform/Spektralsätze für diverse Abbildungen.md"
       - section: "3 Bilinearformen und quardratische Formen"
         contents:
         - section: "3.1 Der Dualraum"
           contents:
+          - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Auswertungsabbildung.md"
+          - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Bidual.md"
+          - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Duale Basis.md"
           - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Dualisieren von linearen Abbildungen.md"
           - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Koordinatenabbildung.md"
           - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Linearform und Dualraum.md"
+          - "3 Bilinearformen und quardratische Formen/3.1 Der Dualraum/Transponieren entspricht Dualisieren.md"
         - section: "3.2 Bilinearformen über beliebigen Körpern"
           contents:
           - "3 Bilinearformen und quardratische Formen/3.2 Bilinearformen über beliebigen Körpern/Bilinearform.md"
@@ -99,15 +103,23 @@ website:
         - section: "3.3 Symetrische Bilinearformen"
           contents:
           - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Bilinearform.md"
+          - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Diagonale Fundamentalmatrizen.md"
           - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Nicht entartete symmetrische Bilinearformen.md"
           - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Orthogonalbasis.md"
           - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Polarisierungsidentität.md"
           - "3 Bilinearformen und quardratische Formen/3.3 Symetrische Bilinearformen/Symetrische Bilinearform.md"
-        - section: "3.4 Bilinearformen und quadratische Formen über den reelen Zahlen"
+        - section: "3.4 Bilinearformen und quadratische Formen über den reellen Zahlen"
           contents:
+          - "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform.md"
+          - "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Folgerungen aus der Definitheit.md"
+          - "3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Trägheitssatz von Sylvester.md"
         - section: "3.5 Quadriken und Hauptachsentransformation"
           contents:
+          - "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Affine Abbildungen.md"
+          - "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Klassifikation von Quadriken.md"
           - "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Lösung einer quadratischen Gleichung.md"
+          - "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik in einer schönen Form.md"
+          - "3 Bilinearformen und quardratische Formen/3.5 Quadriken und Hauptachsentransformation/Quadrik.md"
       - "Auswendiglern-Spickzettelsachen.md"
 
 execute:

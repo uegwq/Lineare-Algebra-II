@@ -6,7 +6,7 @@ Selbstadjungierte Matrix
 --
 ## Definition
 ***
-Es sei $\Bbb K$ reel oder komplex. Eine Matrix $A\in\Bbb K^{n\times n}$ heißt selbstadjungiert oder hermitesch, falls sie gleich ihrer Adjungierten ist, falls also gilt $A^*=\bar A^T=A$. 
+Es sei $\Bbb K$ reell oder komplex. Eine Matrix $A\in\Bbb K^{n\times n}$ heißt selbstadjungiert oder hermitesch, falls sie gleich ihrer Adjungierten ist, falls also gilt $A^*=\bar A^T=A$. 
 ## Eigenschaften
 ***
 1. Die Menge $\{A ∈ K^{n×n} | A^* = A\}$ ist ein $\Bbb R$-Vektorraum. 

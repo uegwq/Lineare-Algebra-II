@@ -2,11 +2,11 @@
 TARGET DECK
 Lineare Algebra II
 
-Definitheit einer reelen Bilinearform
+Definitheit einer reellen Bilinearform
 --
 ## Definition
 ***
-Es sei $V$ ein reeler Vektorraum und $\beta:V\times V\rightarrow\Bbb R$ eine symmetrische Bilinearform mit dazugehöroger quadratischer Form $q_\beta:V\rightarrow\Bbb R$. Dann nennen wir $\beta$ (und auch $q_\beta$):
+Es sei $V$ ein reeller Vektorraum und $\beta:V\times V\rightarrow\Bbb R$ eine symmetrische Bilinearform mit dazugehöroger quadratischer Form $q_\beta:V\rightarrow\Bbb R$. Dann nennen wir $\beta$ (und auch $q_\beta$):
 - positiv definit, falls $\forall v\in V\setminus\{0\}:q_\beta>0$
 - negativ definit, falls $\forall v\in V\setminus\{0\}:q_\beta<0$
 - positiv semidefinit, falls $\forall v\in V:q_\beta\ge0$

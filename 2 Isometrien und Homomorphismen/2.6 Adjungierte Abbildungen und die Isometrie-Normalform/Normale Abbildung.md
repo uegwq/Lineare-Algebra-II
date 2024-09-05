@@ -2,7 +2,7 @@
 TARGET DECK
 Lineare Algebra II
 
-Reele Isometrie-Normalform
+Normale Abbildung
 --
 ## Definition
 ***

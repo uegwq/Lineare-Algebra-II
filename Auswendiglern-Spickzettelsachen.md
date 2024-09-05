@@ -6,7 +6,7 @@ $$\pi_U(x)=\sum^n_{j=0}<x,b_j>b_j$$
 [[Polarisierugsidentität]]
 $\beta(v,w)=\frac 1 2$ $(q(v+w)-q(v)-q(w))$.
 
-[[Definitheit einer reelen Bilinearform#Hurwitz-Kriterium]]
+[[3 Bilinearformen und quardratische Formen/3.4 Bilinearformen und quadratische Formen über den reellen Zahlen/Definitheit einer reellen Bilinearform]]
 Es sei $A \in \mathbb{R}^{n \times n}$ eine symmetrische Matrix und für jedes $k \in \{1, \dots, n\}$ sei $F_k \in \mathbb{R}^{k \times k}$ die Matrix, die aus den obersten $k$ Zeilen und den ersten $k$ Spalten besteht.
 - Die Matrix $A$ ist genau dann **positiv definit**, wenn für alle $k \in \{1, \dots, n\}$ gilt: $\det(F_k) > 0$.
 - Die Matrix $A$ ist genau dann **negativ definit**, wenn für alle $k \in \{1, \dots, n\}$ gilt: $(-1)^k \cdot \det(F_k) > 0$.

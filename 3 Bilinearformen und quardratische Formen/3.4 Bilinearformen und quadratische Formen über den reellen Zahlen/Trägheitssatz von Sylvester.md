@@ -6,7 +6,7 @@ Trägheitssatz von Sylvester
 --
 ## Definition
 ***
-Es sei $n\in\Bbb N$ und $V$ ein $n$-dimensionaler reeler Vektorraum. Da sei $\beta:V\times V\rightarrow\Bbb R$ eine symmetrische Bilinearform.
+Es sei $n\in\Bbb N$ und $V$ ein $n$-dimensionaler reeller Vektorraum. Da sei $\beta:V\times V\rightarrow\Bbb R$ eine symmetrische Bilinearform.
 - Dann können wir $V$ zerlegen in $V=V_+\oplus V_-\oplus V_0$,
   sodass $\beta|_{V_+\times V_+}$ positiv definit, $\beta|_{V_-\times V_-}$ negativ definit und $\beta|_{V_0\times V_0}$ die Nullabbildung ist und Vektoren aus verschiedenen der drei direkten Summanden stammen, orthogonal bezüglich $\beta$ sind, d.h. $\beta(u,v)=0$.
 ## Folgerungen
