@@ -15,7 +15,7 @@ $(FM_B(\beta))_{ij}=\beta(b_i,b_j)$
 $\beta(v,w)=v^TFM_E(\beta)w$
 ## Basiswechsel
 ***
-$FM_C(\beta)=FM_{B,C}(id)^TFM_B(\beta)FM_{B,C}(\beta)$.
+$FM_C(\beta)=FM_{B,C}(id)^TFM_B(\beta)FM_{B,C}(id)$.
 ## Siehe auch
 ***
 * Hier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt

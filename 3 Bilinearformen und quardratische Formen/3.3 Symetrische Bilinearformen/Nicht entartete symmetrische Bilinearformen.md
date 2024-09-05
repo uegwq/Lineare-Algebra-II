@@ -4,6 +4,10 @@ Lineare Algebra II
 
 Nicht entartete symmetrische Bilinearformen
 --
+## Definition entartete Bilinearform
+***
+Eine symmetrsiche Bilinearform $\beta$ ist entartet, wenn es einen Vektor gibt $v$ gibt, für den $\forall w\in V:\beta(v,w)=0$
+
 ## Eigenschaften
 ***
 Ist $\beta$ eine nicht entartete symmetrische Bilinearform über einem Körper $\Bbb K$, dann ist folgendes äquivalent:
