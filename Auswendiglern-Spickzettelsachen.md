@@ -11,3 +11,7 @@ Es sei $A \in \mathbb{R}^{n \times n}$ eine symmetrische Matrix und für jedes $
 - Die Matrix $A$ ist genau dann **positiv definit**, wenn für alle $k \in \{1, \dots, n\}$ gilt: $\det(F_k) > 0$.
 - Die Matrix $A$ ist genau dann **negativ definit**, wenn für alle $k \in \{1, \dots, n\}$ gilt: $(-1)^k \cdot \det(F_k) > 0$.
 - Falls $\det(A) \neq 0$ ist und $A$ weder positiv noch negativ definit ist, dann ist $A$ **indefinit**.
+
+Weil ich ihn noch nicht so gut auswendig kenne:
+Satz von Vieta:
+$x_1+x_2=-p$, $x_1\cdot x_2=q$!
